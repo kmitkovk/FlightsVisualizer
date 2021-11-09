@@ -15,12 +15,17 @@ import plotly.graph_objects as go
 import plotly.express as px
 pio.renderers.default = "browser"
 
+
+from plotly.offline import plot
+import re
+import webbrowser
+
 #%% TODO
 """
     1. Cache the aiports, cities and cooradination on the ones already scraped
     2. Show direct and indirect prices (data already there)
-    3. Inlclude image URL on hover
-    4. ....
+    3. On point click redirect to calendar for booking
+    4. Inlclude image URL on hover
 """   
 
 #%% Instructions
@@ -106,6 +111,55 @@ for city in origin_airports.keys():
 #%% Visualize 
 #https://plotly.com/python/lines-on-maps/
 #https://plotly.com/python/scattermapbox/
+#https://community.plotly.com/t/hyperlink-to-markers-on-map/17858/6
+
+
+codes = {'Tel Aviv': 'tela',
+ 'Porto': 'port',
+ 'Riga': 'riga',
+ 'Valletta': 'mlaa',
+ 'Vilnius': 'viln',
+ 'Thessaloniki': 'thes',
+ 'Lamezia Terme': 'mara',
+ 'Trapani': 'trap',
+ 'Cagliari': 'cagl',
+ 'Alghero Sardinia': 'algs',
+ 'Tirana': 'tira',
+ 'Paris': 'pari',
+ 'Bordeaux': 'bord',
+ 'Lviv': 'lvov',
+ 'Kyiv': 'kiev',
+ 'Chisinau': 'kiva',
+ 'Eindhoven': 'eind',
+ 'Poznan': 'pozn',
+ 'Krakow': 'krak',
+ 'Nowy Dwor Mazowiecki': 'wmip',
+ 'Berlin': 'berl',
+ 'Cologne': 'colo',
+ 'Frankfurt': 'fran',
+ 'Sofia': 'sofi',
+ 'Brussels': 'brus',
+ 'Billund': 'bill',
+ 'Budapest': 'buda',
+ 'Palma': 'palm',
+ 'Seville': 'sevi',
+ 'Lanzarote': 'arre',
+ 'Alicante': 'alic',
+ 'Málaga': 'mala',
+ 'Gran Canaria': 'gran',
+ 'Tenerife': 'tene',
+ 'London': 'lond',
+ 'Edinburgh': 'edin',
+ 'Bristol': 'bris',
+ 'Manchester': 'manc',
+ 'Fes': 'fezs',
+ 'Marrakech': 'marr',
+ 'Prague': 'prag',
+ 'Bucharest': 'buch',
+ 'Iasi': 'iasi',
+ 'Dublin': 'dubl',
+ 'Timisoara':'timi',
+ 'Cluj-Napoca':'cluj'}
 
 # colors = px.colors.sequential.Viridis
 # colors = ['red','green','darkorange','blue']
@@ -126,7 +180,7 @@ fig = go.Figure()
 for origin in routes.keys():
     orig_lon = coordinates_origin[origin]['data'][0]['longitude']
     orig_lat = coordinates_origin[origin]['data'][0]['latitude']
-    # show_legend = True
+    show_legend = True
     for country in routes[origin]:
         for city in routes[origin][country].keys():
                 dest_lon = coordinates_dest[city]['data'][0]['longitude']
@@ -156,7 +210,14 @@ for origin in routes.keys():
                     opacity = 1- (price/price_cap),
                                 )
                             )
-            
+                if origin == 'Treviso':
+                    try:
+                        link = f'https://www.skyscanner.net/transport/flights/tsf/{codes[city]}/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&iym=2111&outboundaltsenabled=false&oym=2111&selectedoday=12&selectediday=12'
+                    except:
+                        link = ''
+                else:
+                    link = ''
+                    
                 show_legend = False
                 fig.add_trace(go.Scattermapbox( #MARKERS
                     lon = [dest_lon + offset],
@@ -167,6 +228,7 @@ for origin in routes.keys():
                     legendgroup=origin,
                     # showlegend = show_legend,
                     showlegend = False,
+                    customdata=[link],
                     line = dict(width = 1,color = colors[count]),
                     opacity = 1- (price/price_cap),
                                 )
@@ -209,9 +271,48 @@ fig.update_layout( #https://plotly.com/python/mapbox-layers/
         zoom=3.5),
                 )
 
-fig.show()
+# fig.show()
 if False:
     fig.write_html(r'D:\Code\Others\FlightsScraper\visual.html')
+
+#% % custom data with links
+if True:
+    plot_div = plot(fig, output_type='div', include_plotlyjs=True)
+
+    # Get id of html div element that looks like
+    # <div id="301d22ab-bfba-4621-8f5d-dc4fd855bb33" ... >
+    res = re.search('<div id="([^"]*)"', plot_div)
+    div_id = res.groups()[0]
+    
+    # Build JavaScript callback for handling clicks
+    # and opening the URL in the trace's customdata 
+    js_callback = """
+    <script>
+    var plot_element = document.getElementById("{div_id}");
+    plot_element.on('plotly_click', function(data){{
+        console.log(data);
+        var point = data.points[0];
+        if (point) {{
+            console.log(point.customdata);
+            window.open(point.customdata);
+        }}
+    }})
+    </script>
+    """.format(div_id=div_id)
+    
+    # Build HTML string
+    html_str = """
+    <html>
+    <body>
+    {plot_div}
+    {js_callback}
+    </body>
+    </html>
+    """.format(plot_div=plot_div, js_callback=js_callback)
+    
+    # Write out HTML file
+    with open(r'D:\Code\Others\FlightsScraper\hyperlink_fig.html', 'w') as f:
+        f.write(html_str)
 
 # fig.update_layout( # this is for the simpler map -> Scattergeo vs Scattermapbox
 #     title_text = f'Number of destinations at price €{price_cap} - {num_dest}',
@@ -226,4 +327,4 @@ if False:
 #         countrycolor = 'rgb(204, 204, 204)',
 #     ),
 # )
-
+webbrowser.get(r'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s').open(r'D:\Code\Others\FlightsScraper\hyperlink_fig.html')

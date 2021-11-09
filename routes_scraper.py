@@ -17,14 +17,16 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 #%% Selection
 
+allow_requests = False
+
+max_price = 100 #limit the price
+print('Currenty max price only applies to direct fligthts \n\n\n')
+
 origins = ['LJU']
 outbound_yr_m = '2021-11'
 inbound_yr_m = '2021-11'
 show_indirect_prices_countries = False
 show_indirect_prices_cities = False
-max_price = None #limit the price
-
-allow_requests = True
 
 
 #%% Country filter
@@ -46,17 +48,20 @@ for origin in origins:
         sleep = random.random() * sleep_time
         print(round(sleep,1),f' seconds currently at origin: {origin}')
         time.sleep(sleep)    
-        response = requests.request("GET", url_country_filter , headers=headers)
+        response_cnt  = requests.request("GET", url_country_filter , headers=headers)
     
     try:
-        json_data = json.loads(response.text)['PlacePrices']
+        json_data_cnt = json.loads(response_cnt.text)['PlacePrices']
     except:
         raise ValueError(f""" Code broke on origin country: {origin}
                              key "PlacePrices" no in the json, check the get response!""")
         
-    df_cnt = pd.DataFrame(json_data)
+    df_cnt = pd.DataFrame(json_data_cnt)
     if show_indirect_prices_countries == False:
         df_cnt = df_cnt[~df_cnt.DirectPrice.isin([0,np.NaN])]
+    
+    if max_price != None:
+        df_cnt = df_cnt[df_cnt.DirectPrice <= max_price]
     
     
     dest_countries_prices[f'{origin}'] = {i.Id:{'country':i.Name,
@@ -78,17 +83,19 @@ for origin in origins:
             sleep = random.random() * sleep_time
             print(round(sleep,1),f' seconds currently at origin and destination: {origin}, {country}')
             time.sleep(sleep)   
-            response = requests.request("GET", url_cities_filter, headers=headers)
+            response_cit = requests.request("GET", url_cities_filter, headers=headers)
             
         try:
-            json_data = json.loads(response.text)['PlacePrices']
+            json_data_cit = json.loads(response_cit.text)['PlacePrices']
         except:
             raise ValueError(f""" Code broke on origin and destination: {origin}, {country}
                                  key "PlacePrices" no in the json, check the get response!""")
 
 
-        df_cit = pd.DataFrame(json_data)
+        df_cit = pd.DataFrame(json_data_cit)
         if show_indirect_prices_cities == False:
             df_cit = df_cit[~df_cit.DirectPrice.isin([0,np.NaN])]
         
-        routes[origin][country] = {i.Name:i.DirectPrice for i in df_cit.itertuples()}
+        routes[origin][country] = {i.Name:{'city_code':i.Id,
+                                           'd_price':i.DirectPrice,
+                                           'ind_price':i.IndirectPrice} for i in df_cit.itertuples()}
