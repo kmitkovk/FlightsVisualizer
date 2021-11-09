@@ -15,6 +15,13 @@ import plotly.graph_objects as go
 import plotly.express as px
 pio.renderers.default = "browser"
 
+#%% TODO
+"""
+    1. Cache the aiports, cities and cooradination on the ones already scraped
+    2. Show direct and indirect prices (data already there)
+    3. Inlclude image URL on hover
+    4. ....
+"""   
 
 #%% Instructions
 """
@@ -219,3 +226,4 @@ if False:
 #         countrycolor = 'rgb(204, 204, 204)',
 #     ),
 # )
+

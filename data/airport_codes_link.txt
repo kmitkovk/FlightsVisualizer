@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/datasets/airport-codes/master/data/airport-codes.csv
