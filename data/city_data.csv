@@ -1,0 +1,274 @@
+Id,CityName,CountryName,CountyCode,ImageUrl,lat,lon
+ZAGR,Zagreb,Croatia,HR,,45.806026,15.976218
+LJUB,Ljubljana,Slovenia,SI,,46.063562,14.488539999999999
+TRIE,Trieste,Italy,IT,,45.630313,13.795789000000001
+VENI,Treviso,Italy,IT,,45.664277,12.241299
+BRUS,Brussels,Belgium,BE,https://content.skyscnr.com/7f99e0b77af76bf7e89a614cba3a1d9d/GettyImages-517851449.jpg,50.843183,4.371755
+ALIC,Alicante,Spain,ES,https://content.skyscnr.com/2df165e46db19d6bcbb86e556a49a1bf/alicante.jpg,38.360892,-0.486281
+MADR,Madrid,Spain,ES,https://content.skyscnr.com/13ce98b674f110e5466fea801ffb05bd/madrid.jpg,40.429913,-3.6692449999999996
+FUER,Fuerteventura,Spain,ES,https://content.skyscnr.com/b4ef80670c581d86543850f97fb2df9f/GettyImages-460870155.jpg,40.09095,-3.464618
+BARC,Barcelona,Spain,ES,https://content.skyscnr.com/7adba3a46af3ca29695f96937d19fcf1/GettyImages-149127892.jpg,41.400347,2.159592
+MALA,Malaga,Spain,ES,https://content.skyscnr.com/885adc49a58167bc2bfc0ec3176095d1/GettyImages-178637651.jpg,36.709737,-4.462013
+SEVI,Seville,Spain,ES,https://content.skyscnr.com/7b3a368cac5b45d17fc01b6122cc68b0/GettyImages-536922069.jpg,37.383606,-5.97997
+PALM,Palma,Spain,ES,https://content.skyscnr.com/c643eed202678c7de51c5ed5856998e4/GettyImages-497942480.jpg,39.575748,2.656644
+BILB,Bilbao,Spain,ES,https://content.skyscnr.com/060f28eebcfc6402d8ab9c887c295ff6/GettyImages-176437830.jpg,43.258534000000004,-2.937123
+VALE,Valencia,Spain,ES,https://content.skyscnr.com/m/2151532d1a93105c/original/Guide-Page-Image-Valencia.JPG,39.464773,-0.36325799999999997
+GRAN,Gran Canaria,Spain,ES,https://content.skyscnr.com/m/52c63dea83a8987c/original/24_19-1.jpg,27.968864,-15.392475
+ARRE,Lanzarote,Spain,ES,https://content.skyscnr.com/8f05010aa03fd05aa210ab04d5edc14d/GettyImages-453466115.jpg,40.09095,-3.464618
+TENE,Tenerife,Spain,ES,https://content.skyscnr.com/m/5954933ffe79635b/original/eyeem-28451928-143557105.jpg,28.46824,-16.254620000000003
+IBIZ,Ibiza,Spain,ES,https://content.skyscnr.com/d5a71bb9ad10ed943ce61251761be64a/GettyImages-177133241.jpg,38.908487,1.431386
+SANT,Santander,Spain,ES,https://content.skyscnr.com/364a15bf843b1cbaff238b40d2ba0626/GettyImages-473550916.jpg,43.455334,-3.824443
+JERE,Jerez,Spain,ES,https://content.skyscnr.com/4494ca93db98fff4b44987674f27433d/GettyImages-545879142.jpg,36.687915999999994,-6.126648
+AVIL,Asturias,Spain,ES,https://content.skyscnr.com/586e2799edf9ce96741e32122cc0df88/GettyImages-478937673.jpg,43.320572,-5.973707
+SANS,San Sebastian,Spain,ES,https://content.skyscnr.com/68d7b32cae281d000c51abbac7dc8aeb/GettyImages-476595079.jpg,43.314797999999996,-1.9745830000000002
+SANC,Santiago de Compostela,Spain,ES,https://content.skyscnr.com/e19aa81083a29803e0f619554eead53b/eyeem-26693940-124275584.jpg,42.883508,-8.540282000000001
+GRAO,Granada,Spain,ES,https://content.skyscnr.com/6c6fe125df67140eb31858be6f226105/GettyImages-177531241.jpg,37.182503999999994,-3.601235
+GERO,Girona,Spain,ES,https://content.skyscnr.com/2f2e265082e346c1a4f03d113955a9ec/GettyImages-516250775.jpg,41.97268,2.818698
+PAMP,Pamplona,Spain,ES,https://content.skyscnr.com/cdf660a93ef7539ffbf5895fe7b34e8f/GettyImages-177522209.jpg,42.817546,-1.6511630000000002
+MELI,Melilla,Spain,ES,https://content.skyscnr.com/a6f2de51461270a30465a23e66768fec/GettyImages-451822087.jpg,35.287631,-2.948249
+VITO,Vitoria-Gasteiz,Spain,ES,,42.854746999999996,-2.6761790000000003
+CAGL,Cagliari,Italy,IT,https://content.skyscnr.com/m/1c520904cb530a78/original/eyeem-26694340-131957363.jpg,39.23253,9.110622
+PISA,Pisa,Italy,IT,https://content.skyscnr.com/14469415402f6651d1f8f1b3b8b483b0/GettyImages-498016949.jpg,43.709084999999995,10.398916
+TRAP,Trapani,Italy,IT,https://content.skyscnr.com/bc9d50a8707c2a3faf1c430c4973cfe0/eyeem-26693940-126565453.jpg,38.010565,12.545514
+BOLO,Bologna,Italy,IT,https://content.skyscnr.com/e0ed7f0c0c4807256fbfb586c7553b41/bologna.jpg,44.503639,11.344398
+GENO,Genoa,Italy,IT,https://content.skyscnr.com/8d62591d406da8a128d274d05e042ed2/GettyImages-520961993.jpg,44.423320000000004,8.879033
+REGG,Reggio Calabria,Italy,IT,https://content.skyscnr.com/c842a0646150babd46c1371e012c2827/GettyImages-489955648.jpg,38.118388,15.706528
+TURI,Turin,Italy,IT,https://content.skyscnr.com/8b7a06603efcb6bdde92edd3751784ec/GettyImages-480512869.jpg,45.059405,7.652514
+BARI,Bari,Italy,IT,https://content.skyscnr.com/m/3930ff32e7360c83/Large-eyeem-26694340-130154301.jpg,41.111267,16.861202
+MILA,Milan,Italy,IT,https://content.skyscnr.com/0f320987e189f43d5256fd38df04a977/GettyImages-461823317.jpg,45.473702,9.170685
+MARA,Lamezia Terme,Italy,IT,https://content.skyscnr.com/m/fae19a45fbb9458/original/eyeem-26694340-135367311.jpg,38.96589,16.3092
+ROME,Rome,Italy,IT,https://content.skyscnr.com/562fb1d3b394e92393671562fe241138/stock-photo-st-peter-s-basilica-83184691.jpg,41.878243,12.528089999999999
+BRIN,Brindisi,Italy,IT,https://content.skyscnr.com/f7f059e28e04b44737f527b459f8d638/GettyImages-490477064.jpg,40.630095000000004,17.938839
+CATA,Catania,Italy,IT,https://content.skyscnr.com/551ee1c8b7ed734978a498dc05f85d83/GettyImages-467692542.jpg,37.516282000000004,15.076072
+NAPL,Naples,Italy,IT,https://content.skyscnr.com/m/0f141bf76cf06068/Large-napl_139999980_doc.jpg,40.862838,14.237375
+PALE,Palermo,Italy,IT,https://content.skyscnr.com/b5b377433a4dd4788bd9a767d90d1555/GettyImages-471536974.jpg,38.128634999999996,13.334864999999999
+VENI,Venice,Italy,IT,https://content.skyscnr.com/2a72a6087b8bee22ab2c798e61bee6fe/venice.jpg,45.581192,12.561157000000001
+VERO,Verona,Italy,IT,https://content.skyscnr.com/m/3da3e30063a26934/Large-GettyImages-452657391_doc.jpg,45.413277,10.977656
+CUNE,Cuneo,Italy,IT,https://content.skyscnr.com/288b947c3afa90f28dda77ea3f9cc413/GettyImages-465959900.jpg,44.386982,7.546717999999999
+ALGS,Alghero Sardinia,Italy,IT,https://content.skyscnr.com/0ebceb814d5354db3f9983515e72422e/Alghero%20Sardinia-GettyImages-638337502.jpg,40.55685,8.322542
+PESC,Pescara,Italy,IT,https://content.skyscnr.com/569befea317cf3979e8b5916fbc7e5cd/GettyImages-529368487.jpg,42.454679999999996,14.213099
+PERU,Perugia,Italy,IT,https://content.skyscnr.com/4c4598de81cb9268d4d61b95dbb5a48f/GettyImages-466869094.jpg,43.107993,12.380988
+CORT,Crotone,Italy,IT,https://content.skyscnr.com/d3adfb5b0ca6b67668b1cf8857eff065/GettyImages-153908030.jpg,39.081512,17.113831
+ANCO,Ancona,Italy,IT,https://content.skyscnr.com/b4be7d74908065e81a5c572c285b9aa1/GettyImages-481573120.jpg,43.588592,13.508806
+OLBI,Olbia,Italy,IT,https://content.skyscnr.com/m/329e1b9ba93fbc6d/original/eyeem-26694340-109665343.jpg,40.925183000000004,9.492156
+LAMP,Lampedusa,Italy,IT,https://content.skyscnr.com/0776a3acc229c616aeee7c00bb507012/GettyImages-153651373.jpg,35.500516,12.606672
+MLAA,Valletta,Malta,MT,https://content.skyscnr.com/m/8065ff02c4914c/original/Valletta-aerial-shot.jpg,35.898936,14.512858999999999
+BRIS,Bristol,United Kingdom,UK,https://content.skyscnr.com/93b3b0db087d3993d4f57e7fbb17e507/GettyImages-461988835.jpg,51.449749,-2.584173
+EDIN,Edinburgh,United Kingdom,UK,https://content.skyscnr.com/9df58c8d6e66cd62d55c804b2d7cd22e/GettyImages-506396604.jpg,55.929742000000005,-3.306716
+NEWC,Newcastle,United Kingdom,UK,https://content.skyscnr.com/b803a8189485627a03bb3736ac7f765c/GettyImages-510958054.jpg,54.989692000000005,-1.6279139999999999
+BIRM,Birmingham,United Kingdom,UK,https://content.skyscnr.com/02167c9faf5b31748675b0f2cff5ad1e/stock-photo-gas-street-basin-the-cube-97809537.jpg,52.478308,-1.8935380000000002
+MANC,Manchester,United Kingdom,UK,https://content.skyscnr.com/d05e3e7b0fbfb30e92dbd8e2839b00b0/GettyImages-465556436.jpg,53.471419,-2.244834
+GLAS,Glasgow,United Kingdom,UK,https://content.skyscnr.com/769cd8c37b872118fc66395197b5c3e2/GettyImages-516440633.jpg,55.860766000000005,-4.268234
+LOND,London,United Kingdom,UK,https://content.skyscnr.com/m/1a55403f63baf856/Large-London-England-Aug-2017-Brendan-van-Son-5.jpg,51.509648,-0.099076
+LIVE,Liverpool,United Kingdom,UK,https://content.skyscnr.com/4d8148466079a5be8a7417ab17bc596f/GettyImages-470715430.jpg,53.410374,-2.979375
+LEED,Leeds,United Kingdom,UK,https://content.skyscnr.com/1ff357af8efc93f3c8c1f4a886942b5e/GettyImages-515150108.jpg,53.797563000000004,-1.544227
+NOTT,Nottingham,United Kingdom,UK,https://content.skyscnr.com/08b29dbfb6c59f348c6ff686b73083aa/GettyImages-121081723.jpg,52.94961800000001,-1.1475469999999999
+HUMB,Kirmington,United Kingdom,UK,https://content.skyscnr.com/27cca5261089a4b7fd728339076726f8/Humberside-GettyImages-640242306.jpg,53.586490000000005,-0.33371
+CARD,Cardiff,United Kingdom,UK,https://content.skyscnr.com/3ac6ba587d62c819e80a2554c7dc3894/GettyImages-478086609.jpg,51.501018,-3.1926259999999997
+TIRA,Tirana,Albania,AL,https://content.skyscnr.com/d4acb8b30e8cfcb36db339ce50fd23ae/GettyImages-485428808.jpg,41.282045000000004,19.799067
+SOFI,Sofia,Bulgaria,BG,https://content.skyscnr.com/31593d990b83848a59eaa86c40d5eb24/sofia.jpg,42.685984000000005,23.326714000000003
+PLOV,Plovdiv,Bulgaria,BG,https://content.skyscnr.com/d26a05bd530c0035fbb7ecaf89daa723/GettyImages-477378716.jpg,42.144039,24.744010999999997
+VARN,Varna,Bulgaria,BG,https://content.skyscnr.com/071fa18c180a418f5f650a9ce5ee2300/GettyImages-462030965.jpg,43.210214,27.906614
+PRAG,Prague,Czechia,CZ,https://content.skyscnr.com/6f3779016c23190fadcdc6f500f5dc11/GettyImages-464420602.jpg,50.06694,14.460249
+BRNO,Brno,Czechia,CZ,https://content.skyscnr.com/db338a7967aefd720866854bbd09ca89/GettyImages-493984323.jpg,49.198531,16.61041
+FRAN,Frankfurt,Germany,DE,https://content.skyscnr.com/e286ff180a40d9376f18c9c2b314565f/GettyImages-510973985.jpg,50.041821,8.584764
+COLO,Cologne,Germany,DE,https://content.skyscnr.com/6a75b2e121f555167dba8bf647cd4e93/cologne.jpg,50.928344,7.002998
+BERL,Berlin,Germany,DE,https://content.skyscnr.com/588e330bc635d38f64eb8fe3f61d2e47/stock-photo-golden-hour-skyline-berlin-113819803.jpg,52.52493199999999,13.407032000000001
+HAMB,Hamburg,Germany,DE,https://content.skyscnr.com/8bfb9acbb92ca01dfa277260d6e7e153/stock-photo-speicherstadt-at-night-78880815.jpg,53.57615799999999,10.007046
+BREM,Bremen,Germany,DE,https://content.skyscnr.com/f9a58a45f2e902c2abd0171fff740ad7/GettyImages-461298839.jpg,53.029599,8.731850999999999
+BADE,Baden-Baden,Germany,DE,https://content.skyscnr.com/063edf3feb4d83c47815645f11e5c9ea/GettyImages-480156090.jpg,48.755271,8.24377
+DUSS,Dusseldorf,Germany,DE,https://content.skyscnr.com/79e529e0b33906841f37364d885a83ee/dusseldorf-germany.jpg,51.226296999999995,6.801324
+MEMB,Memmingen,Germany,DE,https://content.skyscnr.com/bd9a58c269dbd515bf617e222aa02e59/memmingen.jpg,47.988092,10.176935
+DORT,Dortmund,Germany,DE,https://content.skyscnr.com/3d1d174379607e5a48834b1a1cb70a72/GettyImages-531100581.jpg,51.507849,7.479247
+NURE,Nuremberg,Germany,DE,https://content.skyscnr.com/e48251a9a6bc5fb19b4d612976766e72/GettyImages-99203898.jpg,49.342418,11.116223
+MUNI,Munich,Germany,DE,https://content.skyscnr.com/de0da70e0c97e398d73cc371eb8b6cc3/GettyImages-481909461.jpg,48.152126,11.544467
+STUT,Stuttgart,Germany,DE,https://content.skyscnr.com/m/0c5081fc40bb725f/Large-GettyImages-489946082.jpg,48.706309999999995,9.11924
+LEIP,Leipzig,Germany,DE,https://content.skyscnr.com/b19563e3d4416f6612a946f5b4567cd8/GettyImages-187019183.jpg,51.341053,12.404024
+HANN,Hannover,Germany,DE,https://content.skyscnr.com/92150ce4e02118a5f932eb4ccda784f0/gettyimages635782822.jpg,52.379952,9.787455
+MUNS,Munster,Germany,DE,https://content.skyscnr.com/8119bea3daa637d06823ba14be07daf0/GettyImages-474481119.jpg,51.954044,7.624747
+SAAR,Saarbruecken,Germany,DE,https://content.skyscnr.com/ec5d867d702880b10de4325935c70c46/GettyImages-515812615.jpg,49.263541,7.082895
+FRIE,Friedrichshafen,Germany,DE,https://content.skyscnr.com/a15e8d9f792a90f90623b0bc4de66cdb/friedrichschafen.jpg,47.661536,9.473899000000001
+WEST,Westerland,Germany,DE,https://content.skyscnr.com/m/95b3b58ac70f0016/original/650009791.jpg,54.908729,8.311283999999999
+PADE,Paderborn,Germany,DE,,51.718539,8.740642
+COPE,Copenhagen,Denmark,DK,https://content.skyscnr.com/d22c8f93938b699739ba5e9d682019af/GettyImages-474603829.jpg,55.704438,12.502119
+BILL,Billund,Denmark,DK,,55.72499200000001,9.121099000000001
+AARH,Aarhus,Denmark,DK,https://content.skyscnr.com/m/04e36a20201a2e90/Large-aarhus-denmark.jpg,56.142796999999995,10.178555000000001
+AALB,Aalborg,Denmark,DK,https://content.skyscnr.com/824c3ddb7181ae2f4769989c54fafab3/GettyImages-468149856.jpg,57.034773,9.902536
+KARU,Karup,Denmark,DK,,56.751380000000005,8.80233
+MENO,Menorca,Spain,ES,https://content.skyscnr.com/cc3d610f7586a1f3da7df041da3e0f31/menorca.jpg,40.09095,-3.464618
+RMUA,Corvera,Spain,ES,,43.51062,-5.8691
+ZARA,Zaragoza,Spain,ES,https://content.skyscnr.com/06189bcba4b14787566375887dbd7291/GettyImages-463461929.jpg,41.646481,-0.887553
+LAPA,La Palma,Spain,ES,https://content.skyscnr.com/877f70af45ec23543d4c3ac0cbb77f8e/GettyImages-502911694.jpg,28.68763,-17.764453
+ALME,Almeria,Spain,ES,https://content.skyscnr.com/c66dd79842140393f3a2015eb43f379b/GettyImages-95348895.jpg,36.844845,-2.456009
+VIGO,Vigo,Spain,ES,https://content.skyscnr.com/cc22b75af4f3a35b548d65b1e0be5f35/GettyImages-529405851.jpg,42.23257,-8.726811
+LAGO,La Gomera Tenerife,Spain,ES,https://content.skyscnr.com/68713669f8970547150fabf7164dc2c5/GettyImages-471725773.jpg,28.46824,-16.254620000000003
+TOUS,Toulouse,France,FR,https://content.skyscnr.com/65dafcf41a15bb8cc11a79001a6ff08c/eyeem-26694340-103869478.jpg,43.603902000000005,1.4406940000000001
+CARC,Carcassonne,France,FR,https://content.skyscnr.com/e19d1566fa79a4b8b60b501a49847f02/GettyImages-463085089.jpg,43.217405,2.350625
+BEXI,Beziers,France,FR,https://content.skyscnr.com/4ed8fa8147ebba107bc6f63e6b9ce7d8/GettyImages-467279753.jpg,43.347287,3.227421
+PARI,Paris,France,FR,https://content.skyscnr.com/m/37e282443afc0ff7/original/Paris-2016-10.jpg,48.858705,2.342865
+LARO,La Rochelle,France,FR,https://content.skyscnr.com/4bfee79af949f2d6aa81aa70426550b3/GettyImages-492569539.jpg,46.162651000000004,-1.1450360000000002
+BIAR,Biarritz,France,FR,https://content.skyscnr.com/18bc8130729cdcd7a1d0aeab79b4c66b/GettyImages-465967373.jpg,43.473209999999995,-1.554798
+TOUR,Tours,France,FR,,47.386419000000004,0.6897760000000001
+MARS,Marseille,France,FR,https://content.skyscnr.com/m/55550e4064300ca1/Large-eyeem-26694340-128693747.jpg,43.295314000000005,5.401581
+NANT,Nantes,France,FR,https://content.skyscnr.com/a6a06dfb626e88cb883e75e6adef6a82/GettyImages-468108414.jpg,47.228972999999996,-1.5540040000000002
+BORD,Bordeaux,France,FR,https://content.skyscnr.com/005082c7873ca4adbaefb1591707f478/GettyImages-468330194.jpg,44.842411,-0.570437
+LOUR,Lourdes,France,FR,https://content.skyscnr.com/c49d48ddea20005a810a7f857e32ece4/GettyImages-152055513.jpg,43.096765000000005,-0.045491000000000004
+PERP,Perpignan,France,FR,https://content.skyscnr.com/719f78547635dce1579052a259f0ad87/GettyImages-507685595.jpg,42.696748,2.893311
+NICE,Nice,France,FR,https://content.skyscnr.com/m/2bdff4db01b0769f/original/GettyImages-467077004.jpg,43.713667,7.264625
+NIME,Nimes,France,FR,,43.83294,4.351746
+LILL,Lille,France,FR,https://content.skyscnr.com/8c9f4b43f6d11ee747a9ebb19589f246/GettyImages-177530843.jpg,50.632785999999996,3.059524
+LYON,Lyon,France,FR,https://content.skyscnr.com/27326e6ca8b8ed01ebf7ed992dda6089/GettyImages-181391682.jpg,45.732397999999996,4.835571
+MONT,Montpellier,France,FR,https://content.skyscnr.com/988a463f5a2a068e21ce3f9d8050264d/GettyImages-177095218.jpg,43.614719,3.864104
+STRA,Strasbourg,France,FR,https://content.skyscnr.com/b619123e0cbe0a7740d81e8416984dd6/GettyImages-178610880.jpg,48.570721,7.758374000000001
+RENN,Rennes,France,FR,https://content.skyscnr.com/25b7e852958850d3f07b70c904e23cb7/GettyImages-166748171.jpg,48.110805,-1.665857
+TOUL,Toulon,France,FR,https://content.skyscnr.com/fff2b913f5bf8629fe16907e8985fa93/GettyImages-506398503.jpg,43.122765,5.944017
+BRES,Brest,France,FR,https://content.skyscnr.com/2dabfc334014fc7d05bb4ad1660c5e1a/GettyImages-531440393.jpg,48.404244,-4.484974
+BERG,Bergerac,France,FR,https://content.skyscnr.com/a7c7028bae974071d30f03f3022edaaa/GettyImages-515908505.jpg,44.851803000000004,0.47825200000000007
+CASU,Castres Mazamet,France,FR,,43.610098,2.247864
+BAST,Bastia - Corsica,France,FR,https://content.skyscnr.com/9759c6904eb12326fd4df94612f1b6b0/gettyimages-528241837-crop.jpg,42.703379,9.448058
+AJAC,Ajaccio,France,FR,https://content.skyscnr.com/00e9ed4c291aded245d2a224985cc4bf/GettyImages-157166404.jpg,41.926997,8.735367
+CAEN,Caen,France,FR,https://content.skyscnr.com/bc358c114e497bf84cef0aa448ec64f2/GettyImages-514325529.jpg,49.191955,-0.37253400000000003
+AURI,Aurillac Tronquiere,France,FR,,44.914572,2.431326
+MULH,Mulhouse,France,FR,https://content.skyscnr.com/04c703bc46b3b596ef99790ac9a21e24/eyeem-26694340-110694229.jpg,47.750059,7.330118
+FIGA,Figari,France,FR,,41.488735,9.127891
+RODE,Rodez,France,FR,,44.359094,2.573531
+ATHE,Athens,Greece,GR,https://content.skyscnr.com/26babb582bc1d7572fed1877d7f81fa6/GettyImages-181391203.jpg,37.988579,23.728541
+THES,Thessaloniki,Greece,GR,https://content.skyscnr.com/c0f3616be7ab932f72a23f3507315f44/GettyImages-162545242.jpg,40.656484999999996,22.937343
+CRET,Crete,Greece,GR,https://content.skyscnr.com/9e0c2b3096d0c8feafac2bf9cc31c501/crete.jpg,35.17559,24.944635
+CHIO,Chios,Greece,GR,,38.363876,26.13736
+MIKO,Mykonos,Greece,GR,https://content.skyscnr.com/0837c6929401ed32ec1a8399768a448d/GettyImages-465970722.jpg,37.444334999999995,25.328636
+THIR,Santorini (Thira),Greece,GR,https://content.skyscnr.com/b8ee8b55e33d881fb6ee3c139958b35f/GettyImages-484830108.jpg,36.39963,25.42081
+RHOD,Rhodes,Greece,GR,https://content.skyscnr.com/820d86000a71983d9be3142eef9520ad/GettyImages-457042629.jpg,36.437235,28.218121999999997
+KAVA,Kavala,Greece,GR,https://content.skyscnr.com/c27ca0cd1ba8917da772ffd8d3b67a6f/GettyImages-124017135.jpg,40.945741999999996,24.405788
+KOSS,Kos,Greece,GR,https://content.skyscnr.com/c82b38a5e328ac7475580341be7cb5e3/GettyImages-156518965.jpg,36.892462,27.286988
+PARO,Paros,Greece,GR,https://content.skyscnr.com/f394158dda3923def1ccccfed814c955/GettyImages-503221055.jpg,37.08333,25.15
+BUDA,Budapest,Hungary,HU,https://content.skyscnr.com/1326f876f67413db59cc34a466945260/GettyImages-493113190.jpg,47.516581,19.092281
+COMI,Comiso,Italy,IT,https://content.skyscnr.com/m/42b54af554dee665/original/eyeem-26694340-128610118.jpg,36.950732,14.605945000000002
+TRIE,Trieste,Italy,IT,https://content.skyscnr.com/153de701476d5bc8cd228c85955e4a8d/GettyImages-484950503.jpg,45.630313,13.795789000000001
+PANT,Pantelleria,Italy,IT,https://content.skyscnr.com/f244f64185e49fa4260d27deb61b6827/eyeem-26694340-73729802.jpg,36.831565000000005,11.941313000000001
+PARM,Parma,Italy,IT,https://content.skyscnr.com/284276e195c4e6c78deb70fc9257aa35/GettyImages-93000209.jpg,44.802328,10.32536
+KAUN,Kaunas,Lithuania,LT,https://content.skyscnr.com/11c82dd482238cc5d533d1dd645effd3/GettyImages-483258556.jpg,54.896296,23.921860000000002
+VILN,Vilnius,Lithuania,LT,https://content.skyscnr.com/m/64cb431e1f5682c3/original/590266991.jpg,54.700902,25.251531
+RIGA,Riga,Latvia,LV,https://content.skyscnr.com/de54d44c70db4a743503a0914ad532b8/GettyImages-492496777.jpg,56.971149,24.142749
+RABA,Rabat,Morocco,MA,https://content.skyscnr.com/6d10c1e96a107d179cab64377ec2435f/GettyImages-469219906.jpg,34.01325,-6.83255
+AGAD,Agadir,Morocco,MA,https://content.skyscnr.com/46e741936ce121783af405dd8a6b601c/GettyImages-520507803.jpg,30.439988,-9.620044
+TETU,Tetuan S. Ramel,Morocco,MA,https://content.skyscnr.com/b9589377c78e2e513b33fa6ae0472af8/Tetuan%20S.%20Ramel-GettyImages-514559425.jpg,30.288590000000003,-9.12438
+FEZS,Fes,Morocco,MA,https://content.skyscnr.com/4b19700352746a7fb855fe958141736f/GettyImages-484651575.jpg,34.03715,-4.9998
+NADO,Nador,Morocco,MA,,35.16813,-2.93352
+ESSA,Essaouira,Morocco,MA,https://content.skyscnr.com/6b88e5f167d63f4b309457f46d82895c/GettyImages-173259798.jpg,31.5125,-9.77
+TANG,Tangier,Morocco,MA,https://content.skyscnr.com/0ba2fba9393a4207b20e607be32a7c46/GettyImages-508375894.jpg,35.76727,-5.79975
+MARR,Marrakech,Morocco,MA,https://content.skyscnr.com/bae843c92aa2a7255d3b044d8f50465a/GettyImages-183941001.jpg,31.634159999999998,-7.99994
+CASA,Casablanca,Morocco,MA,https://content.skyscnr.com/cdb4c2556aaa2364d88f402833607574/hassan-ii-mosque-8.jpg,33.58831,-7.6113800000000005
+DAKH,Dakhla,Morocco,MA,,23.68477,-15.95798
+KIVA,Chisinau,Moldova,MD,https://content.skyscnr.com/51531b1a041eb3553af3c9670c40b4af/GettyImages-514677587.jpg,47.020682,28.854719
+AMST,Amsterdam,Netherlands,NL,https://content.skyscnr.com/fa0912c6ed6f75f0607dfc080359a021/amsterdam.jpg,52.37243,4.89973
+EIND,Eindhoven,Netherlands,NL,https://content.skyscnr.com/5a1e2c13c96cf32aef643dcebb73b3de/GettyImages-508786473.jpg,51.455555,5.478826000000001
+ROTT,Rotterdam,Netherlands,NL,https://content.skyscnr.com/31366e6b58338a9983246e7c683fec8b/rotterdam.jpg,51.922779999999996,4.47578
+WMIP,Nowy Dwor Mazowiecki,Poland,PL,,52.428542,20.718771
+SZYA,Szczytno,Poland,PL,,53.56301800000001,21.0003
+POZN,Poznan,Poland,PL,https://content.skyscnr.com/25d8e7ad6875d8b3332461fb2ed6ecf9/GettyImages-122449338.jpg,52.396172,16.916073
+KRAK,Krakow,Poland,PL,https://content.skyscnr.com/f7f6af4f80f12335dd8b34745ce453a4/krakow.jpg,50.052652,19.987345
+RZES,Rzeszow,Poland,PL,,50.04016,21.995314999999998
+BYDG,Bydgoszcz,Poland,PL,https://content.skyscnr.com/3fe57e149051c19d64468419c24b7e69/GettyImages-178758607.jpg,53.122091000000005,18.01434
+WROC,Wroclaw,Poland,PL,https://content.skyscnr.com/7387d4b223075dd116e68295d7ae2f19/GettyImages-470289252.jpg,51.097349,17.023978
+GADA,Gdansk,Poland,PL,https://content.skyscnr.com/d1a92e9f1873e310438eff1d7af8fe8e/GettyImages-484214866.jpg,54.372781,18.628385
+SZCZ,Szczecin,Poland,PL,https://content.skyscnr.com/363001a95f323b1039c625e535b62290/GettyImages-472074854.jpg,53.439845999999996,14.548589999999999
+KATO,Katowice,Poland,PL,https://content.skyscnr.com/717354cff20de80c11a1c36aa9322b17/GettyImages-177509489.jpg,50.260489,19.015859
+WARS,Warsaw,Poland,PL,https://content.skyscnr.com/bb03981ea6c8a91de7d8bcd29e440df6/GettyImages-474677895.jpg,52.237695,21.005426999999997
+PONT,Ponta Delgada,Portugal,PT,https://content.skyscnr.com/e8703c29143c70855a00b1c7b684af24/GettyImages-480529739.jpg,32.81667,-16.98333
+FARO,Faro,Portugal,PT,https://content.skyscnr.com/0262d74a01676e0d97681ec7b9987628/GettyImages-477716160.jpg,37.022419,-7.929824000000001
+LISB,Lisbon,Portugal,PT,https://content.skyscnr.com/e48dd065c801bef1b761c506a5a2fde9/GettyImages-467824014.jpg,38.748243,-9.140092999999998
+PORT,Porto,Portugal,PT,https://content.skyscnr.com/933c6cedb8bc5ea82505271747cf3707/porto.jpg,41.16106,-8.614032
+FUNC,Madeira,Portugal,PT,https://content.skyscnr.com/93422020342b359d8631a00c74d34e62/GettyImages-491701960.jpg,32.738702,-16.977515
+TERC,Terceira Lajes,Portugal,PT,https://content.skyscnr.com/m/249e42ec35f560f0/original/GettyImages-178610676.jpg,41.9245,-8.576880000000001
+PICO,Pico Island,Portugal,PT,https://content.skyscnr.com/m/077035c82359b7b3/original/GettyImages-480379761.jpg,38.458,-28.3228
+SANV,Santa Maria,Portugal,PT,,41.56268,-8.57204
+HORT,Horta,Portugal,PT,https://content.skyscnr.com/m/1e59bfbbd7b706b/Large-eyeem-26694340-128122353.jpg,38.539265,-28.628738000000002
+LVOV,Lviv,Ukraine,UA,https://content.skyscnr.com/49f5362bdb8c366185ff467cb991350d/GettyImages-515245753.jpg,49.841559000000004,24.031392999999998
+KHAR,Kharkiv,Ukraine,UA,https://content.skyscnr.com/53d8f7dc24300e14d8bfa1200a98a240/GettyImages-106579726.jpg,49.978037,36.230969
+KIEV,Kyiv,Ukraine,UA,https://content.skyscnr.com/e23a9b4c457f75b1eb59f55e6f417854/GettyImages-465324045.jpg,50.469863000000004,30.431971
+ODES,Odesa,Ukraine,UA,https://content.skyscnr.com/f1fc3926a461847759b4b110a4e832b2/GettyImages-500946307.jpg,46.458713,30.728374
+ZAPO,Zaporizhia,Ukraine,UA,https://content.skyscnr.com/bb6e449856ce4c74ca0f8f4324790f75/gettyimages681948023.jpg,47.82503,35.209552
+DNEP,Dnipro,Ukraine,UA,https://content.skyscnr.com/9886d4209b2f23555d7e167a9783bc36/eyeem-26050322-81437773.jpg,48.440788,35.021515
+NEWQ,Newquay,United Kingdom,UK,https://content.skyscnr.com/512c3b4a0d533d92ee8f2aca0f2e2872/GettyImages-472989352.jpg,50.411981,-5.070380999999999
+BOUR,Bournemouth,United Kingdom,UK,https://content.skyscnr.com/4561c7e0759f5d8c6761a39877f5e4c2/GettyImages-527690869.jpg,50.740796,-1.864552
+DONC,Doncaster,United Kingdom,UK,https://content.skyscnr.com/7a6b3f9cb7375f43dae7c8ebc4a316c3/GettyImages-93109663.jpg,53.531975,-1.111823
+JERS,Jersey,United Kingdom,UK,,52.418788,-1.247349
+CAST,Castletown,United Kingdom,UK,https://content.skyscnr.com/90915cce2a9a27fb53373b08e24423d8/GettyImages-483694117.jpg,58.593309999999995,-3.38827
+MMEA,Durham,United Kingdom,UK,https://content.skyscnr.com/24cac5e0c48dadd765a8397197514cc5/GettyImages-139680538.jpg,54.721146,-1.754884
+SOUT,Southampton,United Kingdom,UK,https://content.skyscnr.com/84734c7348f514caf9450fcb3592dfbc/GettyImages-515701085.jpg,50.91511,-1.386892
+NORW,Norwich,United Kingdom,UK,https://content.skyscnr.com/f8e82712d0035f61f9a982c84f3c8edf/GettyImages-518859051.jpg,52.626714,1.280239
+DRES,Dresden,Germany,DE,https://content.skyscnr.com/4751594d9fa6770d37276278bf52bb31/GettyImages-168715076.jpg,51.055603999999995,13.731020999999998
+CLER,Clermont-Ferrand,France,FR,https://content.skyscnr.com/12cddb7f90a76c35fad60cb75e84fd83/GettyImages-619402200.jpg,45.784832,3.114432
+PAUU,Pau,France,FR,https://content.skyscnr.com/5f0c6fe86d530381145eae1b01fc62bc/GettyImages-95431980.jpg,43.312063,-0.352943
+POIT,Poitiers,France,FR,https://content.skyscnr.com/dc9c61fc91473b484248d6fa9df1522f/GettyImages-512309015.jpg,46.578486,0.345003
+BRIV,Brive VallÃ©e de la Dordogne,France,FR,,45.219237,1.5082870000000002
+FLOR,Florence,Italy,IT,https://content.skyscnr.com/398b1bf0c98990f64bdedfb03cb9c6ae/florence.jpg,43.817726,11.370028
+TIVA,Tivat,Montenegro,ME,https://content.skyscnr.com/d59e71ab895abcc7212b4920f7e8abe9/GettyImages-468534036.jpg,42.429894,18.716963
+PODG,Podgorica,Montenegro,ME,https://content.skyscnr.com/f71a8075838fbaae6be68304d1eaab4a/GettyImages-479863398.jpg,42.441109999999995,19.26361
+GOTH,Gothenburg,Sweden,SE,https://content.skyscnr.com/c5156abcd5921e402b9fb95ce45c4813/GettyImages-160087670.jpg,57.735628000000005,12.014286
+KALM,Kalmar,Sweden,SE,,56.6827,16.344869
+LINK,Linkoping,Sweden,SE,,58.41423399999999,15.610192000000001
+STOC,Stockholm,Sweden,SE,https://content.skyscnr.com/ff74ff6df34c2b06f6f895e14fe32512/GettyImages-100891056.jpg,59.275254000000004,18.035164
+MALM,Malmo,Sweden,SE,https://content.skyscnr.com/62e6ec87196f90c906c29496e41f5f6d/GettyImages-139465515.jpg,55.59438000000001,13.029952999999999
+RONN,Ronneby,Sweden,SE,,56.264711,15.262341000000001
+UMEA,Umea,Sweden,SE,https://content.skyscnr.com/ad2273015a0046794bba2b157b6f21ee/GettyImages-513647695.jpg,63.817190000000004,20.287235
+VILH,Vilhelmina Sagadal,Sweden,SE,,64.622097,16.659195999999998
+BELF,Belfast,United Kingdom,UK,https://content.skyscnr.com/ee377cc8c07596dca36a3cc28f74235f/GettyImages-116149884.jpg,54.603533,-5.928807
+INVE,Inverness,United Kingdom,UK,https://content.skyscnr.com/m/027b24d869ceca1f/original/GettyImages-100334437_doc.jpg,57.479549,-4.237208
+ABER,Aberdeen,United Kingdom,UK,https://content.skyscnr.com/3f4498322baca0397df716f33159a551/GettyImages-478376654.jpg,57.16246999999999,-2.173549
+EXET,Exeter,United Kingdom,UK,https://content.skyscnr.com/df6578abcb7dfdc39e6f8f16b7bdb1af/GettyImages-519818875.jpg,50.723507,-3.5142919999999997
+DUND,Dundee,United Kingdom,UK,https://content.skyscnr.com/m/783eb9c4778b0e0b/Large-eyeem-26694340-124032741.jpg,56.473763,-2.9896
+LACO,A Coruña,Spain,ES,https://content.skyscnr.com/fe16c965011af54da8155be3b5d27e69/GettyImages-152032624.jpg,43.361148,-8.409827
+LIMO,Limoges,France,FR,https://content.skyscnr.com/ac1dfc840d3a88201e2e1dd0684721a6/GettyImages-148479078.jpg,45.837734999999995,1.260181
+XCRA,Châlons-en-Champagne,France,FR,,48.96455,4.361155999999999
+CORK,Cork,Ireland,IE,https://content.skyscnr.com/4c7c10bd9a9271cea8d08484a16ff054/eyeem-26694340-92404957.jpg,51.98297,-8.828756
+KERR,Kerry,Ireland,IE,https://content.skyscnr.com/f6e923c89d1e189125a838235848f0a5/GettyImages-517056209.jpg,52.131979,-9.500221
+KNOC,Knock,Ireland,IE,https://content.skyscnr.com/f1922b5d3f1cdc4514e42eb5a9e9b1c1/img-knockrbout2715.jpg,52.920280000000005,-7.6844399999999995
+DUBL,Dublin,Ireland,IE,https://content.skyscnr.com/34f61dd7f8deb4059c12b0b8de9ee002/GettyImages-472229890.jpg,53.33928,-6.281314
+SHAN,Shannon,Ireland,IE,https://content.skyscnr.com/820a58cf09bfbe58082adbf3b1803f6f/GettyImages-158542834.jpg,52.701356999999994,-8.907781
+TELA,Tel Aviv,Israel,IL,https://content.skyscnr.com/f5c3712b7fe4d1bdbb7e84261abbf904/GettyImages-486858743.jpg,32.066455,34.783553000000005
+CLUJ,Cluj-Napoca,Romania,RO,https://content.skyscnr.com/e2c4ce717878fc7ea04e0a72d00c023d/GettyImages-502724313.jpg,46.765225,23.615723000000003
+SIBI,Sibiu,Romania,RO,https://content.skyscnr.com/dce169877fc4c05c5d0c983d67647467/GettyImages-507292252.jpg,45.793252,24.149178
+TIMI,Timisoara,Romania,RO,https://content.skyscnr.com/3dfad1e0f554d5cac84b35c67b8a0f77/GettyImages-475163356.jpg,45.743089000000005,21.222151999999998
+BUCH,Bucharest,Romania,RO,https://content.skyscnr.com/21a5bafbc460dc1a5993454ff952bbd3/GettyImages-476374166.jpg,44.43225,26.10626
+SUCE,Suceava Salcea,Romania,RO,,47.637698,26.259317
+IASI,Iasi,Romania,RO,https://content.skyscnr.com/4897ee326c41f194189be4a10fac9785/GettyImages-508830832.jpg,47.160306,27.589244
+METZ,Goin,France,FR,,48.987605,6.215942
+KRSA,Kristiansand,Norway,NO,https://content.skyscnr.com/9211a594a73aa6adfd9e706b815dba65/GettyImages-186993260.jpg,58.13725600000001,7.95224
+BERI,Bergen,Norway,NO,https://content.skyscnr.com/c851539886e55f6f1de26df6d8ba1bb3/GettyImages-484013382.jpg,60.338792000000005,5.416049
+OSLO,Oslo,Norway,NO,https://content.skyscnr.com/8ab21fe9e704f373e61689e635e63c60/GettyImages-498373538.jpg,59.974453000000004,10.735045
+AALE,Aalesund Vigra,Norway,NO,https://content.skyscnr.com/6f92d177b5e31148b599ea1b0abe6571/GettyImages-508469515.jpg,62.565672,6.093292
+TROM,Tromso,Norway,NO,https://content.skyscnr.com/ecf5084c18396b8f5244dd8849052b3f/GettyImages-161370212.jpg,69.683661,18.975338
+TRON,Trondheim,Norway,NO,https://content.skyscnr.com/345539ac430cca72a8e4c2315754376e/GettyImages-487809079.jpg,63.41246999999999,10.413219999999999
+STAV,Stavanger,Norway,NO,https://content.skyscnr.com/4a4687a5f09e7898785008773ff879c8/GettyImages-495277105.jpg,58.946702,5.721292
+OSTE,Ostersund,Sweden,SE,,63.165614,14.675999999999998
+SARA,Sarajevo,Bosnia and Herzegovina,BA,https://content.skyscnr.com/49e574742f759ce4dd8d0d6d48e57d40/GettyImages-480404012.jpg,43.84864,18.35644
+KASS,Kassel,Germany,DE,https://content.skyscnr.com/ca7c3dd3589911b3fe8a8202a1159179/GettyImages-176793565.jpg,51.309934000000005,9.475719999999999
+LEPU,Le Puy Loudes,France,FR,,45.087077,3.7483519999999997
+CORF,Corfu,Greece,GR,https://content.skyscnr.com/m/184f9cd93cc464eb/Large-GettyImages-486664034.jpg,39.62,19.91972
+SKOP,Skopje,North Macedonia,MK,https://content.skyscnr.com/690e1d8632f1ac1e07c4cf957c4964fb/GettyImages-476208185.jpg,42.00122,21.42878
+CLUZ,Lublin,Poland,PL,https://content.skyscnr.com/c874bce5d8c239c5cf6f267bdf990f8a/GettyImages-484849096.jpg,51.254776,22.876588
+SANJ,San Jorge Island,Portugal,PT,,39.225448,-8.266333
+GRAC,Graciosa Island,Portugal,PT,,40.78133,-8.51655
+PORY,Porto Santo,Portugal,PT,https://content.skyscnr.com/1e43c0d09c99b7224fee8b79c52968eb/GettyImages-496198921.jpg,33.07197,-16.34147
+ORAD,Oradea,Romania,RO,https://content.skyscnr.com/m/672f559a26876759/Large-eyeem-26694340-137532062.jpg,47.059422,21.933339
+CRAI,Craiova,Romania,RO,,44.31477,23.807382
+BASE,Basel,Switzerland,CH,https://content.skyscnr.com/6639f27bacf31c97099755cbf54bb392/GettyImages-481566200.jpg,47.553808000000004,7.592036
+GENE,Geneva,Switzerland,CH,https://content.skyscnr.com/ac5054692e970b4403945168ccc6aa0c/GettyImages-96654976.jpg,46.201510999999996,6.143889
+ZURI,Zurich,Switzerland,CH,https://content.skyscnr.com/92ec24310bc1e0c2c5022132dd1d4d55/GettyImages-178766147.jpg,47.373754,8.537087
+PAPH,Paphos,Cyprus,CY,https://content.skyscnr.com/0a849c421a2db497fec2f8576eb37a49/GettyImages-178526577.jpg,34.899229,32.525392
+LARN,Larnaca,Cyprus,CY,https://content.skyscnr.com/19f19f5c154529162d48a79cfbe41dc1/GettyImages-118980041.jpg,34.872192,33.461927
+ERCA,Tymbou,Cyprus,CY,https://content.skyscnr.com/5847c256561211f08cdf6cfe5b3db52a/eyeem-26694340-92365225.jpg,35.132852,33.511503000000005
+RGSA,Burgos,Spain,ES,https://content.skyscnr.com/4584e7870d5b151c2a5476797c58e654/GettyImages-531904283.jpg,42.343288,-3.693108
+AIXE,Aix en Provence,France,FR,,43.526046,5.4446699999999995
+MYTI,Mytilene,Greece,GR,https://content.skyscnr.com/e786fe25e168d42eae4d945bc9bf9b19/GettyImages-187863401.jpg,39.107887,26.555618
+DUBR,Dubrovnik,Croatia,HR,https://content.skyscnr.com/844ae2f6ebd9628b7e91219738eccb48/croatia-dubrovnik-3491.jpg,43.034456,17.557335000000002
+PULA,Pula,Croatia,HR,https://content.skyscnr.com/m/5bd1bed123cceb1e/original/GettyImages-450473963.jpg,44.867490999999994,13.852041
+OSIJ,Osijek,Croatia,HR,https://content.skyscnr.com/27693c5f5d02ddf6ba23674ff73f0fdc/GettyImages-530572535.jpg,45.553981,18.697226999999998
+ZADA,Zadar,Croatia,HR,https://content.skyscnr.com/24777087c57c297affbe432734885f52/GettyImages-101093871.jpg,44.006965,15.599016
+SPLI,Split,Croatia,HR,https://content.skyscnr.com/d546c6a9ef565175c15121d026cbadef/croatia-split-2498.jpg,43.514594,16.452375
+RUJE,Rijeka,Croatia,HR,https://content.skyscnr.com/c296a51f3e4df7540885826dcc136ce1/GettyImages-177033589.jpg,45.333666,14.437921
+MAAS,Maastricht,Netherlands,NL,https://content.skyscnr.com/1010a131056b7a19e66ad9f381d62f1f/GettyImages-530004205.jpg,50.850165000000004,5.6925099999999995
+LULE,Lulea Kallax,Sweden,SE,,65.52989000000001,22.05557
+VISB,Visby,Sweden,SE,https://content.skyscnr.com/94cca2a7f8d35b4baa22c72b43f0d295/GettyImages-482949588.jpg,57.639706999999994,18.314506
