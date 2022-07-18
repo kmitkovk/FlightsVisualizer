@@ -19,3 +19,10 @@
 3. One dail or weekly basis (depending on how often you want to have prices updated), scrape `origin-city`
 4. Create weekend retreat, graphical UI based on # on vacation for the next 2 months (?)
 4. Map on map
+
+
+##### TODO immediate:
+1. make a timeline of departures
+2. then make a timeline of arrivals back
+3. and then try to match all
+4. and finally create a graph~~~
