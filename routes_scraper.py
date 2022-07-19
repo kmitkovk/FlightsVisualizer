@@ -3,6 +3,14 @@
 Created on Sat Nov  6 11:47:14 2021
 
 @author: krasimirk
+
+File purpose:
+    1. Extract destination country details based on:
+        - origin airports (nearby airports of choice)
+        - months ahead for which the search is performed
+    2. Extract the cities list and details from the destination country
+    3. Record those on a .csv file in folder 'data'
+    
 """
 
 import os

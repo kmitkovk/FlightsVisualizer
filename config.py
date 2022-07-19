@@ -8,6 +8,9 @@ Created on Tue May  3 21:17:05 2022
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36'}
 
+
+sleep_time = 5 #in seconds so we will randomly get up to 3 seconds sleep
+
 origin_airports = {'Treviso': 'tsf',
                    'Trieste': 'trs',
                    'Zagreb': 'zag',
