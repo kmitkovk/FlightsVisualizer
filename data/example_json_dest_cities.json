@@ -1,0 +1,268 @@
+{
+  "PlacePrices" : [ {
+    "Id" : "GENO",
+    "Direct" : false,
+    "Name" : "Genoa",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/8d62591d406da8a128d274d05e042ed2/GettyImages-520961993.jpg",
+    "IndirectPrice" : 46,
+    "HotelUrl" : "/hotels/search?entity_id=27541884&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-02T15:27:00"
+  }, {
+    "Id" : "FLOR",
+    "Direct" : false,
+    "Name" : "Florence",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/398b1bf0c98990f64bdedfb03cb9c6ae/florence.jpg",
+    "IndirectPrice" : 104,
+    "HotelUrl" : "/hotels/search?entity_id=27541640&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T14:19:00"
+  }, {
+    "Id" : "LAMP",
+    "Direct" : false,
+    "Name" : "Lampedusa",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/0776a3acc229c616aeee7c00bb507012/GettyImages-153651373.jpg",
+    "IndirectPrice" : 0,
+    "HotelUrl" : "/hotels/search?entity_id=30949116&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true"
+  }, {
+    "Id" : "TRAP",
+    "Direct" : false,
+    "Name" : "Trapani",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/bc9d50a8707c2a3faf1c430c4973cfe0/eyeem-26693940-126565453.jpg",
+    "IndirectPrice" : 40,
+    "HotelUrl" : "/hotels/search?entity_id=27547239&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T14:02:00"
+  }, {
+    "Id" : "PISA",
+    "Direct" : false,
+    "Name" : "Pisa",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/14469415402f6651d1f8f1b3b8b483b0/GettyImages-498016949.jpg",
+    "IndirectPrice" : 52,
+    "HotelUrl" : "/hotels/search?entity_id=27546040&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-01T07:29:00"
+  }, {
+    "Id" : "PALE",
+    "Direct" : false,
+    "Name" : "Palermo",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/b5b377433a4dd4788bd9a767d90d1555/GettyImages-471536974.jpg",
+    "IndirectPrice" : 27,
+    "HotelUrl" : "/hotels/search?entity_id=27545989&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T13:08:00"
+  }, {
+    "Id" : "ALGS",
+    "Direct" : false,
+    "Name" : "Alghero Sardinia",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/0ebceb814d5354db3f9983515e72422e/Alghero%20Sardinia-GettyImages-638337502.jpg",
+    "IndirectPrice" : 63,
+    "HotelUrl" : "/hotels/search?entity_id=27536503&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T06:16:00"
+  }, {
+    "Id" : "ANCO",
+    "Direct" : false,
+    "Name" : "Ancona",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/b4be7d74908065e81a5c572c285b9aa1/GettyImages-481573120.jpg",
+    "IndirectPrice" : 94,
+    "HotelUrl" : "/hotels/search?entity_id=27536583&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-07-31T16:37:00"
+  }, {
+    "Id" : "ROME",
+    "Direct" : true,
+    "Name" : "Rome",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/562fb1d3b394e92393671562fe241138/stock-photo-st-peter-s-basilica-83184691.jpg",
+    "DirectPrice" : 18,
+    "IndirectPrice" : 24,
+    "HotelUrl" : "/hotels/search?entity_id=27539793&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T10:58:00",
+    "DirectQuoteDateTime" : "2022-08-03T17:28:00"
+  }, {
+    "Id" : "CATA",
+    "Direct" : false,
+    "Name" : "Catania",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/551ee1c8b7ed734978a498dc05f85d83/GettyImages-467692542.jpg",
+    "IndirectPrice" : 27,
+    "HotelUrl" : "/hotels/search?entity_id=27540562&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-02T19:28:00"
+  }, {
+    "Id" : "BRIN",
+    "Direct" : true,
+    "Name" : "Brindisi",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/f7f059e28e04b44737f527b459f8d638/GettyImages-490477064.jpg",
+    "DirectPrice" : 15,
+    "IndirectPrice" : 23,
+    "HotelUrl" : "/hotels/search?entity_id=27538714&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-02T19:57:00",
+    "DirectQuoteDateTime" : "2022-08-03T15:41:00"
+  }, {
+    "Id" : "NAPL",
+    "Direct" : true,
+    "Name" : "Naples",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/m/0f141bf76cf06068/Large-napl_139999980_doc.jpg",
+    "DirectPrice" : 17,
+    "IndirectPrice" : 22,
+    "HotelUrl" : "/hotels/search?entity_id=27545086&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T11:26:00",
+    "DirectQuoteDateTime" : "2022-08-01T22:21:00"
+  }, {
+    "Id" : "BOLO",
+    "Direct" : false,
+    "Name" : "Bologna",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/e0ed7f0c0c4807256fbfb586c7553b41/bologna.jpg",
+    "IndirectPrice" : 31,
+    "HotelUrl" : "/hotels/search?entity_id=27539470&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T14:18:00"
+  }, {
+    "Id" : "MARA",
+    "Direct" : false,
+    "Name" : "Lamezia Terme",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/m/fae19a45fbb9458/original/eyeem-26694340-135367311.jpg",
+    "IndirectPrice" : 52,
+    "HotelUrl" : "/hotels/search?entity_id=27546311&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-01T23:56:00"
+  }, {
+    "Id" : "OLBI",
+    "Direct" : false,
+    "Name" : "Olbia",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/m/329e1b9ba93fbc6d/original/eyeem-26694340-109665343.jpg",
+    "IndirectPrice" : 26,
+    "HotelUrl" : "/hotels/search?entity_id=27545213&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T08:02:00"
+  }, {
+    "Id" : "CAGL",
+    "Direct" : false,
+    "Name" : "Cagliari",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/m/1c520904cb530a78/original/eyeem-26694340-131957363.jpg",
+    "IndirectPrice" : 53,
+    "HotelUrl" : "/hotels/search?entity_id=27539679&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-02T17:56:00"
+  }, {
+    "Id" : "VENI",
+    "Direct" : false,
+    "Name" : "Venice",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/2a72a6087b8bee22ab2c798e61bee6fe/venice.jpg",
+    "IndirectPrice" : 42,
+    "HotelUrl" : "/hotels/search?entity_id=27547373&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T14:19:00"
+  }, {
+    "Id" : "BARI",
+    "Direct" : false,
+    "Name" : "Bari",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/m/3930ff32e7360c83/Large-eyeem-26694340-130154301.jpg",
+    "IndirectPrice" : 27,
+    "HotelUrl" : "/hotels/search?entity_id=27539556&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-02T19:27:00"
+  }, {
+    "Id" : "TURI",
+    "Direct" : false,
+    "Name" : "Turin",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/8b7a06603efcb6bdde92edd3751784ec/GettyImages-480512869.jpg",
+    "IndirectPrice" : 41,
+    "HotelUrl" : "/hotels/search?entity_id=27547248&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-07-31T12:55:00"
+  }, {
+    "Id" : "VERO",
+    "Direct" : false,
+    "Name" : "Verona",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/m/3da3e30063a26934/Large-GettyImages-452657391_doc.jpg",
+    "IndirectPrice" : 71,
+    "HotelUrl" : "/hotels/search?entity_id=27547432&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T14:18:00"
+  }, {
+    "Id" : "REGG",
+    "Direct" : false,
+    "Name" : "Reggio Calabria",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/c842a0646150babd46c1371e012c2827/GettyImages-489955648.jpg",
+    "IndirectPrice" : 0,
+    "HotelUrl" : "/hotels/search?entity_id=27546148&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true"
+  }, {
+    "Id" : "PANT",
+    "Direct" : false,
+    "Name" : "Pantelleria",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/m/388061d8c21da72e/original/pantelleria-paolo-chiabrando-KOHagr1ulTc-unsplash.jpg",
+    "IndirectPrice" : 0,
+    "HotelUrl" : "/hotels/search?entity_id=30445881&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true"
+  }, {
+    "Id" : "MILA",
+    "Direct" : true,
+    "Name" : "Milan",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/0f320987e189f43d5256fd38df04a977/GettyImages-461823317.jpg",
+    "DirectPrice" : 11,
+    "IndirectPrice" : 39,
+    "HotelUrl" : "/hotels/search?entity_id=27544068&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-03T19:27:00",
+    "DirectQuoteDateTime" : "2022-08-03T19:27:00"
+  }, {
+    "Id" : "CUNE",
+    "Direct" : false,
+    "Name" : "Cuneo",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/288b947c3afa90f28dda77ea3f9cc413/GettyImages-465959900.jpg",
+    "IndirectPrice" : 24,
+    "HotelUrl" : "/hotels/search?entity_id=27540580&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-07-31T12:56:00"
+  }, {
+    "Id" : "PESC",
+    "Direct" : false,
+    "Name" : "Pescara",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/569befea317cf3979e8b5916fbc7e5cd/GettyImages-529368487.jpg",
+    "IndirectPrice" : 41,
+    "HotelUrl" : "/hotels/search?entity_id=27546050&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-02T13:27:00"
+  }, {
+    "Id" : "COMI",
+    "Direct" : false,
+    "Name" : "Comiso",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/m/42b54af554dee665/original/eyeem-26694340-128610118.jpg",
+    "IndirectPrice" : 57,
+    "HotelUrl" : "/hotels/search?entity_id=27539806&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-02T13:14:00"
+  }, {
+    "Id" : "PERU",
+    "Direct" : false,
+    "Name" : "Perugia",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/4c4598de81cb9268d4d61b95dbb5a48f/GettyImages-466869094.jpg",
+    "IndirectPrice" : 139,
+    "HotelUrl" : "/hotels/search?entity_id=27545929&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-02T12:57:00"
+  }, {
+    "Id" : "FORL",
+    "Direct" : false,
+    "Name" : "Forlì",
+    "CountryName" : "Italy",
+    "IndirectPrice" : 225,
+    "HotelUrl" : "/hotels/search?entity_id=27541710&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-01T21:42:00"
+  }, {
+    "Id" : "PARM",
+    "Direct" : false,
+    "Name" : "Parma",
+    "CountryName" : "Italy",
+    "ImageUrl" : "https://content.skyscnr.com/284276e195c4e6c78deb70fc9257aa35/GettyImages-93000209.jpg",
+    "IndirectPrice" : 283,
+    "HotelUrl" : "/hotels/search?entity_id=27545986&checkin=2022-08-03&checkout=2022-08-04&adults=1&rooms=1&locale=en-GB&market=SI&search_bar_expanded=true&open_checkin_selector=true",
+    "IndirectQuoteDateTime" : "2022-08-01T21:42:00"
+  } ]
+}

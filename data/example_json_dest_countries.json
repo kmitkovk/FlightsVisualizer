@@ -1,0 +1,1034 @@
+{
+  "PlacePrices" : [ {
+    "Id" : "CO",
+    "Direct" : false,
+    "Name" : "Colombia",
+    "IndirectPrice" : 517,
+    "IndirectQuoteDateTime" : "2022-08-03T06:38:00"
+  }, {
+    "Id" : "KW",
+    "Direct" : false,
+    "Name" : "Kuwait",
+    "IndirectPrice" : 246,
+    "IndirectQuoteDateTime" : "2022-07-31T14:47:00"
+  }, {
+    "Id" : "ES",
+    "Direct" : true,
+    "Name" : "Spain",
+    "DirectPrice" : 53,
+    "IndirectPrice" : 32,
+    "IndirectQuoteDateTime" : "2022-08-03T11:19:00",
+    "DirectQuoteDateTime" : "2022-08-03T17:57:00"
+  }, {
+    "Id" : "GW",
+    "Direct" : false,
+    "Name" : "Guinea-Bissau",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "KO",
+    "Direct" : false,
+    "Name" : "Kosovo",
+    "IndirectPrice" : 49,
+    "IndirectQuoteDateTime" : "2022-08-01T12:17:00"
+  }, {
+    "Id" : "CG",
+    "Direct" : false,
+    "Name" : "Republic of the Congo",
+    "IndirectPrice" : 693,
+    "IndirectQuoteDateTime" : "2022-08-03T13:03:00"
+  }, {
+    "Id" : "IS",
+    "Direct" : false,
+    "Name" : "Iceland",
+    "IndirectPrice" : 77,
+    "IndirectQuoteDateTime" : "2022-08-03T17:08:00"
+  }, {
+    "Id" : "BM",
+    "Direct" : false,
+    "Name" : "Bermuda",
+    "IndirectPrice" : 915,
+    "IndirectQuoteDateTime" : "2022-08-02T20:18:00"
+  }, {
+    "Id" : "SN",
+    "Direct" : false,
+    "Name" : "Senegal",
+    "IndirectPrice" : 158,
+    "IndirectQuoteDateTime" : "2022-08-02T07:30:00"
+  }, {
+    "Id" : "NL",
+    "Direct" : true,
+    "Name" : "Netherlands",
+    "DirectPrice" : 83,
+    "IndirectPrice" : 27,
+    "IndirectQuoteDateTime" : "2022-08-03T18:21:00",
+    "DirectQuoteDateTime" : "2022-08-03T18:18:00"
+  }, {
+    "Id" : "GF",
+    "Direct" : false,
+    "Name" : "French Guiana",
+    "IndirectPrice" : 959,
+    "IndirectQuoteDateTime" : "2022-08-03T14:31:00"
+  }, {
+    "Id" : "PH",
+    "Direct" : false,
+    "Name" : "Philippines",
+    "IndirectPrice" : 547,
+    "IndirectQuoteDateTime" : "2022-07-31T19:57:00"
+  }, {
+    "Id" : "BD",
+    "Direct" : false,
+    "Name" : "Bangladesh",
+    "IndirectPrice" : 574,
+    "IndirectQuoteDateTime" : "2022-07-31T18:53:00"
+  }, {
+    "Id" : "KN",
+    "Direct" : false,
+    "Name" : "Saint Kitts and Nevis",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "CF",
+    "Direct" : false,
+    "Name" : "Central African Republic",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "TH",
+    "Direct" : false,
+    "Name" : "Thailand",
+    "IndirectPrice" : 370,
+    "IndirectQuoteDateTime" : "2022-08-03T09:11:12"
+  }, {
+    "Id" : "SV",
+    "Direct" : false,
+    "Name" : "El Salvador",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "CW",
+    "Direct" : false,
+    "Name" : "Curacao",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "MZ",
+    "Direct" : false,
+    "Name" : "Mozambique",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "ER",
+    "Direct" : false,
+    "Name" : "Eritrea",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "AR",
+    "Direct" : false,
+    "Name" : "Argentina",
+    "IndirectPrice" : 490,
+    "IndirectQuoteDateTime" : "2022-07-31T15:35:00"
+  }, {
+    "Id" : "UZ",
+    "Direct" : false,
+    "Name" : "Uzbekistan",
+    "IndirectPrice" : 487,
+    "IndirectQuoteDateTime" : "2022-08-01T11:51:00"
+  }, {
+    "Id" : "CV",
+    "Direct" : false,
+    "Name" : "Cape Verde",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "TG",
+    "Direct" : false,
+    "Name" : "Togo",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "SE",
+    "Direct" : true,
+    "Name" : "Sweden",
+    "DirectPrice" : 11,
+    "IndirectPrice" : 16,
+    "IndirectQuoteDateTime" : "2022-08-01T10:33:00",
+    "DirectQuoteDateTime" : "2022-08-03T16:22:00"
+  }, {
+    "Id" : "MR",
+    "Direct" : false,
+    "Name" : "Mauritania",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "GN",
+    "Direct" : false,
+    "Name" : "Guinea",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "QA",
+    "Direct" : true,
+    "Name" : "Qatar",
+    "DirectPrice" : 362,
+    "IndirectPrice" : 331,
+    "IndirectQuoteDateTime" : "2022-07-31T15:38:00",
+    "DirectQuoteDateTime" : "2022-07-31T03:58:00"
+  }, {
+    "Id" : "IR",
+    "Direct" : false,
+    "Name" : "Iran",
+    "IndirectPrice" : 300,
+    "IndirectQuoteDateTime" : "2022-07-31T19:56:00"
+  }, {
+    "Id" : "CN",
+    "Direct" : false,
+    "Name" : "China",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "GE",
+    "Direct" : false,
+    "Name" : "Georgia",
+    "IndirectPrice" : 215,
+    "IndirectQuoteDateTime" : "2022-08-03T04:18:00"
+  }, {
+    "Id" : "OM",
+    "Direct" : false,
+    "Name" : "Oman",
+    "IndirectPrice" : 382,
+    "IndirectQuoteDateTime" : "2022-08-03T11:53:00"
+  }, {
+    "Id" : "MA",
+    "Direct" : false,
+    "Name" : "Morocco",
+    "IndirectPrice" : 43,
+    "IndirectQuoteDateTime" : "2022-08-02T21:35:00"
+  }, {
+    "Id" : "TW",
+    "Direct" : false,
+    "Name" : "Taiwan",
+    "IndirectPrice" : 680,
+    "IndirectQuoteDateTime" : "2022-08-02T13:00:00"
+  }, {
+    "Id" : "RS",
+    "Direct" : true,
+    "Name" : "Serbia",
+    "DirectPrice" : 49,
+    "IndirectPrice" : 32,
+    "IndirectQuoteDateTime" : "2022-07-31T14:41:00",
+    "DirectQuoteDateTime" : "2022-08-03T15:45:00"
+  }, {
+    "Id" : "AZ",
+    "Direct" : false,
+    "Name" : "Azerbaijan",
+    "IndirectPrice" : 309,
+    "IndirectQuoteDateTime" : "2022-08-02T20:41:00"
+  }, {
+    "Id" : "KE",
+    "Direct" : false,
+    "Name" : "Kenya",
+    "IndirectPrice" : 492,
+    "IndirectQuoteDateTime" : "2022-08-02T10:49:00"
+  }, {
+    "Id" : "AM",
+    "Direct" : false,
+    "Name" : "Armenia",
+    "IndirectPrice" : 206,
+    "IndirectQuoteDateTime" : "2022-08-01T08:41:00"
+  }, {
+    "Id" : "BO",
+    "Direct" : false,
+    "Name" : "Bolivia",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "KY",
+    "Direct" : false,
+    "Name" : "Cayman Islands",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "RW",
+    "Direct" : false,
+    "Name" : "Rwanda",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "AE",
+    "Direct" : true,
+    "Name" : "United Arab Emirates",
+    "DirectPrice" : 285,
+    "IndirectPrice" : 186,
+    "IndirectQuoteDateTime" : "2022-07-30T23:41:00",
+    "DirectQuoteDateTime" : "2022-07-31T16:43:27"
+  }, {
+    "Id" : "BG",
+    "Direct" : true,
+    "Name" : "Bulgaria",
+    "DirectPrice" : 15,
+    "IndirectPrice" : 22,
+    "IndirectQuoteDateTime" : "2022-07-31T18:47:00",
+    "DirectQuoteDateTime" : "2022-08-03T19:03:00"
+  }, {
+    "Id" : "JO",
+    "Direct" : false,
+    "Name" : "Jordan",
+    "IndirectPrice" : 78,
+    "IndirectQuoteDateTime" : "2022-08-03T13:58:00"
+  }, {
+    "Id" : "CI",
+    "Direct" : false,
+    "Name" : "Ivory Coast",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "DK",
+    "Direct" : true,
+    "Name" : "Denmark",
+    "DirectPrice" : 130,
+    "IndirectPrice" : 25,
+    "IndirectQuoteDateTime" : "2022-07-31T17:25:00",
+    "DirectQuoteDateTime" : "2022-07-31T11:36:00"
+  }, {
+    "Id" : "MU",
+    "Direct" : false,
+    "Name" : "Mauritius",
+    "IndirectPrice" : 892,
+    "IndirectQuoteDateTime" : "2022-08-03T10:42:00"
+  }, {
+    "Id" : "FO",
+    "Direct" : false,
+    "Name" : "Faroe Islands",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "GQ",
+    "Direct" : false,
+    "Name" : "Equatorial Guinea",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "ML",
+    "Direct" : false,
+    "Name" : "Mali",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "VN",
+    "Direct" : false,
+    "Name" : "Vietnam",
+    "IndirectPrice" : 536,
+    "IndirectQuoteDateTime" : "2022-08-02T08:00:00"
+  }, {
+    "Id" : "TJ",
+    "Direct" : false,
+    "Name" : "Tajikistan",
+    "IndirectPrice" : 611,
+    "IndirectQuoteDateTime" : "2022-07-31T23:51:00"
+  }, {
+    "Id" : "GH",
+    "Direct" : false,
+    "Name" : "Ghana",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "IL",
+    "Direct" : true,
+    "Name" : "Israel",
+    "DirectPrice" : 275,
+    "IndirectPrice" : 117,
+    "IndirectQuoteDateTime" : "2022-08-03T11:24:00",
+    "DirectQuoteDateTime" : "2022-08-01T22:13:43"
+  }, {
+    "Id" : "AU",
+    "Direct" : false,
+    "Name" : "Australia",
+    "IndirectPrice" : 743,
+    "IndirectQuoteDateTime" : "2022-08-02T21:03:00"
+  }, {
+    "Id" : "PR",
+    "Direct" : false,
+    "Name" : "Puerto Rico",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "LB",
+    "Direct" : false,
+    "Name" : "Lebanon",
+    "IndirectPrice" : 153,
+    "IndirectQuoteDateTime" : "2022-08-01T20:07:00"
+  }, {
+    "Id" : "CY",
+    "Direct" : true,
+    "Name" : "Cyprus",
+    "DirectPrice" : 20,
+    "IndirectPrice" : 38,
+    "IndirectQuoteDateTime" : "2022-08-02T17:54:00",
+    "DirectQuoteDateTime" : "2022-08-03T15:12:00"
+  }, {
+    "Id" : "TR",
+    "Direct" : true,
+    "Name" : "Türkiye (Turkey)",
+    "DirectPrice" : 169,
+    "IndirectPrice" : 60,
+    "IndirectQuoteDateTime" : "2022-08-03T12:28:00",
+    "DirectQuoteDateTime" : "2022-08-03T12:03:16"
+  }, {
+    "Id" : "ID",
+    "Direct" : false,
+    "Name" : "Indonesia",
+    "IndirectPrice" : 584,
+    "IndirectQuoteDateTime" : "2022-08-02T12:22:00"
+  }, {
+    "Id" : "ET",
+    "Direct" : false,
+    "Name" : "Ethiopia",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "TZ",
+    "Direct" : false,
+    "Name" : "Tanzania",
+    "IndirectPrice" : 449,
+    "IndirectQuoteDateTime" : "2022-08-02T17:34:04"
+  }, {
+    "Id" : "SX",
+    "Direct" : false,
+    "Name" : "St Maarten",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "AT",
+    "Direct" : true,
+    "Name" : "Austria",
+    "DirectPrice" : 132,
+    "IndirectPrice" : 30,
+    "IndirectQuoteDateTime" : "2022-08-02T10:22:00",
+    "DirectQuoteDateTime" : "2022-08-02T16:41:25"
+  }, {
+    "Id" : "RE",
+    "Direct" : false,
+    "Name" : "Reunion",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "ZM",
+    "Direct" : false,
+    "Name" : "Zambia",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "BF",
+    "Direct" : false,
+    "Name" : "Burkina Faso",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "CH",
+    "Direct" : true,
+    "Name" : "Switzerland",
+    "DirectPrice" : 24,
+    "IndirectPrice" : 66,
+    "IndirectQuoteDateTime" : "2022-08-01T08:51:00",
+    "DirectQuoteDateTime" : "2022-08-03T13:34:00"
+  }, {
+    "Id" : "PA",
+    "Direct" : false,
+    "Name" : "Panama",
+    "IndirectPrice" : 1079,
+    "IndirectQuoteDateTime" : "2022-07-31T18:20:25"
+  }, {
+    "Id" : "DJ",
+    "Direct" : false,
+    "Name" : "Djibouti",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "LR",
+    "Direct" : false,
+    "Name" : "Liberia",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "MT",
+    "Direct" : true,
+    "Name" : "Malta",
+    "DirectPrice" : 21,
+    "IndirectPrice" : 29,
+    "IndirectQuoteDateTime" : "2022-08-03T14:20:00",
+    "DirectQuoteDateTime" : "2022-08-03T12:55:00"
+  }, {
+    "Id" : "VE",
+    "Direct" : false,
+    "Name" : "Venezuela",
+    "IndirectPrice" : 1118,
+    "IndirectQuoteDateTime" : "2022-08-02T13:52:00"
+  }, {
+    "Id" : "GP",
+    "Direct" : false,
+    "Name" : "Guadeloupe",
+    "IndirectPrice" : 488,
+    "IndirectQuoteDateTime" : "2022-08-02T15:23:00"
+  }, {
+    "Id" : "HR",
+    "Direct" : true,
+    "Name" : "Croatia",
+    "DirectPrice" : 53,
+    "IndirectPrice" : 32,
+    "IndirectQuoteDateTime" : "2022-08-03T09:10:00",
+    "DirectQuoteDateTime" : "2022-07-31T16:39:00"
+  }, {
+    "Id" : "IT",
+    "Direct" : true,
+    "Name" : "Italy",
+    "DirectPrice" : 11,
+    "IndirectPrice" : 22,
+    "IndirectQuoteDateTime" : "2022-08-03T11:26:00",
+    "DirectQuoteDateTime" : "2022-08-03T17:18:00"
+  }, {
+    "Id" : "AL",
+    "Direct" : false,
+    "Name" : "Albania",
+    "IndirectPrice" : 37,
+    "IndirectQuoteDateTime" : "2022-08-03T11:32:00"
+  }, {
+    "Id" : "KG",
+    "Direct" : false,
+    "Name" : "Kyrgyzstan",
+    "IndirectPrice" : 348,
+    "IndirectQuoteDateTime" : "2022-08-01T06:55:00"
+  }, {
+    "Id" : "MK",
+    "Direct" : true,
+    "Name" : "North Macedonia",
+    "DirectPrice" : 120,
+    "IndirectPrice" : 38,
+    "IndirectQuoteDateTime" : "2022-08-03T06:38:00",
+    "DirectQuoteDateTime" : "2022-07-31T21:46:00"
+  }, {
+    "Id" : "EC",
+    "Direct" : false,
+    "Name" : "Ecuador",
+    "IndirectPrice" : 826,
+    "IndirectQuoteDateTime" : "2022-07-31T22:22:00"
+  }, {
+    "Id" : "UK",
+    "Direct" : true,
+    "Name" : "United Kingdom",
+    "DirectPrice" : 40,
+    "IndirectPrice" : 43,
+    "IndirectQuoteDateTime" : "2022-08-02T18:41:00",
+    "DirectQuoteDateTime" : "2022-08-03T16:14:00"
+  }, {
+    "Id" : "BE",
+    "Direct" : true,
+    "Name" : "Belgium",
+    "DirectPrice" : 32,
+    "IndirectPrice" : 25,
+    "IndirectQuoteDateTime" : "2022-08-03T15:24:00",
+    "DirectQuoteDateTime" : "2022-08-01T16:25:00"
+  }, {
+    "Id" : "JM",
+    "Direct" : false,
+    "Name" : "Jamaica",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "SG",
+    "Direct" : false,
+    "Name" : "Singapore",
+    "IndirectPrice" : 435,
+    "IndirectQuoteDateTime" : "2022-07-31T12:47:00"
+  }, {
+    "Id" : "DZ",
+    "Direct" : false,
+    "Name" : "Algeria",
+    "IndirectPrice" : 416,
+    "IndirectQuoteDateTime" : "2022-08-03T10:26:00"
+  }, {
+    "Id" : "NE",
+    "Direct" : false,
+    "Name" : "Niger",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "US",
+    "Direct" : false,
+    "Name" : "United States",
+    "IndirectPrice" : 276,
+    "IndirectQuoteDateTime" : "2022-08-03T15:48:00"
+  }, {
+    "Id" : "SO",
+    "Direct" : false,
+    "Name" : "Somalia",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "HU",
+    "Direct" : false,
+    "Name" : "Hungary",
+    "IndirectPrice" : 33,
+    "IndirectQuoteDateTime" : "2022-08-03T16:17:00"
+  }, {
+    "Id" : "AO",
+    "Direct" : false,
+    "Name" : "Angola",
+    "IndirectPrice" : 468,
+    "IndirectQuoteDateTime" : "2022-08-03T11:32:00"
+  }, {
+    "Id" : "BQ",
+    "Direct" : false,
+    "Name" : "Caribbean Netherlands",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "AG",
+    "Direct" : false,
+    "Name" : "Antigua and Barbuda",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "TD",
+    "Direct" : false,
+    "Name" : "Chad",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "BI",
+    "Direct" : false,
+    "Name" : "Burundi",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "LU",
+    "Direct" : false,
+    "Name" : "Luxembourg",
+    "IndirectPrice" : 38,
+    "IndirectQuoteDateTime" : "2022-08-02T20:34:00"
+  }, {
+    "Id" : "MN",
+    "Direct" : false,
+    "Name" : "Mongolia",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "NP",
+    "Direct" : false,
+    "Name" : "Nepal",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "AW",
+    "Direct" : false,
+    "Name" : "Aruba",
+    "IndirectPrice" : 1020,
+    "IndirectQuoteDateTime" : "2022-08-03T11:37:00"
+  }, {
+    "Id" : "TT",
+    "Direct" : false,
+    "Name" : "Trinidad and Tobago",
+    "IndirectPrice" : 1180,
+    "IndirectQuoteDateTime" : "2022-08-01T11:28:00"
+  }, {
+    "Id" : "SR",
+    "Direct" : false,
+    "Name" : "Suriname",
+    "IndirectPrice" : 772,
+    "IndirectQuoteDateTime" : "2022-08-02T14:57:00"
+  }, {
+    "Id" : "PL",
+    "Direct" : true,
+    "Name" : "Poland",
+    "DirectPrice" : 169,
+    "IndirectPrice" : 21,
+    "IndirectQuoteDateTime" : "2022-08-03T17:03:00",
+    "DirectQuoteDateTime" : "2022-08-02T23:31:00"
+  }, {
+    "Id" : "CR",
+    "Direct" : false,
+    "Name" : "Costa Rica",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "KZ",
+    "Direct" : false,
+    "Name" : "Kazakhstan",
+    "IndirectPrice" : 422,
+    "IndirectQuoteDateTime" : "2022-08-01T12:33:00"
+  }, {
+    "Id" : "PT",
+    "Direct" : true,
+    "Name" : "Portugal",
+    "DirectPrice" : 89,
+    "IndirectPrice" : 42,
+    "IndirectQuoteDateTime" : "2022-08-03T16:44:00",
+    "DirectQuoteDateTime" : "2022-08-02T16:58:00"
+  }, {
+    "Id" : "IN",
+    "Direct" : false,
+    "Name" : "India",
+    "IndirectPrice" : 310,
+    "IndirectQuoteDateTime" : "2022-08-03T09:03:00"
+  }, {
+    "Id" : "JP",
+    "Direct" : false,
+    "Name" : "Japan",
+    "IndirectPrice" : 703,
+    "IndirectQuoteDateTime" : "2022-08-01T16:15:00"
+  }, {
+    "Id" : "BH",
+    "Direct" : false,
+    "Name" : "Bahrain",
+    "IndirectPrice" : 336,
+    "IndirectQuoteDateTime" : "2022-08-01T09:07:00"
+  }, {
+    "Id" : "KR",
+    "Direct" : false,
+    "Name" : "South Korea",
+    "IndirectPrice" : 562,
+    "IndirectQuoteDateTime" : "2022-08-01T17:02:51"
+  }, {
+    "Id" : "TC",
+    "Direct" : false,
+    "Name" : "Turks and Caicos Islands",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "MV",
+    "Direct" : false,
+    "Name" : "Maldives",
+    "IndirectPrice" : 474,
+    "IndirectQuoteDateTime" : "2022-08-03T08:22:00"
+  }, {
+    "Id" : "SA",
+    "Direct" : false,
+    "Name" : "Saudi Arabia",
+    "IndirectPrice" : 357,
+    "IndirectQuoteDateTime" : "2022-07-31T07:31:00"
+  }, {
+    "Id" : "GR",
+    "Direct" : true,
+    "Name" : "Greece",
+    "DirectPrice" : 14,
+    "IndirectPrice" : 32,
+    "IndirectQuoteDateTime" : "2022-08-03T14:33:00",
+    "DirectQuoteDateTime" : "2022-08-03T18:04:00"
+  }, {
+    "Id" : "IE",
+    "Direct" : true,
+    "Name" : "Ireland",
+    "DirectPrice" : 249,
+    "IndirectPrice" : 47,
+    "IndirectQuoteDateTime" : "2022-08-02T14:11:00",
+    "DirectQuoteDateTime" : "2022-08-03T13:27:00"
+  }, {
+    "Id" : "PK",
+    "Direct" : false,
+    "Name" : "Pakistan",
+    "IndirectPrice" : 326,
+    "IndirectQuoteDateTime" : "2022-08-01T12:05:00"
+  }, {
+    "Id" : "CA",
+    "Direct" : true,
+    "Name" : "Canada",
+    "DirectPrice" : 896,
+    "IndirectPrice" : 442,
+    "IndirectQuoteDateTime" : "2022-08-01T20:14:00",
+    "DirectQuoteDateTime" : "2022-07-31T11:46:32"
+  }, {
+    "Id" : "LK",
+    "Direct" : false,
+    "Name" : "Sri Lanka",
+    "IndirectPrice" : 366,
+    "IndirectQuoteDateTime" : "2022-07-31T13:57:00"
+  }, {
+    "Id" : "EE",
+    "Direct" : false,
+    "Name" : "Estonia",
+    "IndirectPrice" : 31,
+    "IndirectQuoteDateTime" : "2022-08-01T19:47:00"
+  }, {
+    "Id" : "NO",
+    "Direct" : true,
+    "Name" : "Norway",
+    "DirectPrice" : 11,
+    "IndirectPrice" : 31,
+    "IndirectQuoteDateTime" : "2022-08-01T19:08:00",
+    "DirectQuoteDateTime" : "2022-08-03T11:57:00"
+  }, {
+    "Id" : "GI",
+    "Direct" : false,
+    "Name" : "Gibraltar",
+    "IndirectPrice" : 150,
+    "IndirectQuoteDateTime" : "2022-08-02T12:19:00"
+  }, {
+    "Id" : "HK",
+    "Direct" : false,
+    "Name" : "Hong Kong",
+    "CountryName" : "China",
+    "IndirectPrice" : 526,
+    "IndirectQuoteDateTime" : "2022-08-01T02:33:00"
+  }, {
+    "Id" : "CZ",
+    "Direct" : false,
+    "Name" : "Czechia",
+    "IndirectPrice" : 28,
+    "IndirectQuoteDateTime" : "2022-08-03T18:52:00"
+  }, {
+    "Id" : "LC",
+    "Direct" : false,
+    "Name" : "Saint Lucia",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "ME",
+    "Direct" : true,
+    "Name" : "Montenegro",
+    "DirectPrice" : 13,
+    "IndirectPrice" : 57,
+    "IndirectQuoteDateTime" : "2022-08-03T08:29:00",
+    "DirectQuoteDateTime" : "2022-08-03T18:36:00"
+  }, {
+    "Id" : "NG",
+    "Direct" : false,
+    "Name" : "Nigeria",
+    "IndirectPrice" : 638,
+    "IndirectQuoteDateTime" : "2022-08-01T21:48:00"
+  }, {
+    "Id" : "RO",
+    "Direct" : false,
+    "Name" : "Romania",
+    "IndirectPrice" : 25,
+    "IndirectQuoteDateTime" : "2022-08-03T11:30:00"
+  }, {
+    "Id" : "GA",
+    "Direct" : false,
+    "Name" : "Gabon",
+    "IndirectPrice" : 517,
+    "IndirectQuoteDateTime" : "2022-07-31T05:32:00"
+  }, {
+    "Id" : "ZW",
+    "Direct" : false,
+    "Name" : "Zimbabwe",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "MY",
+    "Direct" : false,
+    "Name" : "Malaysia",
+    "IndirectPrice" : 502,
+    "IndirectQuoteDateTime" : "2022-08-02T09:14:00"
+  }, {
+    "Id" : "BS",
+    "Direct" : false,
+    "Name" : "Bahamas",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "CU",
+    "Direct" : false,
+    "Name" : "Cuba",
+    "IndirectPrice" : 738,
+    "IndirectQuoteDateTime" : "2022-07-31T13:08:00"
+  }, {
+    "Id" : "UY",
+    "Direct" : false,
+    "Name" : "Uruguay",
+    "IndirectPrice" : 697,
+    "IndirectQuoteDateTime" : "2022-08-01T22:45:00"
+  }, {
+    "Id" : "MQ",
+    "Direct" : false,
+    "Name" : "Martinique",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "SD",
+    "Direct" : false,
+    "Name" : "Sudan",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "GM",
+    "Direct" : false,
+    "Name" : "Gambia",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "IQ",
+    "Direct" : false,
+    "Name" : "Iraq",
+    "IndirectPrice" : 351,
+    "IndirectQuoteDateTime" : "2022-08-01T15:22:00"
+  }, {
+    "Id" : "CM",
+    "Direct" : false,
+    "Name" : "Cameroon",
+    "IndirectPrice" : 444,
+    "IndirectQuoteDateTime" : "2022-08-03T17:33:00"
+  }, {
+    "Id" : "DO",
+    "Direct" : false,
+    "Name" : "Dominican Republic",
+    "IndirectPrice" : 546,
+    "IndirectQuoteDateTime" : "2022-07-31T18:22:00"
+  }, {
+    "Id" : "TN",
+    "Direct" : false,
+    "Name" : "Tunisia",
+    "IndirectPrice" : 135,
+    "IndirectQuoteDateTime" : "2022-08-01T11:21:00"
+  }, {
+    "Id" : "GD",
+    "Direct" : false,
+    "Name" : "Grenada",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "SL",
+    "Direct" : false,
+    "Name" : "Sierra Leone",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "BB",
+    "Direct" : false,
+    "Name" : "Barbados",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "PF",
+    "Direct" : false,
+    "Name" : "French Polynesia",
+    "IndirectPrice" : 976,
+    "IndirectQuoteDateTime" : "2022-07-31T20:33:00"
+  }, {
+    "Id" : "CD",
+    "Direct" : false,
+    "Name" : "DR Congo",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "ST",
+    "Direct" : false,
+    "Name" : "Sao Tome and Principe",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "FR",
+    "Direct" : true,
+    "Name" : "France",
+    "DirectPrice" : 26,
+    "IndirectPrice" : 38,
+    "IndirectQuoteDateTime" : "2022-08-03T14:00:00",
+    "DirectQuoteDateTime" : "2022-08-03T17:44:00"
+  }, {
+    "Id" : "NZ",
+    "Direct" : false,
+    "Name" : "New Zealand",
+    "IndirectPrice" : 1176,
+    "IndirectQuoteDateTime" : "2022-08-01T23:37:00"
+  }, {
+    "Id" : "GT",
+    "Direct" : false,
+    "Name" : "Guatemala",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "ZA",
+    "Direct" : false,
+    "Name" : "South Africa",
+    "IndirectPrice" : 473,
+    "IndirectQuoteDateTime" : "2022-08-03T17:02:00"
+  }, {
+    "Id" : "BR",
+    "Direct" : false,
+    "Name" : "Brazil",
+    "IndirectPrice" : 351,
+    "IndirectQuoteDateTime" : "2022-08-03T14:32:00"
+  }, {
+    "Id" : "NA",
+    "Direct" : false,
+    "Name" : "Namibia",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "UG",
+    "Direct" : false,
+    "Name" : "Uganda",
+    "IndirectPrice" : 569,
+    "IndirectQuoteDateTime" : "2022-07-31T09:36:00"
+  }, {
+    "Id" : "SC",
+    "Direct" : false,
+    "Name" : "Seychelles",
+    "IndirectPrice" : 929,
+    "IndirectQuoteDateTime" : "2022-07-31T21:37:00"
+  }, {
+    "Id" : "BJ",
+    "Direct" : false,
+    "Name" : "Benin",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "CL",
+    "Direct" : false,
+    "Name" : "Chile",
+    "IndirectPrice" : 1013,
+    "IndirectQuoteDateTime" : "2022-07-30T22:05:00"
+  }, {
+    "Id" : "LV",
+    "Direct" : false,
+    "Name" : "Latvia",
+    "IndirectPrice" : 28,
+    "IndirectQuoteDateTime" : "2022-08-03T10:29:00"
+  }, {
+    "Id" : "MX",
+    "Direct" : false,
+    "Name" : "Mexico",
+    "IndirectPrice" : 459,
+    "IndirectQuoteDateTime" : "2022-08-01T13:04:00"
+  }, {
+    "Id" : "TM",
+    "Direct" : false,
+    "Name" : "Turkmenistan",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "SK",
+    "Direct" : true,
+    "Name" : "Slovakia",
+    "DirectPrice" : 11,
+    "IndirectPrice" : 32,
+    "IndirectQuoteDateTime" : "2022-08-03T07:33:00",
+    "DirectQuoteDateTime" : "2022-07-31T14:05:00"
+  }, {
+    "Id" : "BA",
+    "Direct" : true,
+    "Name" : "Bosnia and Herzegovina",
+    "DirectPrice" : 90,
+    "IndirectPrice" : 22,
+    "IndirectQuoteDateTime" : "2022-08-01T21:16:00",
+    "DirectQuoteDateTime" : "2022-08-03T06:33:00"
+  }, {
+    "Id" : "DE",
+    "Direct" : true,
+    "Name" : "Germany",
+    "DirectPrice" : 12,
+    "IndirectPrice" : 30,
+    "IndirectQuoteDateTime" : "2022-08-03T18:36:00",
+    "DirectQuoteDateTime" : "2022-07-31T17:20:00"
+  }, {
+    "Id" : "PE",
+    "Direct" : false,
+    "Name" : "Peru",
+    "IndirectPrice" : 898,
+    "IndirectQuoteDateTime" : "2022-08-03T16:59:00"
+  }, {
+    "Id" : "EG",
+    "Direct" : false,
+    "Name" : "Egypt",
+    "IndirectPrice" : 133,
+    "IndirectQuoteDateTime" : "2022-07-31T19:03:00"
+  }, {
+    "Id" : "FI",
+    "Direct" : false,
+    "Name" : "Finland",
+    "IndirectPrice" : 42,
+    "IndirectQuoteDateTime" : "2022-08-03T18:00:00"
+  }, {
+    "Id" : "SS",
+    "Direct" : false,
+    "Name" : "South Sudan",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "MG",
+    "Direct" : false,
+    "Name" : "Madagascar",
+    "IndirectPrice" : 0
+  }, {
+    "Id" : "SI",
+    "Direct" : false,
+    "Name" : "Slovenia",
+    "IndirectPrice" : 123,
+    "IndirectQuoteDateTime" : "2022-08-03T17:17:00"
+  }, {
+    "Id" : "GG",
+    "Direct" : false,
+    "Name" : "Guernsey",
+    "IndirectPrice" : 247,
+    "IndirectQuoteDateTime" : "2022-07-31T15:54:00"
+  }, {
+    "Id" : "KH",
+    "Direct" : false,
+    "Name" : "Cambodia",
+    "IndirectPrice" : 498,
+    "IndirectQuoteDateTime" : "2022-08-01T15:54:00"
+  }, {
+    "Id" : "SY",
+    "Direct" : false,
+    "Name" : "Syria",
+    "IndirectPrice" : 529,
+    "IndirectQuoteDateTime" : "2022-07-31T10:17:00"
+  }, {
+    "Id" : "PY",
+    "Direct" : false,
+    "Name" : "Paraguay",
+    "IndirectPrice" : 1063,
+    "IndirectQuoteDateTime" : "2022-08-02T13:30:00"
+  }, {
+    "Id" : "PG",
+    "Direct" : false,
+    "Name" : "Papua New Guinea",
+    "IndirectPrice" : 1132,
+    "IndirectQuoteDateTime" : "2022-08-03T08:40:00"
+  } ]
+}

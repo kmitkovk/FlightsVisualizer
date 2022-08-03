@@ -62,9 +62,9 @@ except FileExistsError:
     print("in-outbound dir already exists")
 print("continuing")
 
-# with open(data_loc + '\\city_data.json', 'r') as file: city_codes = file.read()
+with open(data_loc + '\\city_data.json', 'r') as file: city_codes = file.read()
 
-#%% Country filter
+
 routes = {}
 dest_countries_prices = {}
 # origin = origins[0]
@@ -102,7 +102,7 @@ for origin in origins:
         i.Id: {
             "country": i.Name,
             "d_price": i.DirectPrice,
-            "ind_price": i.IndirectPrice,
+            "ind_price": i.IndirectPrice, 
         }
         for i in df_cnt.itertuples()
     }
