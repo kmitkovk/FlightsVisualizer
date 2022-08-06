@@ -10,7 +10,8 @@ HEADERS = {
 }
 
 
-SLEEP_TIME = 5  # in seconds so we will randomly get up to 3 seconds sleep
+SLEEP_TIME_SHORT = 5  # in seconds so we will randomly get up to 3 seconds sleep
+SLEEP_TIME_LONG = 10  # in seconds so we will randomly get up to 3 seconds sleep
 
 ORIGIN_AIRPORTS = {
     "Treviso": "tsf",
