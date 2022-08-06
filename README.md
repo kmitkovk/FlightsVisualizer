@@ -19,7 +19,7 @@
 ## UX3 - <i>Find another route</i>
 1. User enters nearby airports, destination and price range
 2. User enters the date for which they are looking for transfer flights
-3. User enteres time and/or day difference for the transfer flights
+3. User enteres day difference for the transfer flights (time not available)
 4. The application does:
    - finds all the destinations from origin
    - finds all the destinations from destination

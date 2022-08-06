@@ -41,7 +41,7 @@ origin_airports = {
 }
 
 test_airports = [origin_airports["Zagreb"].upper()]
-test_airports = [origin_airports[i].upper() for i in ['Zagreb','Trieste']]
+test_airports = [origin_airports[i].upper() for i in ["Zagreb", "Trieste"]]
 test_month_year = "2022-08"
 
 test_mode = True
@@ -51,8 +51,8 @@ if test_mode:
         If you don't wish to run test, type 'n' and flip test_mode to False
         Do you wish to continue?(y/n): """
     )
-    if inp == 'n':
-        print('Script did not run')
+    if inp == "n":
+        print("Script did not run")
         sys.exit()
 
 #%% Orig-Dest_Country filter
@@ -93,7 +93,7 @@ def get_destination_countries(
 
     """
     # defines the main data frame which will contain all origins-destination_countries
-    df = pd.DataFrame() 
+    df = pd.DataFrame()
     for origin in origins:
         # original: "https://www.skyscanner.net/g/browse-view-bff/dataservices/browse/v3/bvweb/SI/EUR/en-GB/destinations/TSF/anywhere/2021-11/2021-11/?profile=minimalcityrollupwithnamesv2&include=image;holiday;hotel;adverts&apikey=8aa374f4e28e4664bf268f850f767535&isMobilePhone=false&isOptedInForPersonalised=true"
         p1 = "https://www.skyscanner.net/g/browse-view-bff/dataservices/browse/"
@@ -112,7 +112,7 @@ def get_destination_countries(
             json_data_cnt = response_cnt.json()["PlacePrices"]
         except Exception as e:
             raise ValueError(f'Code broke on origin cnt "{origin}" with error:\n{e}')
-        
+
         if only_direct:
             df_orig_dest_cnts = pd.DataFrame(json_data_cnt)
             df_orig_dest_cnts = df_orig_dest_cnts[
@@ -138,7 +138,9 @@ def get_destination_countries(
 
 
 if test_mode:
-    test_countries = get_destination_countries(test_airports, test_month_year).iloc[-8:-2]
+    test_countries = get_destination_countries(test_airports, test_month_year).iloc[
+        -8:-2
+    ]
     print(test_countries)
 
 
@@ -178,7 +180,7 @@ def get_destination_cities(
 
     """
     df = pd.DataFrame()
-    
+
     for row in df_destination_countries.iterrows():
         p1 = "https://www.skyscanner.net/g/browse-view-bff/dataservices/browse/v3/bvweb/SI/EUR/en-GB/"
         p2 = f"destinations/{row[1].Origin}/{row[1].dest_cnt_ISO_2}/{departure_month_year}/?profile=minimalcityrollupwithnamesv2&include=image;"
@@ -186,6 +188,7 @@ def get_destination_cities(
         url_cities_filter = p1 + p2 + p3
 
     return 1
+
 
 if test_mode:
     test_cities = get_destination_cities(test_countries, test_month_year)
