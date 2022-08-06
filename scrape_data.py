@@ -350,7 +350,7 @@ def get_destination_cities_dates_prices(
                     )
                     break_loop_1 = True
                     # Save data up till break
-                    df.to_csv(r"data/cache_dest_price_dates.csv")
+                    df.to_csv(r"data/recovery_file_dest_price_dates.csv")
                     break
                 if only_direct:
                     # Extract only direct flights
@@ -362,8 +362,8 @@ def get_destination_cities_dates_prices(
 
                     price_grids_dict = [
                         i
-                        for i in json_data_cnt["PriceGrids"]["Grid"][0]
-                        if i["DirectOutboundAvailable"] == True
+                        for c,i in enumerate(json_data_cnt["PriceGrids"]["Grid"][0])
+                        if 'Direct' in json_data_cnt["PriceGrids"]["Grid"][0][c]
                     ]
                     prices_traces = defaultdict()
                     for i in price_grids_dict:
