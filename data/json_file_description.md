@@ -3,6 +3,7 @@
 ## example_json_dest_countries.json 
 * gets destination countries from a given origin
 * in this example we have ZAG to anywhere for Aug 2022
+* details include `origin, dest_country name, dest_country ISO2, DirectPrice`
 * [URL page](https://www.skyscanner.net/transport/flights-from/zag/?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&inboundaltsenabled=false&infants=0&originentityid=27537474&outboundaltsenabled=false&oym=2208&preferdirects=true&ref=home&rtn=0)
 * [URL json](https://www.skyscanner.net/g/browse-view-bff/dataservices/browse/v3/bvweb/SI/EUR/en-GB/destinations/ZAG/anywhere/2022-08/?profile=minimalcityrollupwithnamesv2&include=image;hotel;adverts&apikey=8aa374f4e28e4664bf268f850f767535&isMobilePhone=false&isOptedInForPersonalised=true)
 
@@ -26,7 +27,9 @@
 
 <BR><BR>
 
-## Important notes from [Flights API](https://www.partners.skyscanner.net/contact/affiliates?hsLang=en):
+# Important notes:
+
+## On [Flights API](https://www.partners.skyscanner.net/contact/affiliates?hsLang=en):
 
 Our Flights API is available on a commercial basis only. We select partners on case-by-case basis, so it's essential that you include as much information as possible in your application below. 
 
@@ -36,3 +39,13 @@ Please note, we `cannot give access to`:
 * students and other individuals (i.e. `working on a non-commercial basis`)
 * start-ups without a robust business plan 
 * businesses with low-traffic sites
+
+<br>
+
+## On API calls to Skyscanner:
+
+- you can reduce the nmber of calls by calling two-way query `but`:
+	- you get prices for the pair instead of one way and the flights are harder to map
+- better just make an API call for direct flights so you can also get prices (even tho that will double the calls)
+	- bottomline this will probably be done only on countries which meet the weekend requirement? for 50 orig-destinations this will mean 100 calls
+YOU DO THIS ONCE A a mont (every other week) and then you will spit out the ones for weekend retreat (100 pairs) sorted by price

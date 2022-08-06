@@ -19,7 +19,7 @@
 ## UX3 - <i>Find another route</i>
 1. User enters nearby airports, destination and price range
 2. User enters the date for which they are looking for transfer flights
-3. User enteres day difference for the transfer flights (time not available)
+3. User enteres day difference for the transfer flights `(time not available)`
 4. The application does:
    - finds all the destinations from origin
    - finds all the destinations from destination
@@ -29,30 +29,29 @@
 
 <br>
 
-### TODO NOW:
-    1. finish get_destination function
-    2. finish get cities function
-    2.1 explore the return pair json
-    3. design the Database for those two outputs
-    4. !Move onto UX2!
-    5. !Move onto UX3!
-
-- you can reduce the nmber of calls by calling two-way query but:
-	- you get prices for the pair instead of one way and the flights are harder to map
-- better just make an API call for direct flights so you can also get prices (even tho that will double the calls)
-	- bottomline this will probably be done only on countries which meet the weekend requirement? for 50 orig-destinations this will mean 100 calls
-YOU DO THIS ONCE A a mont (every other week) and then you will spit out the ones for weekend retreat (100 pairs) sorted by price
+## The three main files of data ([description](/data/json_file_description.md)):
+1. [origin-countries data](/data/example_json_dest_countries.json)
+2. [origin-countries_cities data](/data/example_json_dest_cities.json)
+3. [origin-countries_cities calendar data](/data/example_calendar.json)
 
 <br>
+
+# 
+
+### TODO:
+1. finish get_destination_cities_dates_prices
+2. design the Database for those two outputs
+3. !Move onto UX2!
+   1. make a timeline of departures
+   2. then make a timeline of arrivals back
+   3. and then try to match all
+   4. and finally create a graph
+4. !Move onto UX3!
+
 <br>
 
-### TODO immediate:
-1. make a timeline of departures
-2. then make a timeline of arrivals back
-3. and then try to match all
-4. and finally create a graph
 
-### TODO Instrucitons:
+### General Instrucitons:
 0. For now scrape origin-destinations only once every few weeks
    - occasionally run a scraper if there have been new destinations added
    - however, new destinations could "pop up" because they could be filtered by the price
