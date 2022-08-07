@@ -13,20 +13,18 @@ import json
 
 #%% Extract:
 
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36'}
-    
-url_country_filter = "https://www.skyscanner.net/g/monthviewservice/SI/EUR/en-GB/calendar/SOF/ZAG/2022-05/2022-05/?profile=minimalmonthviewgridv2&apikey=6f4cb8367f544db99cd1e2ea86fb2627"
-response_cnt  = requests.request("GET", url_country_filter , headers=headers)
-traces = json.loads(response_cnt.text)['Traces']
-prices = json.loads(response_cnt.text)['PriceGrids']
+                
+if False:
+    d = df_all_flights.copy()
+    zag = d[d.flight.str.startswith('ZAG')]
+    tsf = d[d.flight.str.startswith('TSF')]
+    tsf = [i[-3:] for i in tsf.flight.unique()]
+    zag = [i[-3:] for i in zag.flight.unique()]
+    t = set(tsf)
+    z = set(zag)
+    t.intersection(z)
 
-flights = pd.DataFrame({tr_id:x.split('*')
-                        for tr_id,x in traces.items()}).T.reset_index()
 
-flights.columns = ['trace_id','last_update','dir_indir',
-                   'dep_ap','arr_ap','date','airline','cn']
-
-flights.date = pd.to_datetime(flights.date, dayfirst=True)
 
 if False:
     ls = []
@@ -34,3 +32,4 @@ if False:
         for date_2 in flights.date:
             if (date_2 - date_1) == dt.timedelta(days = 3):
                 ls.append([date_1,date_2])
+                

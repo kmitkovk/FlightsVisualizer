@@ -19,13 +19,10 @@ File purpose:
     
 """
 
-import os
 import sys
-import json
 import time
 import random
 import requests
-import numpy as np
 import pandas as pd
 from typing import List
 from collections import defaultdict
@@ -362,8 +359,8 @@ def get_destination_cities_dates_prices(
 
                     price_grids_dict = [
                         i
-                        for c,i in enumerate(json_data_cnt["PriceGrids"]["Grid"][0])
-                        if 'Direct' in json_data_cnt["PriceGrids"]["Grid"][0][c]
+                        for c, i in enumerate(json_data_cnt["PriceGrids"]["Grid"][0])
+                        if "Direct" in json_data_cnt["PriceGrids"]["Grid"][0][c]
                     ]
                     prices_traces = defaultdict()
                     for i in price_grids_dict:
@@ -408,6 +405,23 @@ def get_destination_cities_dates_prices(
 if test_mode:
     # test_price_cal = get_destination_cities_dates_prices(test_calendar,['2022-08'],['2022-08'])
     test_price_cal = get_destination_cities_dates_prices(
-        test_calendar, ["2022-08"], ["2022-08"]
+        test_calendar, ["2022-09"], ["2022-09"]
     )
+
 #%% -----END-----
+
+if False:
+    dest_countries = get_destination_countries(["SOF"], "2022-08")
+
+    dest_cities = get_destination_cities(dest_countries, "2022-08")
+
+    dest_cities_dates_prices = get_destination_cities_dates_prices(
+        dest_cities.loc[:, ["origin", "dest_city_code"]], ["2022-08"], ["2022-08"]
+    )
+
+    if False:
+        old_test = pd.read_csv(
+            r"data/data_dest_price_dates.csv", parse_dates=["timestamp"]
+        ).drop("Unnamed: 0", axis=1)
+        df = pd.concat([old_test, dest_cities_dates_prices])
+        df.to_csv(r"data/data_dest_price_dates.csv")

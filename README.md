@@ -8,6 +8,9 @@
 2. User enters the price range and months
 3. The app displays the connections onto the map with price details
    - user can click on the origins and destinations for details
+4. When you click on a destination the following could appear:
+   - A barchart of the next three months of possible combinations (origin)
+   - the barchart will have two series (1) 'to' and (2) 'from' flights
 
 ## UX2 - <i>Weekend retreat!</i>
 1. User enters nearby airports and price range
