@@ -1,0 +1,12 @@
+name: flight_vis_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - dash==2.6.1
+  - dash-bootstrap-components==1.2.1
+  - pandas==1.4.3
+  - spyder-kernels=2.2.1
+  - pip:
+    # Install others
+    #- yahoofinance==3.0.1
