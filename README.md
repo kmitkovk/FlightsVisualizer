@@ -42,7 +42,8 @@
 # 
 
 ### TODO:
-1. finish get_destination_cities_dates_prices
+1. Add VCE Marko-Polo
+1.1 work on coordinates scrape and cache
 2. design the Database for those two outputs
 3. !Move onto UX2!
    1. make a timeline of departures

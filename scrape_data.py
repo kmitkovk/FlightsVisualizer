@@ -29,23 +29,7 @@ from collections import defaultdict
 
 from config import HEADERS, SLEEP_TIME_SHORT, SLEEP_TIME_LONG, ORIGIN_AIRPORTS
 
-#%% Selection (temp)
 
-# test_airports = [ORIGIN_AIRPORTS["Zagreb"].upper()]
-test_airports = [ORIGIN_AIRPORTS[i].upper() for i in ["Zagreb", "Trieste"]]
-test_airports = [ORIGIN_AIRPORTS[i].upper() for i in ["Ljubljana", "Treviso"]]
-test_month_year = "2022-08"
-
-test_mode = True
-if test_mode:
-    inp = input(
-        """You have enabled test mode, code will run ! (not only functions load)
-        If you don't wish to run test, type 'n' and flip test_mode to False
-        Do you wish to continue?(y/n): """
-    )
-    if inp == "n":
-        print("Script did not run")
-        sys.exit()
 #%% Orig-Dest_Country filter
 
 # this function and get_destination_cities should run only once per week
@@ -99,7 +83,7 @@ def get_destination_countries(
 
         url_country_filter = p1 + p2 + p3 + p4 + p5
 
-        sleep = random.random() * SLEEP_TIME_SHORT
+        sleep = random.random() * SLEEP_TIME_SHORT + 1
         print(round(sleep, 1), f"sleep at: {origin} ; {counter} ")
         time.sleep(sleep)
         response_cnt = requests.request("GET", url_country_filter, headers=HEADERS)
@@ -134,10 +118,6 @@ def get_destination_countries(
     )
 
 
-if test_mode:
-    test_countries_all = get_destination_countries(test_airports, test_month_year)
-    test_countries = test_countries_all.iloc[-8:-2]
-    print(test_countries)
 #%% Orig-Dest_City filter
 
 # this function and get_destination_countries should run only once per week
@@ -200,7 +180,7 @@ def get_destination_cities(
         p5 = "isMobilePhone=false&isOptedInForPersonalised=true"
         url_cities_filter = p1 + p2 + p3 + p4 + p5
 
-        sleep = random.random() * SLEEP_TIME_SHORT
+        sleep = random.random() * SLEEP_TIME_SHORT + 1
         print(
             round(sleep, 1), f"sleep at: {origin}-{dest_cnt_ISO_2} ; {counter} cities"
         )
@@ -251,17 +231,6 @@ def get_destination_cities(
     )
 
 
-if test_mode:
-    test_cities = get_destination_cities(test_countries_all, test_month_year)
-    print(test_cities)
-    # cache data
-    # test_cities.to_csv(r'data/cache_dest_cities.csv')
-    data = pd.read_csv(r"data/cache_dest_cities.csv", parse_dates=["timestamp"]).drop(
-        "Unnamed: 0", axis=1
-    )
-
-    test_calendar = data.loc[:, ["origin", "dest_city_code"]]
-    test_calendar = data.iloc[:2].loc[:, ["origin", "dest_city_code"]]
 #%% Orig-Dest_City dates and prices
 
 # this function can be run to update prices and dates every other day
@@ -297,7 +266,13 @@ def get_destination_cities_dates_prices(
     Returns
     -------
     pd.DataFrame
-        .................................................
+        trace_id:str -> id of the trace the price is backed out with
+        flight:str -> origin-dest_airport pair such as SOF_ZAG
+        departure_date:object -> date of departure of flight
+        price:float -> price of flight
+        origin:str -> three-letter code of the origin city (not 'from'!)
+        dest_city_code:str -> four-letter code of the destination city
+        timestamp:datetime -> timestamp of moment of accessing the data
 
     """
     df = pd.DataFrame()
@@ -315,7 +290,7 @@ def get_destination_cities_dates_prices(
 
             for month_pair in outb_inb_months_pairs:
 
-                sleep = random.random() * SLEEP_TIME_LONG
+                sleep = random.random() * SLEEP_TIME_LONG + 1
 
                 if month_pair[1] == "outb":
                     p1 = "https://www.skyscanner.net/g/monthviewservice/SI/EUR/en-GB/calendar/"
@@ -386,6 +361,8 @@ def get_destination_cities_dates_prices(
                     )
 
                     df_flights = df_flights[df_flights.price < max_price]
+                    df_flights["origin"] = origin
+                    df_flights["dest_city_code"] = dest_city_code
                     df_flights["timestamp"] = pd.Timestamp("now").floor("Min")
 
                     df = pd.concat([df, df_flights])
@@ -399,24 +376,36 @@ def get_destination_cities_dates_prices(
             # TODO cache the origin->destination data
     df["flight"] = df["from"] + "_" + df["to"]
     df.departure_date = pd.to_datetime(df.departure_date, format="%Y%m%d").dt.date
-    return df.loc[:, ["trace_id", "flight", "departure_date", "price", "timestamp"]]
+    return df.loc[
+        :,
+        [
+            "trace_id",
+            "flight",
+            "departure_date",
+            "price",
+            "origin",
+            "dest_city_code",
+            "timestamp",
+        ],
+    ]
 
 
-if test_mode:
-    # test_price_cal = get_destination_cities_dates_prices(test_calendar,['2022-08'],['2022-08'])
-    test_price_cal = get_destination_cities_dates_prices(
-        test_calendar, ["2022-09"], ["2022-09"]
-    )
+#%% Selection (temp)
 
-#%% -----END-----
+month1 = "2022-09"
+test_airports = ['SOF']
+test_airports = [ORIGIN_AIRPORTS["Zagreb"].upper()]
+test_airports_all = [ORIGIN_AIRPORTS[i].upper() for i in ORIGIN_AIRPORTS]
 
 if False:
-    dest_countries = get_destination_countries(["SOF"], "2022-08")
+    dest_countries = get_destination_countries(test_airports, month1)
 
-    dest_cities = get_destination_cities(dest_countries, "2022-08")
+    dest_cities = get_destination_cities(dest_countries, month1)
 
     dest_cities_dates_prices = get_destination_cities_dates_prices(
-        dest_cities.loc[:, ["origin", "dest_city_code"]], ["2022-08"], ["2022-08"]
+        dest_cities.loc[:, ["origin", "dest_city_code"]],
+        [month1],
+        [month1],
     )
 
     if False:
@@ -425,3 +414,5 @@ if False:
         ).drop("Unnamed: 0", axis=1)
         df = pd.concat([old_test, dest_cities_dates_prices])
         df.to_csv(r"data/data_dest_price_dates.csv")
+
+#%% -----END-----
