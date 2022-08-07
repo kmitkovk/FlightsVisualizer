@@ -1,100 +1,100 @@
-continent;country_name;country_code_iso2;region_name;city_name;city_code;city_image_url;airport_name;airport_code_IATA;airport_type;aiport_lat;airport_lon
-EU;Germany;DE;Berlin;Berlin;BERL;https://content.skyscnr.com/588e330bc635d38f64eb8fe3f61d2e47/stock-photo-golden-hour-skyline-berlin-113819803.jpg;Berlin Brandenburg Airport (U.C.);BER;closed;52.35138889;13.49388889
-EU;Belgium;BE;Brussels;Brussels;BRUS;https://content.skyscnr.com/7f99e0b77af76bf7e89a614cba3a1d9d/GettyImages-517851449.jpg;Brussels South Charleroi Airport;CRL;large_airport;50.459202;4.45382
-EU;Germany;DE;Cologne;Cologne;COLO;https://content.skyscnr.com/6a75b2e121f555167dba8bf647cd4e93/cologne.jpg;Cologne Bonn Airport;CGN;large_airport;50.86589813;7.142739773
-EU;Germany;DE;Stuttgart;Stuttgart;STUT;https://content.skyscnr.com/m/0c5081fc40bb725f/Large-GettyImages-489946082.jpg;Stuttgart Airport;STR;large_airport;48.68989944;9.221960068
-EU;Germany;DE;Frankfurt;Frankfurt am Main;FRAN;https://content.skyscnr.com/e286ff180a40d9376f18c9c2b314565f/GettyImages-510973985.jpg;Frankfurt-Hahn Airport;HHN;medium_airport;49.9487;7.26389
-EU;Germany;DE;Memmingen;Memmingen;MEMB;https://content.skyscnr.com/bd9a58c269dbd515bf617e222aa02e59/memmingen.jpg;Memmingen Allgau Airport;FMM;medium_airport;47.98880005;10.23950005
-EU;Germany;DE;Dusseldorf;Weeze;DUSS;https://content.skyscnr.com/79e529e0b33906841f37364d885a83ee/dusseldorf-germany.jpg;Weeze Airport;NRN;medium_airport;51.60240173;6.142169952
-EU;Germany;DE;Dortmund;Dortmund;DORT;https://content.skyscnr.com/3d1d174379607e5a48834b1a1cb70a72/GettyImages-531100581.jpg;Dortmund Airport;DTM;large_airport;51.5182991;7.612239838
-EU;Germany;DE;Baden-Baden;Baden-Baden;BADE;https://content.skyscnr.com/063edf3feb4d83c47815645f11e5c9ea/GettyImages-480156090.jpg;Karlsruhe Baden-Baden Airport;FKB;large_airport;48.77939987;8.080499649
-EU;United Kingdom;UK;Manchester;Manchester;MANC;https://content.skyscnr.com/d05e3e7b0fbfb30e92dbd8e2839b00b0/GettyImages-465556436.jpg;Manchester Airport;MAN;large_airport;53.35369873;-2.274950027
-EU;United Kingdom;UK;Bristol;Bristol;BRIS;https://content.skyscnr.com/93b3b0db087d3993d4f57e7fbb17e507/GettyImages-461988835.jpg;Bristol Airport;BRS;large_airport;51.382702;-2.71909
-EU;United Kingdom;UK;London;London;LOND;https://content.skyscnr.com/m/1a55403f63baf856/Large-London-England-Aug-2017-Brendan-van-Son-5.jpg;London Luton Airport;LTN;large_airport;51.87469864;-0.368333012
-EU;United Kingdom;UK;London;London;LOND;https://content.skyscnr.com/m/1a55403f63baf856/Large-London-England-Aug-2017-Brendan-van-Son-5.jpg;London Gatwick Airport;LGW;large_airport;51.148102;-0.190278
-EU;United Kingdom;UK;London;London;LOND;https://content.skyscnr.com/m/1a55403f63baf856/Large-London-England-Aug-2017-Brendan-van-Son-5.jpg;London Heathrow Airport;LHR;large_airport;51.4706;-0.461941
-EU;United Kingdom;UK;Nottingham;Nottingham;NOTT;https://content.skyscnr.com/08b29dbfb6c59f348c6ff686b73083aa/GettyImages-121081723.jpg;East Midlands Airport;EMA;large_airport;52.83110046;-1.328060031
-EU;United Kingdom;UK;Edinburgh;Edinburgh;EDIN;https://content.skyscnr.com/m/6d19e536df299d24/original/edinburgh-sailsbury.jpg;Edinburgh Airport;EDI;large_airport;55.95000076;-3.372499943
-EU;United Kingdom;UK;London;London;LOND;https://content.skyscnr.com/m/1a55403f63baf856/Large-London-England-Aug-2017-Brendan-van-Son-5.jpg;London Stansted Airport;STN;large_airport;51.88499832;0.234999999
-EU;Netherlands;NL;Eindhoven;Eindhoven;EIND;https://content.skyscnr.com/5a1e2c13c96cf32aef643dcebb73b3de/GettyImages-508786473.jpg;Eindhoven Airport;EIN;large_airport;51.45009995;5.374529839
-EU;Ireland;IE;Dublin;Dublin;DUBL;https://content.skyscnr.com/34f61dd7f8deb4059c12b0b8de9ee002/GettyImages-472229890.jpg;Dublin Airport;DUB;large_airport;53.421299;-6.27007
-EU;Denmark;DK;Billund;Billund;BILL;;Billund Airport;BLL;large_airport;55.74029922;9.151780128
-EU;Norway;NO;Oslo;Torp;OSLO;https://content.skyscnr.com/8ab21fe9e704f373e61689e635e63c60/GettyImages-498373538.jpg;Sandefjord Airport, Torp;TRF;medium_airport;59.18669891;10.25860024
-EU;Poland;PL;Krakow;KrakÛw;KRAK;https://content.skyscnr.com/f7f6af4f80f12335dd8b34745ce453a4/krakow.jpg;KrakÛw John Paul II International Airport;KRK;large_airport;50.077702;19.7848
-EU;Poland;PL;Nowy Dwor Mazowiecki;Warsaw;WMIP;;Modlin Airport;WMI;large_airport;52.451099;20.6518
-EU;Poland;PL;Poznan;PoznaÒ;POZN;https://content.skyscnr.com/25d8e7ad6875d8b3332461fb2ed6ecf9/GettyImages-122449338.jpg;PoznaÒ-£awica Airport;POZ;large_airport;52.42100143;16.82629967
-EU;Poland;PL;Wroclaw;Wroc≥aw;WROC;https://content.skyscnr.com/7387d4b223075dd116e68295d7ae2f19/GettyImages-470289252.jpg;Copernicus Wroc≥aw Airport;WRO;large_airport;51.10269928;16.88579941
-EU;Sweden;SE;Gothenburg;Gothenburg;GOTH;https://content.skyscnr.com/c5156abcd5921e402b9fb95ce45c4813/GettyImages-160087670.jpg;Gothenburg-Landvetter Airport;GOT;large_airport;57.66279984;12.27980042
-EU;Sweden;SE;Malmo;Malmˆ;MALM;https://content.skyscnr.com/62e6ec87196f90c906c29496e41f5f6d/GettyImages-139465515.jpg;Malmˆ Sturup Airport;MMX;large_airport;55.53630536;13.37619781
-EU;Latvia;LV;Riga;Riga;RIGA;https://content.skyscnr.com/de54d44c70db4a743503a0914ad532b8/GettyImages-492496777.jpg;Riga International Airport;RIX;large_airport;56.92359924;23.97109985
-EU;Spain;ES;Lanzarote;Lanzarote Island;ARRE;https://content.skyscnr.com/8f05010aa03fd05aa210ab04d5edc14d/GettyImages-453466115.jpg;Lanzarote Airport;ACE;medium_airport;28.945499;-13.6052
-EU;Spain;ES;Tenerife;Tenerife Island;TENE;https://content.skyscnr.com/m/5954933ffe79635b/original/eyeem-28451928-143557105.jpg;Tenerife South Airport;TFS;large_airport;28.04450035;-16.57250023
-AF;Morocco;MA;Fes;Fes;FEZS;https://content.skyscnr.com/4b19700352746a7fb855fe958141736f/GettyImages-484651575.jpg;Sa?ss Airport;FEZ;medium_airport;33.9272995;-4.97796011
-AF;Morocco;MA;Marrakech;Marrakech;MARR;https://content.skyscnr.com/bae843c92aa2a7255d3b044d8f50465a/GettyImages-183941001.jpg;Menara Airport;RAK;medium_airport;31.60689926;-8.036299706
-EU;Albania;AL;Tirana;Tirana;TIRA;https://content.skyscnr.com/d4acb8b30e8cfcb36db339ce50fd23ae/GettyImages-485428808.jpg;Tirana International Airport Mother Teresa;TIA;large_airport;41.41469955;19.72060013
-EU;Bulgaria;BG;Bourgas;Burgas;BURG;https://content.skyscnr.com/b64b2d5260f7cd2ca30207536a1b7e87/GettyImages-464037337.jpg;Burgas Airport;BOJ;large_airport;42.56959915;27.51519966
-EU;Bulgaria;BG;Sofia;Sofia;SOFI;https://content.skyscnr.com/31593d990b83848a59eaa86c40d5eb24/sofia.jpg;Sofia Airport;SOF;large_airport;42.69669342;23.41143608
-EU;Bulgaria;BG;Varna;Varna;VARN;https://content.skyscnr.com/071fa18c180a418f5f650a9ce5ee2300/GettyImages-462030965.jpg;Varna Airport;VAR;large_airport;43.232101;27.8251
-AS;Cyprus;CY;Larnaca;Larnarca;LARN;https://content.skyscnr.com/19f19f5c154529162d48a79cfbe41dc1/GettyImages-118980041.jpg;Larnaca International Airport;LCA;large_airport;34.87509918;33.62490082
-AS;Cyprus;CY;Paphos;Paphos;PAPH;https://content.skyscnr.com/0a849c421a2db497fec2f8576eb37a49/GettyImages-178526577.jpg;Paphos International Airport;PFO;large_airport;34.7179985;32.4856987
-EU;Croatia;HR;Dubrovnik;Dubrovnik;DUBR;https://content.skyscnr.com/844ae2f6ebd9628b7e91219738eccb48/croatia-dubrovnik-3491.jpg;Dubrovnik Airport;DBV;medium_airport;42.56140137;18.26819992
-EU;Croatia;HR;Pula;Pula;PULA;https://content.skyscnr.com/m/5bd1bed123cceb1e/original/GettyImages-450473963.jpg;Pula Airport;PUY;medium_airport;44.89350128;13.9222002
-EU;Croatia;HR;Bol;BraË Island;BOLL;https://content.skyscnr.com/m/5b0e5962706c7b1f/Large-GettyImages-156940828_doc.jpg;Bol Airport;BWK;medium_airport;43.28570175;16.67970085
-EU;Croatia;HR;Split;Split;SPLI;https://content.skyscnr.com/d546c6a9ef565175c15121d026cbadef/croatia-split-2498.jpg;Split Airport;SPU;medium_airport;43.53889847;16.29800034
-EU;Croatia;HR;Zagreb;Zagreb;ZAGR;https://content.skyscnr.com/bdea895ca2746a767312cb9ff9ab9186/GettyImages-502736148.jpg;Zagreb Airport;ZAG;large_airport;45.74290085;16.06879997
-EU;Croatia;HR;Zadar;Zemunik;ZADA;https://content.skyscnr.com/24777087c57c297affbe432734885f52/GettyImages-101093871.jpg;Zadar Airport;ZAD;medium_airport;44.108299;15.3467
-EU;Spain;ES;Alicante;Alicante;ALIC;https://content.skyscnr.com/2df165e46db19d6bcbb86e556a49a1bf/alicante.jpg;Alicante International Airport;ALC;large_airport;38.28219986;-0.558156013
-EU;Spain;ES;Barcelona;Barcelona;BARC;https://content.skyscnr.com/7adba3a46af3ca29695f96937d19fcf1/GettyImages-149127892.jpg;Barcelona International Airport;BCN;large_airport;41.2971;2.07846
-EU;Spain;ES;Ibiza;Ibiza;IBIZ;https://content.skyscnr.com/d5a71bb9ad10ed943ce61251761be64a/GettyImages-177133241.jpg;Ibiza Airport;IBZ;medium_airport;38.8728981;1.37311995
-EU;Spain;ES;Madrid;Madrid;MADR;https://content.skyscnr.com/13ce98b674f110e5466fea801ffb05bd/madrid.jpg;Adolfo Su·rez MadridñBarajas Airport;MAD;large_airport;40.471926;-3.56264
-EU;Spain;ES;M√°laga;M·laga;MALA;https://content.skyscnr.com/885adc49a58167bc2bfc0ec3176095d1/GettyImages-178637651.jpg;M·laga Airport;AGP;large_airport;36.67490005;-4.499110222
-EU;Spain;ES;Palma;Palma De Mallorca;PALM;https://content.skyscnr.com/c643eed202678c7de51c5ed5856998e4/GettyImages-497942480.jpg;Palma De Mallorca Airport;PMI;large_airport;39.55170059;2.738810062
-EU;Spain;ES;Valencia;Valencia;VALE;https://content.skyscnr.com/m/2151532d1a93105c/original/Guide-Page-Image-Valencia.JPG;Valencia Airport;VLC;medium_airport;39.4893;-0.481625
-EU;Spain;ES;Seville;Sevilla;SEVI;https://content.skyscnr.com/7b3a368cac5b45d17fc01b6122cc68b0/GettyImages-536922069.jpg;Sevilla Airport;SVQ;medium_airport;37.41799927;-5.893109798
-EU;France;FR;Bordeaux;Bordeaux/MÈrignac;BORD;https://content.skyscnr.com/005082c7873ca4adbaefb1591707f478/GettyImages-468330194.jpg;Bordeaux-MÈrignac Airport;BOD;large_airport;44.82830048;-0.715556026
-EU;France;FR;Nice;Nice;NICE;https://content.skyscnr.com/m/2bdff4db01b0769f/original/GettyImages-467077004.jpg;Nice-CÙte d'Azur Airport;NCE;large_airport;43.65840149;7.215869904
-EU;France;FR;Paris;Beauvais/TillÈ;PARI;https://content.skyscnr.com/m/37e282443afc0ff7/original/Paris-2016-10.jpg;Paris Beauvais TillÈ Airport;BVA;medium_airport;49.45439911;2.112780094
-EU;France;FR;Paris;Paris;PARI;https://content.skyscnr.com/m/37e282443afc0ff7/original/Paris-2016-10.jpg;Charles de Gaulle International Airport;CDG;large_airport;49.012798;2.55
-EU;France;FR;Paris;Paris;PARI;https://content.skyscnr.com/m/37e282443afc0ff7/original/Paris-2016-10.jpg;Paris-Orly Airport;ORY;large_airport;48.7233333;2.3794444
-EU;France;FR;Basel;B‚le/Mulhouse;BASE;https://content.skyscnr.com/6639f27bacf31c97099755cbf54bb392/GettyImages-481566200.jpg;EuroAirport Basel-Mulhouse-Freiburg Airport;BSL;large_airport;47.59;7.5291667
-EU;Greece;GR;Athens;Athens;ATHE;https://content.skyscnr.com/26babb582bc1d7572fed1877d7f81fa6/GettyImages-181391203.jpg;Eleftherios Venizelos International Airport;ATH;large_airport;37.93640137;23.94449997
-EU;Greece;GR;Crete;Heraklion;CRET;https://content.skyscnr.com/9e0c2b3096d0c8feafac2bf9cc31c501/crete.jpg;Heraklion International Nikos Kazantzakis Airport;HER;large_airport;35.33969879;25.18029976
-EU;Greece;GR;Kos;Kos Island;KOSS;https://content.skyscnr.com/c82b38a5e328ac7475580341be7cb5e3/GettyImages-156518965.jpg;Kos Airport;KGS;medium_airport;36.79330063;27.0916996
-EU;Greece;GR;Corfu;Kerkyra Island;CORF;https://content.skyscnr.com/m/184f9cd93cc464eb/Large-GettyImages-486664034.jpg;Ioannis Kapodistrias International Airport;CFU;medium_airport;39.60189819;19.9116993
-EU;Greece;GR;Mykonos;Mykonos Island;MIKO;https://content.skyscnr.com/0837c6929401ed32ec1a8399768a448d/GettyImages-465970722.jpg;Mikonos Airport;JMK;medium_airport;37.43510056;25.34810066
-EU;Greece;GR;Crete;Souda;CRET;https://content.skyscnr.com/9e0c2b3096d0c8feafac2bf9cc31c501/crete.jpg;Chania International Airport;CHQ;medium_airport;35.53170013;24.14970016
-EU;Greece;GR;Thessaloniki;Thessaloniki;THES;https://content.skyscnr.com/c0f3616be7ab932f72a23f3507315f44/GettyImages-162545242.jpg;Thessaloniki Macedonia International Airport;SKG;large_airport;40.5196991;22.97089958
-EU;Hungary;HU;Budapest;Budapest;BUDA;https://content.skyscnr.com/m/1c7b8e0703dcc64/original/Budapest-Citadella.jpg;Budapest Liszt Ferenc International Airport;BUD;large_airport;47.42976;19.261093
-EU;Italy;IT;Bari;Bari;BARI;https://content.skyscnr.com/m/3930ff32e7360c83/Large-eyeem-26694340-130154301.jpg;Bari Karol Wojty≥a Airport;BRI;large_airport;41.138901;16.760599
-EU;Italy;IT;Brindisi;Brindisi;BRIN;https://content.skyscnr.com/f7f059e28e04b44737f527b459f8d638/GettyImages-490477064.jpg;Brindisi ñ Salento Airport;BDS;medium_airport;40.6576;17.947001
-EU;Italy;IT;Lamezia Terme;Lamezia Terme;MARA;https://content.skyscnr.com/m/fae19a45fbb9458/original/eyeem-26694340-135367311.jpg;Lamezia Terme Airport;SUF;medium_airport;38.905399;16.2423
-EU;Italy;IT;Catania;Catania;CATA;https://content.skyscnr.com/551ee1c8b7ed734978a498dc05f85d83/GettyImages-467692542.jpg;Catania-Fontanarossa Airport;CTA;large_airport;37.466801;15.0664
-EU;Italy;IT;Palermo;Palermo;PALE;https://content.skyscnr.com/b5b377433a4dd4788bd9a767d90d1555/GettyImages-471536974.jpg;FalconeñBorsellino Airport;PMO;large_airport;38.175999;13.091
-EU;Italy;IT;Trapani;Trapani;TRAP;https://content.skyscnr.com/bc9d50a8707c2a3faf1c430c4973cfe0/eyeem-26693940-126565453.jpg;Vincenzo Florio Airport Trapani-Birgi;TPS;medium_airport;37.9114;12.488
-EU;Italy;IT;Cagliari;Cagliari;CAGL;https://content.skyscnr.com/m/1c520904cb530a78/original/eyeem-26694340-131957363.jpg;Cagliari Elmas Airport;CAG;large_airport;39.251499;9.05428
-EU;Italy;IT;Olbia;Olbia;OLBI;https://content.skyscnr.com/m/329e1b9ba93fbc6d/original/eyeem-26694340-109665343.jpg;Olbia Costa Smeralda Airport;OLB;medium_airport;40.898701;9.51763
-EU;Italy;IT;Milan;Bergamo;MILA;https://content.skyscnr.com/0f320987e189f43d5256fd38df04a977/GettyImages-461823317.jpg;Il Caravaggio International Airport;BGY;large_airport;45.673901;9.70417
-EU;Italy;IT;Bologna;Bologna;BOLO;https://content.skyscnr.com/e0ed7f0c0c4807256fbfb586c7553b41/bologna.jpg;Bologna Guglielmo Marconi Airport;BLQ;large_airport;44.5354;11.2887
-EU;Italy;IT;Venice;Treviso;VENI;https://content.skyscnr.com/2a72a6087b8bee22ab2c798e61bee6fe/venice.jpg;Treviso-Sant'Angelo Airport;TSF;large_airport;45.648399;12.1944
-EU;Italy;IT;Trieste;Trieste;TRIE;https://content.skyscnr.com/153de701476d5bc8cd228c85955e4a8d/GettyImages-484950503.jpg;TriesteñFriuli Venezia Giulia Airport;TRS;medium_airport;45.827499;13.4722
-EU;Italy;IT;Rome;Rome;ROME;https://content.skyscnr.com/562fb1d3b394e92393671562fe241138/stock-photo-st-peter-s-basilica-83184691.jpg;CiampinoñG. B. Pastine International Airport;CIA;large_airport;41.7994;12.5949
-EU;Italy;IT;Rome;Rome;ROME;https://content.skyscnr.com/562fb1d3b394e92393671562fe241138/stock-photo-st-peter-s-basilica-83184691.jpg;Leonardo da VinciñFiumicino Airport;FCO;large_airport;41.8002778;12.2388889
-EU;Italy;IT;Naples;N·poli;NAPL;https://content.skyscnr.com/m/0f141bf76cf06068/Large-napl_139999980_doc.jpg;Naples International Airport;NAP;large_airport;40.886002;14.2908
-EU;Slovenia;SI;Ljubljana;Ljubljana;LJUB;https://content.skyscnr.com/119b73c5f7597401e98579c81634e8e5/GettyImages-495685019.jpg;Ljubljana Joûe PuËnik Airport;LJU;large_airport;46.223701;14.4576
-EU;Czechia;CZ;Prague;Prague;PRAG;https://content.skyscnr.com/6f3779016c23190fadcdc6f500f5dc11/GettyImages-464420602.jpg;V·clav Havel Airport Prague;PRG;large_airport;50.1008;14.26
-AS;Israel;IL;Tel Aviv;Tel Aviv;TELA;https://content.skyscnr.com/f5c3712b7fe4d1bdbb7e84261abbf904/GettyImages-486858743.jpg;Ben Gurion International Airport;TLV;large_airport;32.01139832;34.88669968
-EU;Malta;MT;Valletta;Valletta;MLAA;https://content.skyscnr.com/m/8065ff02c4914c/original/Valletta-aerial-shot.jpg;Malta International Airport;MLA;large_airport;35.857498;14.4775
-EU;Portugal;PT;Porto;Porto;PORT;https://content.skyscnr.com/933c6cedb8bc5ea82505271747cf3707/porto.jpg;Francisco de S· Carneiro Airport;OPO;large_airport;41.24810028;-8.681389809
-EU;Portugal;PT;Lisbon;Lisbon;LISB;https://content.skyscnr.com/e48dd065c801bef1b761c506a5a2fde9/GettyImages-467824014.jpg;Humberto Delgado Airport (Lisbon Portela Airport);LIS;large_airport;38.7813;-9.13592
-EU;Bosnia and Herzegovina;BA;Sarajevo;Sarajevo;SARA;https://content.skyscnr.com/49e574742f759ce4dd8d0d6d48e57d40/GettyImages-480404012.jpg;Sarajevo International Airport;SJJ;large_airport;43.82460022;18.3314991
-EU;Romania;RO;Cluj-Napoca;Cluj-Napoca;CLUJ;https://content.skyscnr.com/e2c4ce717878fc7ea04e0a72d00c023d/GettyImages-502724313.jpg;Cluj-Napoca International Airport;CLJ;medium_airport;46.78519821;23.68619919
-EU;Romania;RO;Iasi;Ia∫i;IASI;https://content.skyscnr.com/4897ee326c41f194189be4a10fac9785/GettyImages-508830832.jpg;Ia∫i Airport;IAS;medium_airport;47.17850113;27.62059975
-EU;Romania;RO;Bucharest;Bucharest;BUCH;https://content.skyscnr.com/m/4dc3cee04825a86f/original/GettyImages-149110112_doc.jpg;Henri Coand„ International Airport;OTP;large_airport;44.5711111;26.085
-EU;Romania;RO;Sibiu;Sibiu;SIBI;https://content.skyscnr.com/dce169877fc4c05c5d0c983d67647467/GettyImages-507292252.jpg;Sibiu International Airport;SBZ;medium_airport;45.78559875;24.09129906
-EU;Romania;RO;Suceava Salcea;Suceava;SUCE;;Suceava Stefan cel Mare Airport;SCV;medium_airport;47.6875;26.35409927
-EU;North Macedonia;MK;Skopje;Skopje;SKOP;https://content.skyscnr.com/690e1d8632f1ac1e07c4cf957c4964fb/GettyImages-476208185.jpg;Skopje Alexander the Great Airport;SKP;large_airport;41.961601;21.621401
-EU;Serbia;RS;Belgrade;Belgrade;BELI;https://content.skyscnr.com/d1831c1a59e1ea608773be52b099f7b4/GettyImages-177007038.jpg;Belgrade Nikola Tesla Airport;BEG;large_airport;44.81840134;20.3090992
-EU;Serbia;RS;Nis;Nis;NISI;;Nis Airport;INI;medium_airport;43.337299;21.853701
-EU;Montenegro;ME;Podgorica;Podgorica;PODG;https://content.skyscnr.com/f71a8075838fbaae6be68304d1eaab4a/GettyImages-479863398.jpg;Podgorica Airport;TGD;large_airport;42.359402;19.2519
-EU;Montenegro;ME;Tivat;Tivat;TIVA;https://content.skyscnr.com/d59e71ab895abcc7212b4920f7e8abe9/GettyImages-468534036.jpg;Tivat Airport;TIV;medium_airport;42.40470123;18.72330093
-EU;Slovakia;SK;Bratislava;Bratislava;BRAS;https://content.skyscnr.com/306b82b70a621c16a4ff68497efca061/GettyImages-530970203.jpg;M. R. ätef·nik Airport;BTS;large_airport;48.17020035;17.21269989
+,continent,country_name,country_code_iso2,region_name,city_name,city_code,city_image_url,airport_name,airport_code_IATA,airport_type,aiport_lat,airport_lon
+0,EU,Germany,DE,Berlin,Berlin,BERL,https://content.skyscnr.com/588e330bc635d38f64eb8fe3f61d2e47/stock-photo-golden-hour-skyline-berlin-113819803.jpg,Berlin Brandenburg Airport (U.C.),BER,closed,52.35138889,13.49388889
+1,EU,Belgium,BE,Brussels,Brussels,BRUS,https://content.skyscnr.com/7f99e0b77af76bf7e89a614cba3a1d9d/GettyImages-517851449.jpg,Brussels South Charleroi Airport,CRL,large_airport,50.459202,4.45382
+2,EU,Germany,DE,Cologne,Cologne,COLO,https://content.skyscnr.com/6a75b2e121f555167dba8bf647cd4e93/cologne.jpg,Cologne Bonn Airport,CGN,large_airport,50.86589813,7.142739773
+3,EU,Germany,DE,Stuttgart,Stuttgart,STUT,https://content.skyscnr.com/m/0c5081fc40bb725f/Large-GettyImages-489946082.jpg,Stuttgart Airport,STR,large_airport,48.68989944,9.221960068
+4,EU,Germany,DE,Frankfurt,Frankfurt am Main,FRAN,https://content.skyscnr.com/e286ff180a40d9376f18c9c2b314565f/GettyImages-510973985.jpg,Frankfurt-Hahn Airport,HHN,medium_airport,49.9487,7.26389
+5,EU,Germany,DE,Memmingen,Memmingen,MEMB,https://content.skyscnr.com/bd9a58c269dbd515bf617e222aa02e59/memmingen.jpg,Memmingen Allgau Airport,FMM,medium_airport,47.98880005,10.23950005
+6,EU,Germany,DE,Dusseldorf,Weeze,DUSS,https://content.skyscnr.com/79e529e0b33906841f37364d885a83ee/dusseldorf-germany.jpg,Weeze Airport,NRN,medium_airport,51.60240173,6.142169952
+7,EU,Germany,DE,Dortmund,Dortmund,DORT,https://content.skyscnr.com/3d1d174379607e5a48834b1a1cb70a72/GettyImages-531100581.jpg,Dortmund Airport,DTM,large_airport,51.5182991,7.612239838
+8,EU,Germany,DE,Baden-Baden,Baden-Baden,BADE,https://content.skyscnr.com/063edf3feb4d83c47815645f11e5c9ea/GettyImages-480156090.jpg,Karlsruhe Baden-Baden Airport,FKB,large_airport,48.77939987,8.080499649
+9,EU,United Kingdom,UK,Manchester,Manchester,MANC,https://content.skyscnr.com/d05e3e7b0fbfb30e92dbd8e2839b00b0/GettyImages-465556436.jpg,Manchester Airport,MAN,large_airport,53.35369873,-2.274950027
+10,EU,United Kingdom,UK,Bristol,Bristol,BRIS,https://content.skyscnr.com/93b3b0db087d3993d4f57e7fbb17e507/GettyImages-461988835.jpg,Bristol Airport,BRS,large_airport,51.382702,-2.71909
+11,EU,United Kingdom,UK,London,London,LOND,https://content.skyscnr.com/m/1a55403f63baf856/Large-London-England-Aug-2017-Brendan-van-Son-5.jpg,London Luton Airport,LTN,large_airport,51.87469864,-0.368333012
+12,EU,United Kingdom,UK,London,London,LOND,https://content.skyscnr.com/m/1a55403f63baf856/Large-London-England-Aug-2017-Brendan-van-Son-5.jpg,London Gatwick Airport,LGW,large_airport,51.148102,-0.190278
+13,EU,United Kingdom,UK,London,London,LOND,https://content.skyscnr.com/m/1a55403f63baf856/Large-London-England-Aug-2017-Brendan-van-Son-5.jpg,London Heathrow Airport,LHR,large_airport,51.4706,-0.461941
+14,EU,United Kingdom,UK,Nottingham,Nottingham,NOTT,https://content.skyscnr.com/08b29dbfb6c59f348c6ff686b73083aa/GettyImages-121081723.jpg,East Midlands Airport,EMA,large_airport,52.83110046,-1.328060031
+15,EU,United Kingdom,UK,Edinburgh,Edinburgh,EDIN,https://content.skyscnr.com/m/6d19e536df299d24/original/edinburgh-sailsbury.jpg,Edinburgh Airport,EDI,large_airport,55.95000076,-3.372499943
+16,EU,United Kingdom,UK,London,London,LOND,https://content.skyscnr.com/m/1a55403f63baf856/Large-London-England-Aug-2017-Brendan-van-Son-5.jpg,London Stansted Airport,STN,large_airport,51.88499832,0.234999999
+17,EU,Netherlands,NL,Eindhoven,Eindhoven,EIND,https://content.skyscnr.com/5a1e2c13c96cf32aef643dcebb73b3de/GettyImages-508786473.jpg,Eindhoven Airport,EIN,large_airport,51.45009995,5.374529839
+18,EU,Ireland,IE,Dublin,Dublin,DUBL,https://content.skyscnr.com/34f61dd7f8deb4059c12b0b8de9ee002/GettyImages-472229890.jpg,Dublin Airport,DUB,large_airport,53.421299,-6.27007
+19,EU,Denmark,DK,Billund,Billund,BILL,,Billund Airport,BLL,large_airport,55.74029922,9.151780128
+20,EU,Norway,NO,Oslo,Torp,OSLO,https://content.skyscnr.com/8ab21fe9e704f373e61689e635e63c60/GettyImages-498373538.jpg,"Sandefjord Airport, Torp",TRF,medium_airport,59.18669891,10.25860024
+21,EU,Poland,PL,Krakow,Krak√≥w,KRAK,https://content.skyscnr.com/f7f6af4f80f12335dd8b34745ce453a4/krakow.jpg,Krak√≥w John Paul II International Airport,KRK,large_airport,50.077702,19.7848
+22,EU,Poland,PL,Nowy Dwor Mazowiecki,Warsaw,WMIP,,Modlin Airport,WMI,large_airport,52.451099,20.6518
+23,EU,Poland,PL,Poznan,Pozna≈Ñ,POZN,https://content.skyscnr.com/25d8e7ad6875d8b3332461fb2ed6ecf9/GettyImages-122449338.jpg,Pozna≈Ñ-≈Åawica Airport,POZ,large_airport,52.42100143,16.82629967
+24,EU,Poland,PL,Wroclaw,Wroc≈Çaw,WROC,https://content.skyscnr.com/7387d4b223075dd116e68295d7ae2f19/GettyImages-470289252.jpg,Copernicus Wroc≈Çaw Airport,WRO,large_airport,51.10269928,16.88579941
+25,EU,Sweden,SE,Gothenburg,Gothenburg,GOTH,https://content.skyscnr.com/c5156abcd5921e402b9fb95ce45c4813/GettyImages-160087670.jpg,Gothenburg-Landvetter Airport,GOT,large_airport,57.66279984,12.27980042
+26,EU,Sweden,SE,Malmo,Malm√∂,MALM,https://content.skyscnr.com/62e6ec87196f90c906c29496e41f5f6d/GettyImages-139465515.jpg,Malm√∂ Sturup Airport,MMX,large_airport,55.53630536,13.37619781
+27,EU,Latvia,LV,Riga,Riga,RIGA,https://content.skyscnr.com/de54d44c70db4a743503a0914ad532b8/GettyImages-492496777.jpg,Riga International Airport,RIX,large_airport,56.92359924,23.97109985
+28,EU,Spain,ES,Lanzarote,Lanzarote Island,ARRE,https://content.skyscnr.com/8f05010aa03fd05aa210ab04d5edc14d/GettyImages-453466115.jpg,Lanzarote Airport,ACE,medium_airport,28.945499,-13.6052
+29,EU,Spain,ES,Tenerife,Tenerife Island,TENE,https://content.skyscnr.com/m/5954933ffe79635b/original/eyeem-28451928-143557105.jpg,Tenerife South Airport,TFS,large_airport,28.04450035,-16.57250023
+30,AF,Morocco,MA,Fes,Fes,FEZS,https://content.skyscnr.com/4b19700352746a7fb855fe958141736f/GettyImages-484651575.jpg,Sa?ss Airport,FEZ,medium_airport,33.9272995,-4.97796011
+31,AF,Morocco,MA,Marrakech,Marrakech,MARR,https://content.skyscnr.com/bae843c92aa2a7255d3b044d8f50465a/GettyImages-183941001.jpg,Menara Airport,RAK,medium_airport,31.60689926,-8.036299706
+32,EU,Albania,AL,Tirana,Tirana,TIRA,https://content.skyscnr.com/d4acb8b30e8cfcb36db339ce50fd23ae/GettyImages-485428808.jpg,Tirana International Airport Mother Teresa,TIA,large_airport,41.41469955,19.72060013
+33,EU,Bulgaria,BG,Bourgas,Burgas,BURG,https://content.skyscnr.com/b64b2d5260f7cd2ca30207536a1b7e87/GettyImages-464037337.jpg,Burgas Airport,BOJ,large_airport,42.56959915,27.51519966
+34,EU,Bulgaria,BG,Sofia,Sofia,SOFI,https://content.skyscnr.com/31593d990b83848a59eaa86c40d5eb24/sofia.jpg,Sofia Airport,SOF,large_airport,42.69669342,23.41143608
+35,EU,Bulgaria,BG,Varna,Varna,VARN,https://content.skyscnr.com/071fa18c180a418f5f650a9ce5ee2300/GettyImages-462030965.jpg,Varna Airport,VAR,large_airport,43.232101,27.8251
+36,AS,Cyprus,CY,Larnaca,Larnarca,LARN,https://content.skyscnr.com/19f19f5c154529162d48a79cfbe41dc1/GettyImages-118980041.jpg,Larnaca International Airport,LCA,large_airport,34.87509918,33.62490082
+37,AS,Cyprus,CY,Paphos,Paphos,PAPH,https://content.skyscnr.com/0a849c421a2db497fec2f8576eb37a49/GettyImages-178526577.jpg,Paphos International Airport,PFO,large_airport,34.7179985,32.4856987
+38,EU,Croatia,HR,Dubrovnik,Dubrovnik,DUBR,https://content.skyscnr.com/844ae2f6ebd9628b7e91219738eccb48/croatia-dubrovnik-3491.jpg,Dubrovnik Airport,DBV,medium_airport,42.56140137,18.26819992
+39,EU,Croatia,HR,Pula,Pula,PULA,https://content.skyscnr.com/m/5bd1bed123cceb1e/original/GettyImages-450473963.jpg,Pula Airport,PUY,medium_airport,44.89350128,13.9222002
+40,EU,Croatia,HR,Bol,Braƒç Island,BOLL,https://content.skyscnr.com/m/5b0e5962706c7b1f/Large-GettyImages-156940828_doc.jpg,Bol Airport,BWK,medium_airport,43.28570175,16.67970085
+41,EU,Croatia,HR,Split,Split,SPLI,https://content.skyscnr.com/d546c6a9ef565175c15121d026cbadef/croatia-split-2498.jpg,Split Airport,SPU,medium_airport,43.53889847,16.29800034
+42,EU,Croatia,HR,Zagreb,Zagreb,ZAGR,https://content.skyscnr.com/bdea895ca2746a767312cb9ff9ab9186/GettyImages-502736148.jpg,Zagreb Airport,ZAG,large_airport,45.74290085,16.06879997
+43,EU,Croatia,HR,Zadar,Zemunik,ZADA,https://content.skyscnr.com/24777087c57c297affbe432734885f52/GettyImages-101093871.jpg,Zadar Airport,ZAD,medium_airport,44.108299,15.3467
+44,EU,Spain,ES,Alicante,Alicante,ALIC,https://content.skyscnr.com/2df165e46db19d6bcbb86e556a49a1bf/alicante.jpg,Alicante International Airport,ALC,large_airport,38.28219986,-0.558156013
+45,EU,Spain,ES,Barcelona,Barcelona,BARC,https://content.skyscnr.com/7adba3a46af3ca29695f96937d19fcf1/GettyImages-149127892.jpg,Barcelona International Airport,BCN,large_airport,41.2971,2.07846
+46,EU,Spain,ES,Ibiza,Ibiza,IBIZ,https://content.skyscnr.com/d5a71bb9ad10ed943ce61251761be64a/GettyImages-177133241.jpg,Ibiza Airport,IBZ,medium_airport,38.8728981,1.37311995
+47,EU,Spain,ES,Madrid,Madrid,MADR,https://content.skyscnr.com/13ce98b674f110e5466fea801ffb05bd/madrid.jpg,Adolfo Su√°rez Madrid‚ÄìBarajas Airport,MAD,large_airport,40.471926,-3.56264
+48,EU,Spain,ES,MƒÇÀálaga,M√°laga,MALA,https://content.skyscnr.com/885adc49a58167bc2bfc0ec3176095d1/GettyImages-178637651.jpg,M√°laga Airport,AGP,large_airport,36.67490005,-4.499110222
+49,EU,Spain,ES,Palma,Palma De Mallorca,PALM,https://content.skyscnr.com/c643eed202678c7de51c5ed5856998e4/GettyImages-497942480.jpg,Palma De Mallorca Airport,PMI,large_airport,39.55170059,2.738810062
+50,EU,Spain,ES,Valencia,Valencia,VALE,https://content.skyscnr.com/m/2151532d1a93105c/original/Guide-Page-Image-Valencia.JPG,Valencia Airport,VLC,medium_airport,39.4893,-0.481625
+51,EU,Spain,ES,Seville,Sevilla,SEVI,https://content.skyscnr.com/7b3a368cac5b45d17fc01b6122cc68b0/GettyImages-536922069.jpg,Sevilla Airport,SVQ,medium_airport,37.41799927,-5.893109798
+52,EU,France,FR,Bordeaux,Bordeaux/M√©rignac,BORD,https://content.skyscnr.com/005082c7873ca4adbaefb1591707f478/GettyImages-468330194.jpg,Bordeaux-M√©rignac Airport,BOD,large_airport,44.82830048,-0.715556026
+53,EU,France,FR,Nice,Nice,NICE,https://content.skyscnr.com/m/2bdff4db01b0769f/original/GettyImages-467077004.jpg,Nice-C√¥te d'Azur Airport,NCE,large_airport,43.65840149,7.215869904
+54,EU,France,FR,Paris,Beauvais/Till√©,PARI,https://content.skyscnr.com/m/37e282443afc0ff7/original/Paris-2016-10.jpg,Paris Beauvais Till√© Airport,BVA,medium_airport,49.45439911,2.112780094
+55,EU,France,FR,Paris,Paris,PARI,https://content.skyscnr.com/m/37e282443afc0ff7/original/Paris-2016-10.jpg,Charles de Gaulle International Airport,CDG,large_airport,49.012798,2.55
+56,EU,France,FR,Paris,Paris,PARI,https://content.skyscnr.com/m/37e282443afc0ff7/original/Paris-2016-10.jpg,Paris-Orly Airport,ORY,large_airport,48.7233333,2.3794444
+57,EU,France,FR,Basel,B√¢le/Mulhouse,BASE,https://content.skyscnr.com/6639f27bacf31c97099755cbf54bb392/GettyImages-481566200.jpg,EuroAirport Basel-Mulhouse-Freiburg Airport,BSL,large_airport,47.59,7.5291667
+58,EU,Greece,GR,Athens,Athens,ATHE,https://content.skyscnr.com/26babb582bc1d7572fed1877d7f81fa6/GettyImages-181391203.jpg,Eleftherios Venizelos International Airport,ATH,large_airport,37.93640137,23.94449997
+59,EU,Greece,GR,Crete,Heraklion,CRET,https://content.skyscnr.com/9e0c2b3096d0c8feafac2bf9cc31c501/crete.jpg,Heraklion International Nikos Kazantzakis Airport,HER,large_airport,35.33969879,25.18029976
+60,EU,Greece,GR,Kos,Kos Island,KOSS,https://content.skyscnr.com/c82b38a5e328ac7475580341be7cb5e3/GettyImages-156518965.jpg,Kos Airport,KGS,medium_airport,36.79330063,27.0916996
+61,EU,Greece,GR,Corfu,Kerkyra Island,CORF,https://content.skyscnr.com/m/184f9cd93cc464eb/Large-GettyImages-486664034.jpg,Ioannis Kapodistrias International Airport,CFU,medium_airport,39.60189819,19.9116993
+62,EU,Greece,GR,Mykonos,Mykonos Island,MIKO,https://content.skyscnr.com/0837c6929401ed32ec1a8399768a448d/GettyImages-465970722.jpg,Mikonos Airport,JMK,medium_airport,37.43510056,25.34810066
+63,EU,Greece,GR,Crete,Souda,CRET,https://content.skyscnr.com/9e0c2b3096d0c8feafac2bf9cc31c501/crete.jpg,Chania International Airport,CHQ,medium_airport,35.53170013,24.14970016
+64,EU,Greece,GR,Thessaloniki,Thessaloniki,THES,https://content.skyscnr.com/c0f3616be7ab932f72a23f3507315f44/GettyImages-162545242.jpg,Thessaloniki Macedonia International Airport,SKG,large_airport,40.5196991,22.97089958
+65,EU,Hungary,HU,Budapest,Budapest,BUDA,https://content.skyscnr.com/m/1c7b8e0703dcc64/original/Budapest-Citadella.jpg,Budapest Liszt Ferenc International Airport,BUD,large_airport,47.42976,19.261093
+66,EU,Italy,IT,Bari,Bari,BARI,https://content.skyscnr.com/m/3930ff32e7360c83/Large-eyeem-26694340-130154301.jpg,Bari Karol Wojty≈Ça Airport,BRI,large_airport,41.138901,16.760599
+67,EU,Italy,IT,Brindisi,Brindisi,BRIN,https://content.skyscnr.com/f7f059e28e04b44737f527b459f8d638/GettyImages-490477064.jpg,Brindisi ‚Äì Salento Airport,BDS,medium_airport,40.6576,17.947001
+68,EU,Italy,IT,Lamezia Terme,Lamezia Terme,MARA,https://content.skyscnr.com/m/fae19a45fbb9458/original/eyeem-26694340-135367311.jpg,Lamezia Terme Airport,SUF,medium_airport,38.905399,16.2423
+69,EU,Italy,IT,Catania,Catania,CATA,https://content.skyscnr.com/551ee1c8b7ed734978a498dc05f85d83/GettyImages-467692542.jpg,Catania-Fontanarossa Airport,CTA,large_airport,37.466801,15.0664
+70,EU,Italy,IT,Palermo,Palermo,PALE,https://content.skyscnr.com/b5b377433a4dd4788bd9a767d90d1555/GettyImages-471536974.jpg,Falcone‚ÄìBorsellino Airport,PMO,large_airport,38.175999,13.091
+71,EU,Italy,IT,Trapani,Trapani,TRAP,https://content.skyscnr.com/bc9d50a8707c2a3faf1c430c4973cfe0/eyeem-26693940-126565453.jpg,Vincenzo Florio Airport Trapani-Birgi,TPS,medium_airport,37.9114,12.488
+72,EU,Italy,IT,Cagliari,Cagliari,CAGL,https://content.skyscnr.com/m/1c520904cb530a78/original/eyeem-26694340-131957363.jpg,Cagliari Elmas Airport,CAG,large_airport,39.251499,9.05428
+73,EU,Italy,IT,Olbia,Olbia,OLBI,https://content.skyscnr.com/m/329e1b9ba93fbc6d/original/eyeem-26694340-109665343.jpg,Olbia Costa Smeralda Airport,OLB,medium_airport,40.898701,9.51763
+74,EU,Italy,IT,Milan,Bergamo,MILA,https://content.skyscnr.com/0f320987e189f43d5256fd38df04a977/GettyImages-461823317.jpg,Il Caravaggio International Airport,BGY,large_airport,45.673901,9.70417
+75,EU,Italy,IT,Bologna,Bologna,BOLO,https://content.skyscnr.com/e0ed7f0c0c4807256fbfb586c7553b41/bologna.jpg,Bologna Guglielmo Marconi Airport,BLQ,large_airport,44.5354,11.2887
+76,EU,Italy,IT,Venice,Treviso,VENI,https://content.skyscnr.com/2a72a6087b8bee22ab2c798e61bee6fe/venice.jpg,Treviso-Sant'Angelo Airport,TSF,large_airport,45.648399,12.1944
+77,EU,Italy,IT,Trieste,Trieste,TRIE,https://content.skyscnr.com/153de701476d5bc8cd228c85955e4a8d/GettyImages-484950503.jpg,Trieste‚ÄìFriuli Venezia Giulia Airport,TRS,medium_airport,45.827499,13.4722
+78,EU,Italy,IT,Rome,Rome,ROME,https://content.skyscnr.com/562fb1d3b394e92393671562fe241138/stock-photo-st-peter-s-basilica-83184691.jpg,Ciampino‚ÄìG. B. Pastine International Airport,CIA,large_airport,41.7994,12.5949
+79,EU,Italy,IT,Rome,Rome,ROME,https://content.skyscnr.com/562fb1d3b394e92393671562fe241138/stock-photo-st-peter-s-basilica-83184691.jpg,Leonardo da Vinci‚ÄìFiumicino Airport,FCO,large_airport,41.8002778,12.2388889
+80,EU,Italy,IT,Naples,N√°poli,NAPL,https://content.skyscnr.com/m/0f141bf76cf06068/Large-napl_139999980_doc.jpg,Naples International Airport,NAP,large_airport,40.886002,14.2908
+81,EU,Slovenia,SI,Ljubljana,Ljubljana,LJUB,https://content.skyscnr.com/119b73c5f7597401e98579c81634e8e5/GettyImages-495685019.jpg,Ljubljana Jo≈æe Puƒçnik Airport,LJU,large_airport,46.223701,14.4576
+82,EU,Czechia,CZ,Prague,Prague,PRAG,https://content.skyscnr.com/6f3779016c23190fadcdc6f500f5dc11/GettyImages-464420602.jpg,V√°clav Havel Airport Prague,PRG,large_airport,50.1008,14.26
+83,AS,Israel,IL,Tel Aviv,Tel Aviv,TELA,https://content.skyscnr.com/f5c3712b7fe4d1bdbb7e84261abbf904/GettyImages-486858743.jpg,Ben Gurion International Airport,TLV,large_airport,32.01139832,34.88669968
+84,EU,Malta,MT,Valletta,Valletta,MLAA,https://content.skyscnr.com/m/8065ff02c4914c/original/Valletta-aerial-shot.jpg,Malta International Airport,MLA,large_airport,35.857498,14.4775
+85,EU,Portugal,PT,Porto,Porto,PORT,https://content.skyscnr.com/933c6cedb8bc5ea82505271747cf3707/porto.jpg,Francisco de S√° Carneiro Airport,OPO,large_airport,41.24810028,-8.681389809
+86,EU,Portugal,PT,Lisbon,Lisbon,LISB,https://content.skyscnr.com/e48dd065c801bef1b761c506a5a2fde9/GettyImages-467824014.jpg,Humberto Delgado Airport (Lisbon Portela Airport),LIS,large_airport,38.7813,-9.13592
+87,EU,Bosnia and Herzegovina,BA,Sarajevo,Sarajevo,SARA,https://content.skyscnr.com/49e574742f759ce4dd8d0d6d48e57d40/GettyImages-480404012.jpg,Sarajevo International Airport,SJJ,large_airport,43.82460022,18.3314991
+88,EU,Romania,RO,Cluj-Napoca,Cluj-Napoca,CLUJ,https://content.skyscnr.com/e2c4ce717878fc7ea04e0a72d00c023d/GettyImages-502724313.jpg,Cluj-Napoca International Airport,CLJ,medium_airport,46.78519821,23.68619919
+89,EU,Romania,RO,Iasi,Ia≈üi,IASI,https://content.skyscnr.com/4897ee326c41f194189be4a10fac9785/GettyImages-508830832.jpg,Ia≈üi Airport,IAS,medium_airport,47.17850113,27.62059975
+90,EU,Romania,RO,Bucharest,Bucharest,BUCH,https://content.skyscnr.com/m/4dc3cee04825a86f/original/GettyImages-149110112_doc.jpg,Henri CoandƒÉ International Airport,OTP,large_airport,44.5711111,26.085
+91,EU,Romania,RO,Sibiu,Sibiu,SIBI,https://content.skyscnr.com/dce169877fc4c05c5d0c983d67647467/GettyImages-507292252.jpg,Sibiu International Airport,SBZ,medium_airport,45.78559875,24.09129906
+92,EU,Romania,RO,Suceava Salcea,Suceava,SUCE,,Suceava Stefan cel Mare Airport,SCV,medium_airport,47.6875,26.35409927
+93,EU,North Macedonia,MK,Skopje,Skopje,SKOP,https://content.skyscnr.com/690e1d8632f1ac1e07c4cf957c4964fb/GettyImages-476208185.jpg,Skopje Alexander the Great Airport,SKP,large_airport,41.961601,21.621401
+94,EU,Serbia,RS,Belgrade,Belgrade,BELI,https://content.skyscnr.com/d1831c1a59e1ea608773be52b099f7b4/GettyImages-177007038.jpg,Belgrade Nikola Tesla Airport,BEG,large_airport,44.81840134,20.3090992
+95,EU,Serbia,RS,Nis,Nis,NISI,,Nis Airport,INI,medium_airport,43.337299,21.853701
+96,EU,Montenegro,ME,Podgorica,Podgorica,PODG,https://content.skyscnr.com/f71a8075838fbaae6be68304d1eaab4a/GettyImages-479863398.jpg,Podgorica Airport,TGD,large_airport,42.359402,19.2519
+97,EU,Montenegro,ME,Tivat,Tivat,TIVA,https://content.skyscnr.com/d59e71ab895abcc7212b4920f7e8abe9/GettyImages-468534036.jpg,Tivat Airport,TIV,medium_airport,42.40470123,18.72330093
+98,EU,Slovakia,SK,Bratislava,Bratislava,BRAS,https://content.skyscnr.com/306b82b70a621c16a4ff68497efca061/GettyImages-530970203.jpg,M. R. ≈†tef√°nik Airport,BTS,large_airport,48.17020035,17.21269989
