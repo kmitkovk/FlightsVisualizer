@@ -75,7 +75,7 @@ def update_output(countries):
     )
 
     # my_figure = ff.create_gantt(df, showgrid_x=True, showgrid_y=True)
-    weeks_ticktext = ["KW: 01 ('21)", "", "", "", "KW: 05 ('21)", "", "", "", ""]
+    # weeks_ticktext = ["KW: 01 ('21)", "", "", "", "KW: 05 ('21)", "", "", "", ""]
     weeks_tickvals = [
         datetime.datetime(2021, 1, 4, 0, 0),
         datetime.datetime(2021, 1, 11, 0, 0),
