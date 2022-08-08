@@ -48,4 +48,4 @@ app = dash_app.server
 
 if __name__ == "__main__":
     # app.logger.setLevel(logging.DEBUG)
-    dash_app.run(port=8080, debug=True)
+    dash_app.run_server(debug=True)
