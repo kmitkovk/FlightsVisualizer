@@ -7,6 +7,7 @@ import warnings
 import dash
 import dash_bootstrap_components as dbc
 from dash import Dash, Input, Output, State, dcc, html
+
 # from pythonjsonlogger import jsonlogger
 
 import components
@@ -17,7 +18,7 @@ warnings.filterwarnings("ignore", message=" only support")
 os.environ["FLASK_SKIP_DOTENV"] = "true"
 
 
-app = Dash(
+dash_app = Dash(
     __name__,
     suppress_callback_exceptions=True,
     external_stylesheets=[
@@ -27,9 +28,9 @@ app = Dash(
     use_pages=True,
 )
 
-app.title = "my title"
+dash_app.title = "my title"
 
-app.layout = html.Div(
+dash_app.layout = html.Div(
     [components.header_element(), components.header_break(), dash.page_container]
 )
 
@@ -43,8 +44,8 @@ app.layout = html.Div(
 # app.logger.setLevel(logging.INFO)
 # app.logger.info("This is a info message.")
 
-server = app.server
+app = dash_app.server
 
 if __name__ == "__main__":
     # app.logger.setLevel(logging.DEBUG)
-    app.run(port=8080, debug=True)
+    dash_app.run(port=8080, debug=True)
