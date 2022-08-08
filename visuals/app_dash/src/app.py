@@ -28,7 +28,7 @@ dash_app = Dash(
     use_pages=True,
 )
 
-dash_app.title = "my title"
+dash_app.title = "my app title"
 
 dash_app.layout = html.Div(
     [components.header_element(), components.header_break(), dash.page_container]
