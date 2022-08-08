@@ -41,9 +41,7 @@ def header_element():
                                 dbc.DropdownMenuItem(
                                     "Page 2", href="/subtopic/page2", active=False
                                 ),
-                                dbc.DropdownMenuItem(
-                                    "Page 3", href="/subtopic/page3", active=False
-                                ),
+
                                 dbc.DropdownMenuItem(
                                     "Non-existent page", href="/wrong-value", active=False
                                 ),

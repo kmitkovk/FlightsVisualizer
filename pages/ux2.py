@@ -65,7 +65,7 @@ layout = dbc.Container(
      ], Input("data_ux2_dummy", "data"))
 def data(dummy):
     df_all = pd.read_csv(
-        r"../../../data/data_flights.csv",
+        r"data/data_flights.csv",
     ).drop(["Unnamed: 0", "trace_id", "origin", "dest_city_code"], axis=1)
 
     df_all['from_pl'] = df_all.flight.apply(lambda x: x[:3])
