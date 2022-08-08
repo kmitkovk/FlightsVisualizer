@@ -26,7 +26,7 @@ layout = dbc.Container(
                             dbc.CardBody(
                                 [
                                     html.H4(
-                                        "Date-grid",
+                                        "Date-grid-TEST",
                                         className="card-title",
                                         style={"textAlign": "center"},
                                     ),
@@ -35,7 +35,7 @@ layout = dbc.Container(
                                         className="card-text",
                                     ),
                                     dcc.Dropdown(
-                                        options=[i for i in range(3, 15+1)],
+                                        options=[i for i in range(3, 15 + 1)],
                                         value=7,
                                         clearable=False,
                                         # multi=True,
@@ -60,21 +60,23 @@ layout = dbc.Container(
 
 @dash.callback(
     [
-     Output("data_ux2", "data"),
-     Output("days_ux2_dropdown2", "options"),
-     ], Input("data_ux2_dummy", "data"))
+        Output("data_ux2", "data"),
+        Output("days_ux2_dropdown2", "options"),
+    ],
+    Input("data_ux2_dummy", "data"),
+)
 def data(dummy):
     df_all = pd.read_csv(
         r"data/data_flights.csv",
     ).drop(["Unnamed: 0", "trace_id", "origin", "dest_city_code"], axis=1)
 
-    df_all['from_pl'] = df_all.flight.apply(lambda x: x[:3])
-    origins = ['ZAG','SOF','TSF','LJU','TRS']
-    
+    df_all["from_pl"] = df_all.flight.apply(lambda x: x[:3])
+    origins = ["ZAG", "SOF", "TSF", "LJU", "TRS"]
+
     # options = df_all.flight.apply(lambda x: x if x[:3] in origins else '').unique()
     options = df_all.flight[df_all.from_pl.isin(origins)].unique()
 
-    return df_all.to_json(orient="split") , options#, 'ZAG-EIN'
+    return df_all.to_json(orient="split"), options  # , 'ZAG-EIN'
 
 
 @dash.callback(
@@ -88,15 +90,14 @@ def data(dummy):
 def ux2_chart(data, dropdown_value, dropdown_value2):
     dff = pd.read_json(data, orient="split")
     dff.departure_date = pd.to_datetime(dff.departure_date)
-    
-    print('\n\n\n\n\n\n\n\n',dropdown_value2,'\n\n\n\n\n\n\n\n')
+
+    print("\n\n\n\n\n\n\n\n", dropdown_value2, "\n\n\n\n\n\n\n\n")
     if dropdown_value2 == None:
-        dropdown_value2 = 'ZAG_EIN'
-    
-    
+        dropdown_value2 = "ZAG_EIN"
+
     frm = dropdown_value2[:3]
     to = dropdown_value2[-3:]
-    
+
     dff = dff[dff.flight.isin([f"{to}_{frm}", f"{frm}_{to}"])]
     dff = dff[
         dff.timestamp
