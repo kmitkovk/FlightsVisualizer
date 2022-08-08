@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'flightvis'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC73A09EA78F4B71A8A44A18A3EA5B39 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D757ED7934D548419529BE739B705A30 }}
