@@ -67,7 +67,7 @@ layout = dbc.Container(
 )
 def data(dummy):
     df_all = pd.read_csv(
-        r"data/data_flights.csv",
+        r"../data/data_flights.csv",
     ).drop(["Unnamed: 0", "trace_id", "origin", "dest_city_code"], axis=1)
 
     df_all["from_pl"] = df_all.flight.apply(lambda x: x[:3])
@@ -91,7 +91,7 @@ def ux2_chart(data, dropdown_value, dropdown_value2):
     dff = pd.read_json(data, orient="split")
     dff.departure_date = pd.to_datetime(dff.departure_date)
 
-    print("\n\n\n\n\n\n\n\n", dropdown_value2, "\n\n\n\n\n\n\n\n")
+    print(pd.Timestamp("now"))
     if dropdown_value2 == None:
         dropdown_value2 = "ZAG_EIN"
 
@@ -121,7 +121,7 @@ def ux2_chart(data, dropdown_value, dropdown_value2):
         arr_dep_delta = arrs.departure_date - origin_dep_date
         matching_return_flights = arrs[
             (arr_dep_delta <= days_delta_max) & (arr_dep_delta >= days_delta_min)
-        ]
+        ].copy()
         matching_return_flights.loc[:, "d_delta"] = (
             matching_return_flights.departure_date - origin_dep_date
         )
