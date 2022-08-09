@@ -11,9 +11,7 @@ def header_element():
     return dbc.Row(
         [
             dbc.Col(
-                html.Img(
-                    src=dash.get_asset_url("logo.png"), className="page-logo"
-                ),
+                html.Img(src=dash.get_asset_url("logo.png"), className="page-logo"),
                 className="logo-col",
                 width="auto",
             ),
@@ -26,30 +24,13 @@ def header_element():
             dbc.Col(
                 dbc.Nav(
                     [
-                        dbc.NavItem(dbc.NavLink("Home", href="/")),
                         dbc.NavItem(
-                            dbc.NavLink(
-                                "UX1", href="/ux1", id="ux1-nav", active=False
-                            )),
-                        dbc.NavItem(
-                            dbc.NavLink(
-                                "UX2", href="/ux2", id="ux2-nav", active=False
-                            )
+                            dbc.NavLink("Map", href="/map", id="map-nav", active=False)
                         ),
-                        dbc.DropdownMenu(
-                            [
-                                dbc.DropdownMenuItem(
-                                    "Page 2", href="/subtopic/page2", active=False
-                                ),
-                                dbc.DropdownMenuItem(
-                                    "Page 3", href="/subtopic/page3", active=False
-                                ),
-                                dbc.DropdownMenuItem(
-                                    "Non-existent page", href="/wrong-value", active=False
-                                ),
-                            ],
-                            label="Sub topic",
-                            nav=True,
+                        dbc.NavItem(
+                            dbc.NavLink(
+                                "Grid", href="/grid", id="grid-nav", active=False
+                            )
                         ),
                     ],
                     id="header-links",

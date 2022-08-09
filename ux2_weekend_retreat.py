@@ -20,7 +20,7 @@ df_all = pd.read_csv(
 
 df = df_all[df_all.flight.isin(["EIN_ZAG", "ZAG_EIN"])]
 
-
+airports = pd.read_csv(r"data/data_airports.csv")
 #%% Transform data:
 # transform so you take latest tick
 # https://stackoverflow.com/questions/27488080/python-pandas-filter-rows-after-groupby
@@ -45,7 +45,7 @@ for c, dep in enumerate(deps.iterrows()):
     arr_dep_delta = arrs.departure_date - origin_dep_date
     matching_return_flights = arrs[
         (arr_dep_delta <= days_delta_max) & (arr_dep_delta >= days_delta_min)
-    ]
+    ].copy()  # removes settingwithcopywarnin see second answer: https://stackoverflow.com/questions/42379818/correct-way-to-set-new-column-in-pandas-dataframe-to-avoid-settingwithcopywarnin
     matching_return_flights.loc[:, "d_delta"] = (
         matching_return_flights.departure_date - origin_dep_date
     )
@@ -58,8 +58,10 @@ for c, dep in enumerate(deps.iterrows()):
 
     df_matching = pd.concat([df_matching, matching_return_flights])
 
-df_matching = df_matching.sort_values('outbound_date').reset_index()
-df_matching['flight'] = df_matching.index.astype('str') + "_" + df_matching.flight
-df_matching.departure_date = df_matching.departure_date.dt.strftime('%Y-%m-%d')
-df_matching.outbound_date = df_matching.outbound_date.dt.strftime('%Y-%m-%d')
+df_matching = df_matching.sort_values("outbound_date").reset_index()
+df_matching["flight"] = df_matching.index.astype("str") + "_" + df_matching.flight
+df_matching.departure_date = df_matching.departure_date.dt.strftime("%Y-%m-%d")
+df_matching.outbound_date = df_matching.outbound_date.dt.strftime("%Y-%m-%d")
 df_matching.d_delta = df_matching.d_delta.dt.days
+
+# %%

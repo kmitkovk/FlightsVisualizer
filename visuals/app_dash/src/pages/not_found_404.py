@@ -1,4 +1,3 @@
-
 import dash
 import dash_bootstrap_components as dbc
 from dash import html
@@ -12,10 +11,14 @@ layout = html.Div(
                 dbc.Col(
                     [
                         html.H1("Error 404: Page not found!"),
-                            dbc.Nav(
-                                dbc.NavItem(dbc.NavLink("Back to home page", href="/", active=True)),
-                                pills=True
+                        dbc.Nav(
+                            dbc.NavItem(
+                                dbc.NavLink(
+                                    "Back to main page", href="/map", active=True
+                                )
                             ),
+                            pills=True,
+                        ),
                     ],
                     align="center",
                 ),

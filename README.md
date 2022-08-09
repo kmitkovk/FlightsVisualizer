@@ -54,6 +54,22 @@
 
 <br>
 
+## Azure services
+### Steps to deploy to azure for new branch:
+1. Create web app in azure
+2. Go to [configurations](https://portal.azure.com/#@kmitkovkerlievgmail.onmicrosoft.com/resource/subscriptions/ea1de4dc-316d-4041-baf0-5824b53e3cfc/resourcegroups/KMK_RG_GENERIC/providers/Microsoft.Web/sites/flightvis/configuration) and add a variable WEBSITE_WEBDEPLOY_USE_SCM and set it to true
+   * wait 1 minute for the changes to take effect
+3. Add the github configuration in [Deployment Center](https://portal.azure.com/#@kmitkovkerlievgmail.onmicrosoft.com/resource/subscriptions/ea1de4dc-316d-4041-baf0-5824b53e3cfc/resourcegroups/KMK_RG_GENERIC/providers/Microsoft.Web/sites/flightvis/vstscd)
+4. Deploy and this is going to start building the app and send to github for workactions
+   * Workflow actions are set per branch and have specific configuration
+   * in order to avoid merges on the old branch, always do git fetch before you commit changes locally 
+
+### Useful links for database handling and debugging
+- In this [stackoverflow post](https://stackoverflow.com/questions/68867980/connection-to-microsoft-azure-sql-database-works-in-local-enviornment-but-not-in) there is a very nice description on (1) how to handle the database auth and (2) how to debug remotely
+- Another [link](https://docs.microsoft.com/en-us/visualstudio/debugger/remote-debugging?view=vs-2019) on how to deal with the auth from DB in a webapp
+- The remote debug [link could be accessed here](https://hedihargam.medium.com/python-sql-database-access-with-managed-identity-from-azure-web-app-functions-14566e5a0f1a)
+
+<br>
 
 ### General Instrucitons:
 0. For now scrape origin-destinations only once every few weeks
