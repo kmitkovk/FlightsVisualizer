@@ -99,6 +99,10 @@ def data(dummy):
         "VIE",
         "LPL",
         "BHX",
+        "AHO",
+        "AMS",
+        "MUC",
+        "AQJ",
     ]
     for c, i in enumerate(missing_iata):
         dict_airports["city_name"][i] = f"{c}_temporary_city"

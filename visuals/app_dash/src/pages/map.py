@@ -95,6 +95,10 @@ layout = dbc.Container(
 @dash.callback(Output("map-chart", "figure"), Input("dummy_input_map", "data"))
 def map_render(countries):
 
+    print(
+        "do NOT PASS data back and forth from pd to dict and back to pd. just use dict"
+    )
+
     # airports = pd.read_json(data, orient="split")
 
     airports = pd.read_csv(r"../../../data/data_airports.csv")
@@ -114,8 +118,8 @@ def map_render(countries):
         fig.add_trace(  # LINES
             go.Scattermapbox(
                 # lon = [orig_lon, dest_lon + offset],
-                lon=[orig_lon, 16.34999999],
-                lat=[orig_lat, 53.234999999],
+                lon=[orig_lon, 77.34999999],
+                lat=[orig_lat, 16.234999999],
                 name="from ...",
                 showlegend=False,
                 mode="lines",
@@ -137,7 +141,9 @@ def map_render(countries):
                 marker=dict(size=9, color="green"),
             )
         )
-
+    print(
+        "FIX LINES SO THEY ARE CURVED AND gradient: https://plotly.com/python/lines-on-maps/"
+    )
     fig.update_layout(  # https://plotly.com/python/mapbox-layers/
         # title_text="Number of destinations at price €capp",
         legend_title_text="<br><b>From airport:</b><br>"
@@ -145,6 +151,11 @@ def map_render(countries):
         title_x=0.5,
         # autosize=True,
         # hovermode='closest',
+        geo=dict(
+            projection=dict(
+                type="orthographic", rotation=dict(lon=-500, lat=290, roll=23)
+            ),
+        ),
         mapbox_style="carto-positron",  # "open-street-map", "carto-positron", "carto-darkmatter", "stamen-terrain", "stamen-toner" or "stamen-watercolor"
         mapbox=dict(
             # accesstoken=mapbox_access_token,

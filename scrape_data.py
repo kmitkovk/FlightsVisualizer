@@ -392,13 +392,13 @@ def get_destination_cities_dates_prices(
 
 #%% Selection (temp)
 
-month1 = "2022-09"
+month1 = "2022-11"
 test_airports = ['SOF']
 test_airports = [ORIGIN_AIRPORTS["Zagreb"].upper()]
 test_airports_all = [ORIGIN_AIRPORTS[i].upper() for i in ORIGIN_AIRPORTS]
 
 if False:
-    dest_countries = get_destination_countries(test_airports, month1)
+    dest_countries = get_destination_countries(test_airports_all, month1)
 
     dest_cities = get_destination_cities(dest_countries, month1)
 
@@ -410,9 +410,9 @@ if False:
 
     if False:
         old_test = pd.read_csv(
-            r"data/data_dest_price_dates.csv", parse_dates=["timestamp"]
+            r"data/data_flights.csv", parse_dates=["timestamp"]
         ).drop("Unnamed: 0", axis=1)
         df = pd.concat([old_test, dest_cities_dates_prices])
-        df.to_csv(r"data/data_dest_price_dates.csv")
+        df.to_csv(r"data/data_flights.csv")
 
 #%% -----END-----
