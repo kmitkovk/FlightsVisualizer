@@ -11,9 +11,16 @@ import utils
 
 dash.register_page(__name__)
 
+origins = ["TSF", "TRS", "ZAG", "LJU"]  # "SOF"
 
 layout = dbc.Container(
     [
+        dcc.Store(
+            id="data_map_airports",
+        ),
+        dcc.Store(
+            id="data_map_flights",
+        ),
         dcc.Store(
             id="dummy_input_map",
         ),
@@ -41,108 +48,168 @@ layout = dbc.Container(
 )
 
 
-# @dash.callback(
-#     [
-#         Output("data_grid", "data"),
-#         Output("data_airports", "data"),
-#         Output("selection_flight_dropdown", "options"),
-#     ],
-#     Input("data_grid_dummy", "data"),
-# )
-# def data(dummy):
-#     df_all = pd.read_csv(
-#         r"../../../data/data_flights.csv",
-#     ).drop(["Unnamed: 0", "trace_id", "origin", "dest_city_code"], axis=1)
+@dash.callback(
+    [
+        Output("data_map_flights", "data"),
+        Output("data_map_airports", "data"),
+    ],
+    Input("dummy_input_map", "data"),
+)
+def data_map(dummy):
+    df_flights = pd.read_csv(
+        r"../../../data/data_flights.csv",
+    ).drop(["Unnamed: 0", "trace_id", "origin", "dest_city_code"], axis=1)
 
-#     df_airports = pd.read_csv(r"../../../data/data_airports.csv")
-#     dict_airports = (
-#         airports.loc[:, ["aiport_lat", "airport_lon", "airport_code_IATA", "city_name"]]
-#         .set_index("airport_code_IATA")
-#         .to_dict()
-#     )
+    df_flights = df_flights[df_flights.flight.apply(lambda x: x[:3]).isin(origins)]
 
-#     missing_iata = [
-#         "AYT",
-#         "TSR",
-#         "FRA",
-#         "NUE",
-#         "CPH",
-#         "AUH",
-#         "GVA",
-#         "VIE",
-#         "LPL",
-#         "BHX",
-#     ]
-#     print('FIX ABOV CODES in to DB')
-#     df_all = df_all[df_all.flight.str.contains()]
+    # here we need an additional transofrmation next to timestamp since at the same
+    # minute for the same flight we scrape multiple dates (departure) at the same time
+    # which means that grouping by flight and timestamp only will still give us the same
+    # flight only the difference will be the departure dates
+    df_flights = df_flights[
+        df_flights.timestamp == df_flights.groupby("flight").timestamp.transform(max)
+    ]
+    df_flights = df_flights[
+        df_flights.departure_date
+        == df_flights.groupby("flight").departure_date.transform(max)
+    ]
 
-#     df_all["from_pl"] = df_all.flight.apply(lambda x: x[:3])
-#     origins = ["ZAG", "SOF", "TSF", "LJU", "TRS"]
-
-#     # options = df_all.flight.apply(lambda x: x if x[:3] in origins else '').unique()
-#     options = df_all.flight[df_all.from_pl.isin(origins)].unique()
-#     options_dict = [
-#         {
-#             "label": f"{dict_airports['city_name'][flight[:3]]}-{dict_airports['city_name'][flight[-3:]]}({dict_airports['country_name'][flight[-3:]]})-{dict_airports['city_name'][flight[:3]]}",
-#             "value": flight,
-#         }
-#         for flight in options
-#     ]
-
-#     return df_all.to_json(orient="split"),
-
-
-@dash.callback(Output("map-chart", "figure"), Input("dummy_input_map", "data"))
-def map_render(countries):
-
+    print("above maybe you wanna be able to select specific month")
+    print("otherwise you gotta provide a range of months with average departure price")
     print(
-        "do NOT PASS data back and forth from pd to dict and back to pd. just use dict"
+        "or maybe even calculate round trip... all this should be provided in options"
     )
 
-    # airports = pd.read_json(data, orient="split")
+    df_airports = pd.read_csv(r"../../../data/data_airports.csv")
+    df_airports = df_airports.loc[
+        :,
+        [
+            "airport_lat",
+            "airport_lon",
+            "airport_code_IATA",
+            "city_name",
+            "country_name",
+        ],
+    ].set_index("airport_code_IATA")
 
-    airports = pd.read_csv(r"../../../data/data_airports.csv")
+    df_airports_dict = df_airports.to_dict()
 
-    ap_dict = (
-        airports.loc[
-            :, ["airport_lat", "airport_lon", "airport_code_IATA", "city_name"]
-        ]
-        .set_index("airport_code_IATA")
-        .to_dict()
+    df_flights["dest"] = df_flights.flight.apply(lambda x: x[-3:])
+    df_flights["dest_lon"] = df_flights.dest.apply(
+        lambda x: df_airports_dict["airport_lon"][x]
     )
-    origins = ["TSF", "TRS", "ZAG", "LJU"]
+    df_flights["dest_lat"] = df_flights.dest.apply(
+        lambda x: df_airports_dict["airport_lat"][x]
+    )
+
+    df_flights["orig"] = df_flights.flight.apply(lambda x: x[:3])
+    # df_flights['orig_lon'] = df_flights.orig.apply(lambda x: df_airports_dict['airport_lon'][x])
+    # df_flights['orig_lat'] = df_flights.orig.apply(lambda x: df_airports_dict['airport_lat'][x])
+
+    return (df_flights.to_json(orient="split"), df_airports.to_json(orient="split"))
+
+
+@dash.callback(
+    Output("map-chart", "figure"),
+    [Input("data_map_flights", "data"), Input("data_map_airports", "data")],
+)
+def map_render(flights, airports):
+
+    df_flights = pd.read_json(flights, orient="split")
+    df_airports = pd.read_json(airports, orient="split")
+
+    highest_price = df_flights.price.max()
+    # colors = px.colors.sequential.Viridis
+    # colors = ['red','green','darkorange','blue']
+    colors = [
+        "rgb(102,102,102)",
+        "rgb(27,158,119)",
+        "rgb(217,95,2)",
+        "#750D86",
+        # "violet",
+    ]  # px.colors.qualitative.Dark2 #https://plotly.com/python/discrete-color/
+    skip = int(len(colors) / len(origins))
+    assert len(colors) >= len(origins), "Not enough colors for all cities"
+
+    # offset destination if there are more than two routes to it
+    # cities = [city[0] for city in city_countries]
+    # dest_repetition = {city:{'rep':cities.count(city),'offset':0}
+    #                     for city in cities if cities.count(city) > 1}
+    # duplicates handle
+    # df_routes[df_routes.dest_city.duplicated()]
+
+    num_dest = 0
+    dest_offset = 0
+    count = 0
 
     fig = go.Figure()
     for origin in origins:
-        orig_lon = ap_dict["airport_lon"][origin]
-        orig_lat = ap_dict["airport_lat"][origin]
+        # link = f"https://www.skyscanner.net/transport/flights/{origin}/{i.dest_city_code}/?adultsv2=1&cabinclass=economy&childrenv2=&inboundaltsenabled=false&iym={iym}&outboundaltsenabled=false&oym={oym}&selectedoday=12&selectediday=12"
 
-        fig.add_trace(  # LINES
-            go.Scattermapbox(
-                # lon = [orig_lon, dest_lon + offset],
-                lon=[orig_lon, 77.34999999],
-                lat=[orig_lat, 16.234999999],
-                name="from ...",
-                showlegend=False,
-                mode="lines",
-                line=dict(width=1, color="red"),
-                opacity=0.9,
+        orig_lon = df_airports.loc[origin, "airport_lon"]
+        orig_lat = df_airports.loc[origin, "airport_lat"]
+
+        show_legend = True
+        for row in df_flights[df_flights.orig == origin].iterrows():
+            dest_iata_code = row[1].dest
+            dest_lon = row[1].dest_lon
+            dest_lat = row[1].dest_lat
+            dest_price = row[1].price
+            dest_city_name = df_airports.loc[dest_iata_code, "city_name"]
+            dest_country_name = df_airports.loc[dest_iata_code, "country_name"]
+
+            fig.add_trace(  # LINES
+                go.Scattermapbox(
+                    # lon = [orig_lon, dest_lon + offset],
+                    lon=[orig_lon, dest_lon],
+                    lat=[orig_lat, dest_lat],
+                    name=f"from {dest_city_name}",
+                    legendgroup=origin,
+                    showlegend=False,
+                    mode="lines",
+                    # text=[i.dest_city + f" from {origin} from €{int(i.dest_price_dir)}"],
+                    # hoverinfo="text",
+                    line=dict(width=1, color=colors[count]),
+                    opacity=(1 - (dest_price / highest_price)) * 0.5,
+                )
             )
-        )
+
+            show_legend = False
+            fig.add_trace(
+                go.Scattermapbox(  # MARKERS
+                    # lon = [dest_lon + offset],
+                    lon=[dest_lon],
+                    lat=[dest_lat],
+                    text=[
+                        dest_city_name
+                        + f", {dest_country_name} from €{int(dest_price)}"
+                    ],
+                    hoverinfo="text",
+                    mode="markers",
+                    legendgroup=origin,
+                    showlegend=False,
+                    # customdata=[link],
+                    line=dict(width=1, color=colors[count]),
+                    opacity=1 - (dest_price / highest_price),
+                )
+            )
 
         fig.add_trace(
             go.Scattermapbox(  # MARKERS for the points of origins (moved this sections below because of hovers
                 lon=[orig_lon],
                 lat=[orig_lat],
                 text=[origin],
-                name=origin,
-                # legendgroup=origin,
+                name=df_airports.loc[origin, "city_name"],
+                legendgroup=origin,
                 hoverinfo="text",
                 showlegend=True,
                 mode="markers",
-                marker=dict(size=9, color="green"),
+                marker=dict(size=9, color=colors[count]),
             )
         )
+
+        count += skip
+
     print(
         "FIX LINES SO THEY ARE CURVED AND gradient: https://plotly.com/python/lines-on-maps/"
     )

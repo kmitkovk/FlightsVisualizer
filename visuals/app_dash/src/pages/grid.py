@@ -10,6 +10,7 @@ from dash import Input, Output, dcc, html
 
 dash.register_page(__name__)
 
+origins = ["ZAG", "TSF", "LJU", "TRS", "SOF"]
 
 layout = dbc.Container(
     [
@@ -88,16 +89,15 @@ def data(dummy):
         .to_dict()
     )
 
-    missing_iata = [
-        "TSR",
-    ]
-    for c, i in enumerate(missing_iata):
-        dict_airports["city_name"][i] = f"{c}_temporary_city"
-        dict_airports["country_name"][i] = f"{c}_temporary_country"
-    print("fix above in DB and LOGIC in utils to check")
+    # missing_iata = [
+    #     "TSR",
+    # ]
+    # for c, i in enumerate(missing_iata):
+    #     dict_airports["city_name"][i] = f"{c}_temporary_city"
+    #     dict_airports["country_name"][i] = f"{c}_temporary_country"
+    # print("fix above in DB and LOGIC in utils to check")
 
     df_all["from_pl"] = df_all.flight.apply(lambda x: x[:3])
-    origins = ["ZAG", "SOF", "TSF", "LJU", "TRS"]
 
     # options = df_all.flight.apply(lambda x: x if x[:3] in origins else '').unique()
     options = df_all.flight[df_all.from_pl.isin(origins)].unique()
