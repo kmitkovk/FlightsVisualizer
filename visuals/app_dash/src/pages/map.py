@@ -104,7 +104,9 @@ def map_render(countries):
     airports = pd.read_csv(r"../../../data/data_airports.csv")
 
     ap_dict = (
-        airports.loc[:, ["aiport_lat", "airport_lon", "airport_code_IATA", "city_name"]]
+        airports.loc[
+            :, ["airport_lat", "airport_lon", "airport_code_IATA", "city_name"]
+        ]
         .set_index("airport_code_IATA")
         .to_dict()
     )
@@ -113,7 +115,7 @@ def map_render(countries):
     fig = go.Figure()
     for origin in origins:
         orig_lon = ap_dict["airport_lon"][origin]
-        orig_lat = ap_dict["aiport_lat"][origin]
+        orig_lat = ap_dict["airport_lat"][origin]
 
         fig.add_trace(  # LINES
             go.Scattermapbox(

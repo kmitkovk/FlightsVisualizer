@@ -28,6 +28,7 @@ from typing import List
 from collections import defaultdict
 
 from config import HEADERS, SLEEP_TIME_SHORT, SLEEP_TIME_LONG, ORIGIN_AIRPORTS
+from utilities.utils import check_missing_airports, save_new_airports
 
 
 #%% Orig-Dest_Country filter
@@ -392,8 +393,8 @@ def get_destination_cities_dates_prices(
 
 #%% Selection (temp)
 
-month1 = "2022-09"
-test_airports = ['VCE']
+month1 = "2022-12"
+test_airports = ['SOF'] #["VCE"]
 test_airports = [ORIGIN_AIRPORTS["Zagreb"].upper()]
 test_airports_all = [ORIGIN_AIRPORTS[i].upper() for i in ORIGIN_AIRPORTS]
 
@@ -414,5 +415,11 @@ if False:
         ).drop("Unnamed: 0", axis=1)
         df = pd.concat([old_test, dest_cities_dates_prices])
         df.to_csv(r"data/data_flights.csv")
-
+        
+        
+df_missing_airports = check_missing_airports(
+    df_cities=dest_cities, df_flights=dest_cities_dates_prices
+)
+if not df_missing_airports.empty:
+    save_new_airports(df_to_update=df_missing_airports)
 #%% -----END-----

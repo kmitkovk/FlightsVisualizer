@@ -15,7 +15,7 @@ def check_missing_airports(df_cities, df_flights):
     check if a list of airport exist and try to auto-map and save the
     ones which are present in the bigger database"""
 
-    df_airports_ss = pd.read_csv(r"../data/data_airports.csv", index_col="Unnamed: 0")
+    df_airports_ss = pd.read_csv(r"data/data_airports.csv", index_col="Unnamed: 0")
 
     df_new_flights = df_flights.loc[:, ["flight", "dest_city_code", "origin"]]
     df_new_flights = df_new_flights[
@@ -49,7 +49,7 @@ def check_missing_airports(df_cities, df_flights):
 
 def save_new_airports(df_to_update: pd.DataFrame) -> None:
     """
-    Pulls destination cities outbound and inbound dates for given months
+    Saves unknown airports data by combining exising table, all_table and new data
 
     Parameters
     ----------
@@ -71,7 +71,7 @@ def save_new_airports(df_to_update: pd.DataFrame) -> None:
     # airport codes databse (also saved in repo):
     # https://raw.githubusercontent.com/datasets/airport-codes/master/data/airport-codes.csv
     # the discrepancy GB-UK is handled because we are always taking SS database
-    df_airports_all = pd.read_csv(r"../data/data_airports_all.csv")
+    df_airports_all = pd.read_csv(r"data/data_airports_all.csv")
 
     df_to_save = df_to_update.merge(
         df_airports_all, how="left", left_on="target_code", right_on="iata_code"
@@ -108,17 +108,14 @@ def save_new_airports(df_to_update: pd.DataFrame) -> None:
         "type": "airport_type",
     }
 
-    df_to_save = df_to_save.drop("coordinates", axis=1).rename(
-        columns=translation_dict
-    )
-    
-    
-    df_airports_ss_old = pd.read_csv(r"../data/data_airports.csv", index_col="Unnamed: 0")
-    df_combined_to_save = pd.concat([df_airports_ss_old, df_to_save])
-    df_combined_to_save.to_csv(r"../data/data_airports.csv")
-    print('New airports updated!')
-    
+    df_to_save = df_to_save.drop("coordinates", axis=1).rename(columns=translation_dict)
 
+    df_airports_ss_old = pd.read_csv(
+        r"data/data_airports.csv", index_col="Unnamed: 0"
+    )
+    df_combined_to_save = pd.concat([df_airports_ss_old, df_to_save])
+    df_combined_to_save.to_csv(r"data/data_airports.csv")
+    print("New airports updated!")
 
 
 def save_second_function_month():
