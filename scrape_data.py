@@ -392,13 +392,13 @@ def get_destination_cities_dates_prices(
 
 #%% Selection (temp)
 
-month1 = "2022-11"
-test_airports = ['SOF']
+month1 = "2022-09"
+test_airports = ['VCE']
 test_airports = [ORIGIN_AIRPORTS["Zagreb"].upper()]
 test_airports_all = [ORIGIN_AIRPORTS[i].upper() for i in ORIGIN_AIRPORTS]
 
 if False:
-    dest_countries = get_destination_countries(test_airports_all, month1)
+    dest_countries = get_destination_countries(test_airports, month1)
 
     dest_cities = get_destination_cities(dest_countries, month1)
 
