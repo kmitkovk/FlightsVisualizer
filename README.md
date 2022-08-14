@@ -39,19 +39,37 @@
 
 <br>
 
-# 
-
-### TODO:
-1. Add VCE Marko-Polo
-1.1 work on coordinates scrape and cache
-2. design the Database for those two outputs
-3. !Move onto UX2!
-   1. make a timeline of departures
-   2. then make a timeline of arrivals back
-   3. and then try to match all
-   4. and finally create a graph
-4. !Move onto UX3!
-
+--------------------------------------------------------
+### TODO
+--------------------------------------------------------
+- ~~Date range grid~~
+- ~~Limit number of months shown for perormance~~
+- ~~Show last timestamp~~
+- ~~Fix number of flights in grid (y axis labels) -> nothing to fix (y-axis shrinks it)~~
+- ~~Add VCE to datavase~~
+- [Route folder](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#customize-startup-command) so that you could be pushing the latest version to cloud
+- Make Map the home or [default page](https://community.plotly.com/t/introducing-dash-pages-a-dash-2-x-feature-preview/57775)
+- Install SQLAlchemy
+- Add table for country-city data with month and timestamp (to be used for caching)
+  - DrawSQL [link](https://drawsql.app/teams/gmat/diagrams/flightvisualizer2)
+- Database => transfer files
+  - change password database
+  - shee the .env emails for explanation
+- UX1 -> on hover show data, on click show second chart
+- Progress info UX2 ( 20/35 loaded ...35%) -> show this under the loading button with modal!
+  - read [here](https://towardsdatascience.com/long-callbacks-in-dash-web-apps-72fd8de25937) or [here](https://dash.plotly.com/long-callbacks) for more info
+- Schedule script to track 3 flights (three locations) for price changes
+- last update info box
+- Up the scrape price to 150 (test before what the incrase it)
+- Optimize main scripts:
+  - grid selection
+  - timeline [upgrades](https://plotly.com/python-api-reference/generated/plotly.express.timeline.html)
+  - Python | Pandas Split strings into two List/Columns using str.split()
+  - map
+  - Try out the [highcharts map](https://towardsdatascience.com/highly-interactive-data-visualization-cd3a9b082370#:~:text=Panel%2DHighcharts%20is%20a%20python,python%20for%20Exploratory%20Data%20Analysis.) again
+- App layout improvement -> [mobile verision](https://stackoverflow.com/questions/22985370/making-the-bootstrap-dashboard-example-sidebar-visible-available-on-mobile) and collapsable window
+- ~~
+--------------------------------------------------------
 <br>
 
 ## Azure services
@@ -72,6 +90,8 @@
 <br>
 
 ### General Instrucitons:
+- Last highest number of calls was `~400 calls` (190x2) on date_price data
+  - This included 5 cities and intermediary scrape on cnt-city data
 0. For now scrape origin-destinations only once every few weeks
    - occasionally run a scraper if there have been new destinations added
    - however, new destinations could "pop up" because they could be filtered by the price
@@ -83,3 +103,6 @@
    - also, you reduce the number of calls
 3. On daily or weekly basis (depending on how often you want to have prices updated), scrape `origin-city`
 4. Extra-> hover over airport to highligh country (like in ICIS)
+
+<br>
+

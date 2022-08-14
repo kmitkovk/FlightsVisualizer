@@ -1,3 +1,4 @@
+from sqlite3 import Timestamp
 import pandas as pd
 import datetime as dt
 
@@ -5,7 +6,7 @@ import dash
 import dash_bootstrap_components as dbc
 
 import plotly.express as px
-from dash import Input, Output, dcc, html
+from dash import Input, Output, dcc, html, dash_table
 
 
 dash.register_page(__name__)
@@ -30,33 +31,81 @@ layout = dbc.Container(
                             dbc.CardBody(
                                 [
                                     html.H4(
-                                        "Date-grid",
+                                        "Trip planner",
                                         className="card-title",
                                         style={"textAlign": "center"},
                                     ),
-                                    html.P(
-                                        "Days of vacation:",
-                                        className="card-text",
-                                    ),
-                                    dcc.Slider(
-                                        id="days_grid_dropdown",
-                                        min=2,
-                                        max=16,
-                                        step=1,
-                                        value=5,
-                                        marks={i: str(i) for i in range(2, 17, 1)},
-                                        tooltip={
-                                            "placement": "bottom",
-                                            "always_visible": True,
-                                        },
-                                    ),
-                                    dcc.Dropdown(
-                                        clearable=False,
-                                        id="selection_flight_dropdown",
-                                        placeholder="Zagreb-Eindhoven-Zagreb",
-                                        style={"minWidth": "-webkit-fill-available"},
+                                    html.Br(),
+                                    dbc.Row(
+                                        [
+                                            dbc.Col(
+                                                [
+                                                    dbc.CardHeader(
+                                                        "Days of vacation:",
+                                                    ),
+                                                    html.Br(),
+                                                    dcc.RangeSlider(
+                                                        id="days_grid_dropdown",
+                                                        min=1,
+                                                        max=17,
+                                                        step=1,
+                                                        value=[2, 5],
+                                                        marks={
+                                                            i: str(i)
+                                                            for i in range(1, 18, 1)
+                                                        },
+                                                        tooltip={
+                                                            "placement": "bottom",
+                                                            "always_visible": True,
+                                                        },
+                                                    ),
+                                                ],
+                                                width=5,
+                                            ),
+                                            dbc.Col(
+                                                [
+                                                    dbc.CardHeader(
+                                                        "Origin-destination:",
+                                                    ),
+                                                    dcc.Dropdown(
+                                                        clearable=False,
+                                                        id="selection_flight_dropdown",
+                                                        placeholder="Zagreb-Eindhoven-Zagreb",
+                                                        style={
+                                                            "minWidth": "-webkit-fill-available"
+                                                        },
+                                                    ),
+                                                ],
+                                                width=5,
+                                            ),
+                                            dbc.Col(
+                                                [
+                                                    dbc.CardHeader(
+                                                        "Show # of months:",
+                                                    ),
+                                                    html.Br(),
+                                                    dcc.Slider(
+                                                        id="months_show_dropdown",
+                                                        min=1,
+                                                        max=5,
+                                                        step=1,
+                                                        value=1,
+                                                        marks={
+                                                            i: str(i)
+                                                            for i in range(1, 6, 1)
+                                                        },
+                                                        tooltip={
+                                                            "placement": "bottom",
+                                                            "always_visible": True,
+                                                        },
+                                                    ),
+                                                ],
+                                                width=2,
+                                            ),
+                                        ]
                                     ),
                                     dcc.Graph(id="grid_chart"),
+                                    html.P(id="test_progress"),
                                 ]
                             )
                         ],
@@ -65,6 +114,9 @@ layout = dbc.Container(
                 align="center",
             ),
         ),
+        dbc.Row([dbc.Col(id="last_timestamp", width=3)]),
+        html.Br(),
+        html.Br(),
     ]
 )
 
@@ -89,14 +141,6 @@ def data(dummy):
         .to_dict()
     )
 
-    # missing_iata = [
-    #     "TSR",
-    # ]
-    # for c, i in enumerate(missing_iata):
-    #     dict_airports["city_name"][i] = f"{c}_temporary_city"
-    #     dict_airports["country_name"][i] = f"{c}_temporary_country"
-    # print("fix above in DB and LOGIC in utils to check")
-
     df_all["from_pl"] = df_all.flight.apply(lambda x: x[:3])
 
     # options = df_all.flight.apply(lambda x: x if x[:3] in origins else '').unique()
@@ -117,19 +161,30 @@ def data(dummy):
 
 
 @dash.callback(
-    [Output("grid_chart", "figure"), Output("loading-output-grid", "children")],
+    [
+        Output("grid_chart", "figure"),
+        Output("last_timestamp", "children"),
+        Output("loading-output-grid", "children"),
+    ],
     [
         Input("data_grid", "data"),
         Input("data_airports", "data"),
         Input("days_grid_dropdown", "value"),
         Input("selection_flight_dropdown", "value"),
+        Input("months_show_dropdown", "value"),
     ],
 )
-def grid_chart(data, data_airports, dropdown_value, dropdown_value2):
+def grid_chart(data, data_airports, dropdown_value, dropdown_value2, num_months_show):
     dff = pd.read_json(data, orient="split")
     dff.departure_date = pd.to_datetime(dff.departure_date)
+    dff = dff[
+        (
+            dff.departure_date
+            <= pd.Timestamp("now") + pd.offsets.DateOffset(months=num_months_show)
+        )
+        & (dff.departure_date > pd.Timestamp("now"))  # removes past data
+    ]
 
-    # print("\n\n\n\n\n\n\n\n", dropdown_value2, "\n\n\n\n\n\n\n\n")
     print(pd.Timestamp("now"))
     if dropdown_value2 == None:
         dropdown_value2 = "ZAG_EIN"
@@ -147,8 +202,8 @@ def grid_chart(data, data_airports, dropdown_value, dropdown_value2):
     arrs = dff[dff.flight.str.startswith(f"{to}")].drop(["timestamp"], axis=1)
 
     #%% Extract:
-    days_diff_max = dropdown_value
-    days_diff_min = 1
+    days_diff_min = dropdown_value[0]
+    days_diff_max = dropdown_value[1]
     days_delta_max = dt.timedelta(days=days_diff_max)
     days_delta_min = dt.timedelta(days=days_diff_min)
 
@@ -206,6 +261,25 @@ def grid_chart(data, data_airports, dropdown_value, dropdown_value2):
         fig.add_vline(
             x=date, line_width=1, line_color="gray", line_dash="dash", opacity=0.2
         )
-    fig.update_layout(yaxis_title="Flight options", plot_bgcolor="rgba(0,0,0,0)")
+    fig.update_layout(
+        yaxis_title="Flight options", plot_bgcolor="rgba(0,0,0,0)", margin=dict(b=3)
+    )
 
-    return fig, None
+    df_timestamps = (
+        dff.groupby(dff.departure_date.dt.strftime("%Y-%m-01"))  #%b'%y
+        .timestamp.max()
+        .sort_index()
+    )
+    timestamps = df_timestamps.dt.strftime("%d-%b-%Y").to_frame().reset_index()
+    timestamps.departure_date = pd.to_datetime(
+        timestamps.departure_date, dayfirst=True
+    ).dt.strftime("%b'%y")
+    timestamps = timestamps.rename(
+        columns={"departure_date": "Month(s):", "timestamp": "Last updated:"}
+    )
+    table_timestamps = dash_table.DataTable(
+        timestamps.to_dict("records"),
+        [{"name": i, "id": i} for i in timestamps.columns],
+    )
+
+    return fig, table_timestamps, None
