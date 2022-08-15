@@ -28,7 +28,7 @@ dash_app = Dash(
     use_pages=True,
 )
 
-dash_app.title = "my app title"
+dash_app.title = "Outtahere"
 
 dash_app.layout = html.Div(
     [

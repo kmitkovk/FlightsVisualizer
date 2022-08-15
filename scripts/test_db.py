@@ -1,9 +1,9 @@
-import sqlalchemy
+# import sqlalchemy
+# from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey
+# from sqlalchemy import inspect
 from sqlalchemy import create_engine
-from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey
-from sqlalchemy import inspect
 
-import pyodbc
+# import pyodbc
 import urllib
 
 import os
@@ -15,7 +15,7 @@ load_dotenv()  # take environment variables from .env.
 db_host = os.environ["DBHOST"]
 db_pass = os.environ["DBPASS"]
 db_u_name = os.environ["DBUSER"]
-db_name = os.environ["DB_NAME"]
+db_name = os.environ["DBNAME"]
 
 driver = "ODBC+DRIVER+13+for+SQL+Server"
 # https://stackoverflow.com/questions/52450659/pyodbc-to-sqlalchemy-connection
@@ -40,4 +40,4 @@ with engine_azure.connect() as con:
     for row in rs:
         print(row)
 # %%
-#setting AZURE DB CONN:https://stackoverflow.com/questions/53704187/connecting-to-an-azure-database-using-sqlalchemy-in-python 
+# setting AZURE DB CONN:https://stackoverflow.com/questions/53704187/connecting-to-an-azure-database-using-sqlalchemy-in-python

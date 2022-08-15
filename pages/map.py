@@ -7,9 +7,29 @@ import plotly.express as px
 import plotly.graph_objects as go
 from dash import Input, Output, dcc, html
 
+from sqlalchemy import create_engine
+import urllib
+import os
+from dotenv import load_dotenv
+
 dash.register_page(__name__)
 
+load_dotenv()  # take environment variables from .env.
+
 origins = ["TSF", "TRS", "ZAG", "LJU"]  # "SOF"
+
+db_host = os.environ["DBHOST"]
+db_pass = os.environ["DBPASS"]
+db_u_name = os.environ["DBUSER"]
+db_name = os.environ["DBNAME"]
+
+driver = "ODBC+DRIVER+13+for+SQL+Server"
+params = urllib.parse.quote_plus(
+    rf"Driver=ODBC Driver 13 for SQL Server;Server=tcp:{db_host},1433;Database={db_name};Uid={db_u_name}@{db_host};Pwd={db_pass};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+)  # urllib.parse.quote_plus for python 3
+conn_str = "mssql+pyodbc:///?odbc_connect={}".format(params)
+engine_azure = create_engine(conn_str, echo=True)
+
 
 layout = dbc.Container(
     [
@@ -21,6 +41,11 @@ layout = dbc.Container(
         ),
         dcc.Store(
             id="dummy_input_map",
+        ),
+        dcc.Loading(
+            id="loading-map",
+            type="default",
+            children=html.Div(id="loading-output-map"),
         ),
         dbc.Row(
             dbc.Col(
@@ -108,7 +133,10 @@ def data_map(dummy):
 
 
 @dash.callback(
-    Output("map-chart", "figure"),
+    [
+        Output("map-chart", "figure"),
+        Output("loading-output-map", "children"),
+    ],
     [Input("data_map_flights", "data"), Input("data_map_airports", "data")],
 )
 def map_render(flights, airports):
@@ -231,4 +259,12 @@ def map_render(flights, airports):
         ),
         margin=dict(l=5, r=5, t=5, b=5),
     )
-    return fig
+
+    with engine_azure.connect() as con:
+
+        rs = con.execute("SELECT * FROM x_test_table")
+
+        for row in rs:
+            print(row)
+
+    return fig, None

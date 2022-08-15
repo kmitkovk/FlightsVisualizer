@@ -77,7 +77,9 @@
 ## Azure services
 ### Steps to deploy to azure for new branch:
 1. Create web app in azure
-2. Go to [configurations](https://portal.azure.com/#@kmitkovkerlievgmail.onmicrosoft.com/resource/subscriptions/ea1de4dc-316d-4041-baf0-5824b53e3cfc/resourcegroups/KMK_RG_GENERIC/providers/Microsoft.Web/sites/flightvis/configuration) and add a variable WEBSITE_WEBDEPLOY_USE_SCM and set it to true
+2. Go to [configurations](https://portal.azure.com/#@kmitkovkerlievgmail.onmicrosoft.com/resource/subscriptions/ea1de4dc-316d-4041-baf0-5824b53e3cfc/resourcegroups/KMK_RG_GENERIC/providers/Microsoft.Web/sites/flightvis/configuration) and add the environment variables
+   * WEBSITE_WEBDEPLOY_USE_SCM and set it to true
+   * add other variables and passwords such as databases etc
    * wait 1 minute for the changes to take effect
 3. Add the github configuration in [Deployment Center](https://portal.azure.com/#@kmitkovkerlievgmail.onmicrosoft.com/resource/subscriptions/ea1de4dc-316d-4041-baf0-5824b53e3cfc/resourcegroups/KMK_RG_GENERIC/providers/Microsoft.Web/sites/flightvis/vstscd)
 4. Deploy and this is going to start building the app and send to github for workactions

@@ -16,7 +16,7 @@ def header_element():
                 width="auto",
             ),
             dbc.Col(
-                html.H4("Flights Visualizer", className="page-title"),
+                html.H4("Outtahere", className="page-title"),
                 className="title-col",
                 width="auto",
             ),
