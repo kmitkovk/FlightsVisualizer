@@ -10,7 +10,7 @@ from dash import Dash, Input, Output, State, dcc, html
 
 # from pythonjsonlogger import jsonlogger
 
-import components
+import app_components
 
 # This is how to suppress workings
 warnings.filterwarnings("ignore", message=" only support")
@@ -31,7 +31,11 @@ dash_app = Dash(
 dash_app.title = "my app title"
 
 dash_app.layout = html.Div(
-    [components.header_element(), components.header_break(), dash.page_container]
+    [
+        app_components.header_element(),
+        app_components.header_break(),
+        dash.page_container,
+    ]
 )
 
 # logHandler = logging.StreamHandler()

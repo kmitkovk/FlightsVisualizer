@@ -44,12 +44,14 @@
 --------------------------------------------------------
 - ~~Date range grid~~
 - ~~Limit number of months shown for perormance~~
-- ~~Show last timestamp~~
+- Days ago - last timestamp
 - ~~Fix number of flights in grid (y axis labels) -> nothing to fix (y-axis shrinks it)~~
 - ~~Add VCE to datavase~~
 - [Route folder](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#customize-startup-command) so that you could be pushing the latest version to cloud
+- Map -> limit to months
+- Flight stats page
 - Make Map the home or [default page](https://community.plotly.com/t/introducing-dash-pages-a-dash-2-x-feature-preview/57775)
-- Install SQLAlchemy
+- ``Install SQLAlchemy``
 - Add table for country-city data with month and timestamp (to be used for caching)
   - DrawSQL [link](https://drawsql.app/teams/gmat/diagrams/flightvisualizer2)
 - Database => transfer files

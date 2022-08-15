@@ -131,10 +131,10 @@ layout = dbc.Container(
 )
 def data(dummy):
     df_all = pd.read_csv(
-        r"../../../data/data_flights.csv",
+        r"data/data_flights.csv",
     ).drop(["Unnamed: 0", "trace_id", "origin", "dest_city_code"], axis=1)
 
-    df_airports = pd.read_csv(r"../../../data/data_airports.csv")
+    df_airports = pd.read_csv(r"data/data_airports.csv")
     dict_airports = (
         df_airports.loc[:, ["airport_code_IATA", "city_name", "country_name"]]
         .set_index("airport_code_IATA")

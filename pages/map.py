@@ -7,8 +7,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from dash import Input, Output, dcc, html
 
-import utils
-
 dash.register_page(__name__)
 
 origins = ["TSF", "TRS", "ZAG", "LJU"]  # "SOF"
@@ -57,7 +55,7 @@ layout = dbc.Container(
 )
 def data_map(dummy):
     df_flights = pd.read_csv(
-        r"../../../data/data_flights.csv",
+        r"data/data_flights.csv",
     ).drop(["Unnamed: 0", "trace_id", "origin", "dest_city_code"], axis=1)
 
     df_flights = df_flights[df_flights.flight.apply(lambda x: x[:3]).isin(origins)]
@@ -80,7 +78,7 @@ def data_map(dummy):
         "or maybe even calculate round trip... all this should be provided in options"
     )
 
-    df_airports = pd.read_csv(r"../../../data/data_airports.csv")
+    df_airports = pd.read_csv(r"data/data_airports.csv")
     df_airports = df_airports.loc[
         :,
         [
