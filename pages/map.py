@@ -7,27 +7,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 from dash import Input, Output, dcc, html
 
+from config import CONN_STR
 from sqlalchemy import create_engine
-import urllib
-import os
-from dotenv import load_dotenv
 
 dash.register_page(__name__)
 
-load_dotenv()  # take environment variables from .env.
-
+engine_azure = create_engine(CONN_STR, echo=True)
 origins = ["TSF", "TRS", "ZAG", "LJU"]  # "SOF"
-
-db_host = os.environ["DBHOST"]
-db_pass = os.environ["DBPASS"]
-db_u_name = os.environ["DBUSER"]
-db_name = os.environ["DBNAME"]
-
-params = urllib.parse.quote_plus(
-    rf"Driver=ODBC Driver 17 for SQL Server;Server=tcp:{db_host},1433;Database={db_name};Uid={db_u_name}@{db_host};Pwd={db_pass};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
-)  # urllib.parse.quote_plus for python 3
-conn_str = "mssql+pyodbc:///?odbc_connect={}".format(params)
-engine_azure = create_engine(conn_str, echo=True)
 
 
 layout = dbc.Container(

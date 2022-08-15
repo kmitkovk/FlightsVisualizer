@@ -1,5 +1,7 @@
 # Flights Scraper
 
+Link to the app can be found here [https://outtahere.azurewebsites.net/](https://outtahere.azurewebsites.net/)
+
 ## UX1 - <i>Where to?</i>
 1. User enters nearby airports
    - the app checks for all connections (destinations) with them
@@ -40,28 +42,30 @@
 <br>
 
 --------------------------------------------------------
-### TODO
+## TODO
 --------------------------------------------------------
+#### DONE:
 - ~~Date range grid~~
 - ~~Limit number of months shown for perormance~~
-- Days ago - last timestamp
 - ~~Fix number of flights in grid (y axis labels) -> nothing to fix (y-axis shrinks it)~~
 - ~~Add VCE to datavase~~
-- [Route folder](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#customize-startup-command) so that you could be pushing the latest version to cloud
-- Map -> limit to months
-- Flight stats page
-- Make Map the home or [default page](https://community.plotly.com/t/introducing-dash-pages-a-dash-2-x-feature-preview/57775)
-- ``Install SQLAlchemy``
+- ~~[Route folder](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#customize-startup-command) so that you could be pushing the latest version to cloud~~
+- ~~Install SQLAlchemy~~
+<br>
+<br>
+#### TOBEDONE:
 - Add table for country-city data with month and timestamp (to be used for caching)
   - DrawSQL [link](https://drawsql.app/teams/gmat/diagrams/flightvisualizer2)
 - Database => transfer files
-  - change password database
-  - shee the .env emails for explanation
+- Remove SQL query in Map module
+- Days ago - last timestamp
+- Map -> limit to months
+- Flight stats page
+- Make Map the home or [default page](https://community.plotly.com/t/introducing-dash-pages-a-dash-2-x-feature-preview/57775)
 - UX1 -> on hover show data, on click show second chart
 - Progress info UX2 ( 20/35 loaded ...35%) -> show this under the loading button with modal!
   - read [here](https://towardsdatascience.com/long-callbacks-in-dash-web-apps-72fd8de25937) or [here](https://dash.plotly.com/long-callbacks) for more info
 - Schedule script to track 3 flights (three locations) for price changes
-- last update info box
 - Up the scrape price to 150 (test before what the incrase it)
 - Optimize main scripts:
   - grid selection
@@ -70,7 +74,7 @@
   - map
   - Try out the [highcharts map](https://towardsdatascience.com/highly-interactive-data-visualization-cd3a9b082370#:~:text=Panel%2DHighcharts%20is%20a%20python,python%20for%20Exploratory%20Data%20Analysis.) again
 - App layout improvement -> [mobile verision](https://stackoverflow.com/questions/22985370/making-the-bootstrap-dashboard-example-sidebar-visible-available-on-mobile) and collapsable window
-- ~~
+
 --------------------------------------------------------
 <br>
 
