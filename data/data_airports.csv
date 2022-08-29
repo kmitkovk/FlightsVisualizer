@@ -150,5 +150,11 @@
 0,EU,Germany,DE,Frankfurt,Frankfurt am Main,FRAN,https://content.skyscnr.com/e286ff180a40d9376f18c9c2b314565f/GettyImages-510973985.jpg,Frankfurt am Main Airport,FRA,large_airport,50.033333,8.570556
 1,AS,Türkiye (Turkey),TR,Antalya,Antalya,ANTA,https://content.skyscnr.com/m/6f2cbf7c2ab90059/original/Kaputas-Antalya-postcard.jpg,Antalya International Airport,AYT,large_airport,36.898701,30.800501
 0,EU,Romania,RO,Timișoara,Timişoara,TIMI,https://content.skyscnr.com/m/7ef91e4df199acc6/original/timisoara-217377_1280.jpg,Timişoara Traian Vuia Airport,TSR,medium_airport,45.80989837646485,21.337900161743164
-0,EU,Poland,PL,Rzeszow,Rzeszów,RZES,,Rzeszów-Jasionka Airport,RZE,medium_airport,50.1100006104, 22.0189990997
-1,EU,Italy,IT,Lampedusa,Lampedusa,LAMP,https://content.skyscnr.com/0776a3acc229c616aeee7c00bb507012/GettyImages-153651373.jpg,Lampedusa Airport,LMP,medium_airport,35.497898, 12.6181
+0,EU,Poland,PL,Rzeszow,Rzeszów,RZES,,Rzeszów-Jasionka Airport,RZE,medium_airport,50.1100006104,22.0189990997
+1,EU,Italy,IT,Lampedusa,Lampedusa,LAMP,https://content.skyscnr.com/0776a3acc229c616aeee7c00bb507012/GettyImages-153651373.jpg,Lampedusa Airport,LMP,medium_airport,35.497898,12.6181
+0,AS,Jordan,JO,Amman,Amman,AMMA,https://content.skyscnr.com/m/78f63b524902cc7a/original/Citadel-overview-15.jpg,Queen Alia International Airport,AMM,large_airport,31.7226009369, 35.9931983948
+1,AS,Egypt,EG,Sharm El Sheikh,Sharm el-Sheikh,SHAR,https://content.skyscnr.com/30e2a8c51ecc87f49af466f1637a98e4/gettyimages-507788255.jpg,Sharm El Sheikh International Airport,SSH,medium_airport,27.9773006439, 34.3950004578
+2,AF,Egypt,EG,Marsa Allam,Marsa Alam,MART,https://content.skyscnr.com/0e7e702ab0f135b2fe184fb653798078/eyeem-25920309-92909428.jpg,Marsa Alam International Airport,RMF,medium_airport,25.557100296, 34.5836982727
+3,EU,France,FR,Lille,Lille/Lesquin,LILL,https://content.skyscnr.com/8c9f4b43f6d11ee747a9ebb19589f246/GettyImages-177530843.jpg,Lille-Lesquin Airport,LIL,medium_airport,50.563332, 3.086886
+4,EU,Spain,ES,Fuerteventura,Fuerteventura Island,FUER,https://content.skyscnr.com/b4ef80670c581d86543850f97fb2df9f/GettyImages-460870155.jpg,Fuerteventura Airport,FUE,medium_airport,28.452699661254883, -13.863800048828125
+5,EU,Spain,ES,Gran Canaria,Gran Canaria Island,GRAN,https://content.skyscnr.com/m/52c63dea83a8987c/original/24_19-1.jpg,Gran Canaria Airport,LPA,large_airport,27.931900024414062, -15.38659954071045

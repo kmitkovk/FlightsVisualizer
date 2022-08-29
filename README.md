@@ -52,21 +52,27 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 - ~~[Route folder](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#customize-startup-command) so that you could be pushing the latest version to cloud~~
 - ~~Install SQLAlchemy~~
 <br>
-<br>
+
+
 #### TOBEDONE:
 - Add table for country-city data with month and timestamp (to be used for caching)
   - DrawSQL [link](https://drawsql.app/teams/gmat/diagrams/flightvisualizer2)
 - Database => transfer files
 - Remove SQL query in Map module
+- Cache cnt-cities-month (in DB?) for at least once a month
 - Days ago - last timestamp
 - Map -> limit to months
 - Flight stats page
+- Filter (1) by country and price and filter (2) sort by date and price
+- Add config/admin page (hidden) with password in the .env file/env vars
+  - to scrape and monitor data
 - Make Map the home or [default page](https://community.plotly.com/t/introducing-dash-pages-a-dash-2-x-feature-preview/57775)
 - UX1 -> on hover show data, on click show second chart
 - Progress info UX2 ( 20/35 loaded ...35%) -> show this under the loading button with modal!
   - read [here](https://towardsdatascience.com/long-callbacks-in-dash-web-apps-72fd8de25937) or [here](https://dash.plotly.com/long-callbacks) for more info
 - Schedule script to track 3 flights (three locations) for price changes
 - Up the scrape price to 150 (test before what the incrase it)
+- Add logging
 - Optimize main scripts:
   - grid selection
   - timeline [upgrades](https://plotly.com/python-api-reference/generated/plotly.express.timeline.html)

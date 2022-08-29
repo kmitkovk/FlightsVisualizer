@@ -14,3 +14,5 @@ with engine_azure.connect() as con:
 
     for row in rs:
         print(row)
+
+#%% test insert data

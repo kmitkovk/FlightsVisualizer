@@ -28,7 +28,7 @@ from typing import List
 from collections import defaultdict
 
 from config import HEADERS, SLEEP_TIME_SHORT, SLEEP_TIME_LONG, ORIGIN_AIRPORTS
-from utilities.utils import check_missing_airports, save_new_airports
+from scripts.utils import check_missing_airports, save_new_airports
 
 
 #%% Orig-Dest_Country filter
@@ -92,6 +92,7 @@ def get_destination_countries(
             json_data_cnt = response_cnt.json()["PlacePrices"]
         except Exception as e:
             raise ValueError(f'Code broke on origin cnt "{origin}" with error:\n{e}')
+            print(f'\n\n\n   response:\n{response_cnt}\n\n\n')
             print("Exiting main loop!")
             break
         if only_direct:
@@ -193,8 +194,11 @@ def get_destination_cities(
             raise ValueError(
                 f"Code broke on origin-cities: {origin}-{dest_cnt_ISO_2} with error:\n{e}"
             )
+            print(f'\n\n\n   response:\n{response_cnt}\n\n\n')
         if only_direct:
             df_orig_dest_cities = pd.DataFrame(json_data_cnt)
+            if 'DirectPrice' not in df_orig_dest_cities.columns:
+                continue
             df_orig_dest_cities = df_orig_dest_cities[
                 (df_orig_dest_cities.Direct == True)
                 & (df_orig_dest_cities.DirectPrice <= max_price)
@@ -324,6 +328,7 @@ def get_destination_cities_dates_prices(
                     break_loop_1 = True
                     # Save data up till break
                     df.to_csv(r"data/recovery_file_dest_price_dates.csv")
+                    print(f'\n\n\n   response:\n{response_cnt}\n\n\n')
                     break
                 if only_direct:
                     # Extract only direct flights
@@ -393,8 +398,8 @@ def get_destination_cities_dates_prices(
 
 #%% Selection (temp)
 
-month1 = "2022-09"
-test_airports = [ORIGIN_AIRPORTS["Zagreb"]]
+month1 = "2022-10"
+test_airports = [ORIGIN_AIRPORTS["Sofia"]]
 test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS if i != 'Sofia']
 
 if False:
