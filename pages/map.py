@@ -7,13 +7,14 @@ import plotly.express as px
 import plotly.graph_objects as go
 from dash import Input, Output, dcc, html
 
-from config import CONN_STR
-from sqlalchemy import create_engine
+# from config import CONN_STR
+# from sqlalchemy import create_engine
 
 dash.register_page(__name__)
 
-engine_azure = create_engine(CONN_STR, echo=True)
-origins = ["TSF", "TRS", "ZAG", "LJU"]  # "SOF"
+# engine_azure = create_engine(CONN_STR, echo=True)
+origins = ["TSF", "TRS", "ZAG", "LJU"]  # "SOF", "VCE"
+map_height = 650  # px
 
 
 layout = dbc.Container(
@@ -47,6 +48,7 @@ layout = dbc.Container(
                                 ]
                             )
                         ],
+                        style={"height": f"{map_height+100}px"},
                     ),
                 ],
                 align="center",
@@ -243,11 +245,7 @@ def map_render(flights, airports):
             zoom=3.1,
         ),
         margin=dict(l=5, r=5, t=5, b=5),
+        height=map_height,
     )
-
-    with engine_azure.connect() as con:
-        rs = con.execute("SELECT * FROM x_test_table")
-        for row in rs:
-            print(row)
 
     return fig, None

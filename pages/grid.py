@@ -6,12 +6,13 @@ import dash
 import dash_bootstrap_components as dbc
 
 import plotly.express as px
+import plotly.graph_objects as go
 from dash import Input, Output, dcc, html, dash_table
 
 
 dash.register_page(__name__)
 
-origins = ["ZAG", "TSF", "LJU", "TRS", "SOF"]
+origins = ["ZAG", "TSF", "LJU", "TRS", "SOF", "VCE"]
 
 layout = dbc.Container(
     [
@@ -207,6 +208,19 @@ def grid_chart(data, data_airports, dropdown_value, dropdown_value2, num_months_
     days_delta_max = dt.timedelta(days=days_diff_max)
     days_delta_min = dt.timedelta(days=days_diff_min)
 
+    if dff.empty:
+        timestamps = pd.DataFrame([], columns=["Month(s):", "Last updated:"])
+        table_timestamps = dash_table.DataTable(
+            timestamps.to_dict("records"),
+            [{"name": i, "id": i} for i in timestamps.columns],
+        )
+        fig = go.Figure()
+        fig.update_layout(
+            title_x=0.5,
+            title="*NO TRIPS AVAILABLE FOR THIS COMBINATION OF TRIP, PRICE, DAYS OF VACATION OR # MONTHS SHOWN!",
+        )
+        return fig, table_timestamps, None
+
     df_matching = pd.DataFrame()
     for c, dep in enumerate(deps.iterrows()):
         origin = dep[1].flight[:3]
@@ -235,8 +249,20 @@ def grid_chart(data, data_airports, dropdown_value, dropdown_value2, num_months_
 
     df = df_matching.copy()
 
-    df["custom_name"] = df.apply(lambda row: "€" + str(row.total_fare), axis=1)
+    if df.empty:
+        timestamps = pd.DataFrame([], columns=["Month(s):", "Last updated:"])
+        table_timestamps = dash_table.DataTable(
+            timestamps.to_dict("records"),
+            [{"name": i, "id": i} for i in timestamps.columns],
+        )
+        fig = go.Figure()
+        fig.update_layout(
+            title_x=0.5,
+            title="*NO TRIPS AVAILABLE FOR THIS COMBINATION OF TRIP, PRICE, DAYS OF VACATION OR # MONTHS SHOWN!",
+        )
+        return fig, table_timestamps, None
 
+    df["custom_name"] = df.apply(lambda row: "€" + str(row.total_fare), axis=1)
     dates = pd.date_range(df.outbound_date.min(), df.departure_date.max())
 
     # Source: https://plotly.com/python/gantt/

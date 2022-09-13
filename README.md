@@ -58,7 +58,6 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 - Add table for country-city data with month and timestamp (to be used for caching)
   - DrawSQL [link](https://drawsql.app/teams/gmat/diagrams/flightvisualizer2)
 - Database => transfer files
-- Remove SQL query in Map module
 - Cache cnt-cities-month (in DB?) for at least once a month
 - Days ago - last timestamp
 - Map -> limit to months
@@ -66,7 +65,10 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 - Filter (1) by country and price and filter (2) sort by date and price
 - Add config/admin page (hidden) with password in the .env file/env vars
   - to scrape and monitor data
+  - update latest timestamp for a given origin-dest-origin aka:
+    - Sep, Oct, Nov and Dec for ZAG-SOF-ZAG
 - Make Map the home or [default page](https://community.plotly.com/t/introducing-dash-pages-a-dash-2-x-feature-preview/57775)
+- Draft the UX3 flow chart 
 - UX1 -> on hover show data, on click show second chart
 - Progress info UX2 ( 20/35 loaded ...35%) -> show this under the loading button with modal!
   - read [here](https://towardsdatascience.com/long-callbacks-in-dash-web-apps-72fd8de25937) or [here](https://dash.plotly.com/long-callbacks) for more info
