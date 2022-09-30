@@ -1,4 +1,3 @@
-from sqlite3 import Timestamp
 import pandas as pd
 import datetime as dt
 
@@ -9,6 +8,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 from dash import Input, Output, dcc, html, dash_table
 
+from sqlalchemy import create_engine
+from config import CONN_STR
+
+# below could cause connection to be lost if page is not interacted with, fixed on refresh
+engine_azure = create_engine(CONN_STR, echo=True)
 
 dash.register_page(__name__)
 
@@ -17,12 +21,16 @@ origins = ["ZAG", "TSF", "LJU", "TRS", "SOF", "VCE"]
 layout = dbc.Container(
     [
         dcc.Store(id="data_grid"),
-        dcc.Store(id="data_airports"),
         dcc.Store(id="data_grid_dummy"),
         dcc.Loading(
             id="loading-grid",
             type="default",
             children=html.Div(id="loading-output-grid"),
+        ),
+        dcc.Loading(
+            id="loading-data",
+            type="default",
+            children=html.Div(id="loading-output-data"),
         ),
         dbc.Row(
             dbc.Col(
@@ -125,27 +133,31 @@ layout = dbc.Container(
 @dash.callback(
     [
         Output("data_grid", "data"),
-        Output("data_airports", "data"),
         Output("selection_flight_dropdown", "options"),
+        Output("loading-output-data", "children"),
     ],
     Input("data_grid_dummy", "data"),
 )
 def data(dummy):
-    df_all = pd.read_csv(
-        r"data/data_flights.csv",
-    ).drop(["Unnamed: 0", "trace_id", "origin", "dest_city_code"], axis=1)
+    query_distinct_routes = """
+                            DECLARE @Date DATE = GETDATE()
+                            Select DISTINCT flight FROM FV_FLIGHTS
+                            where origin is NOT NULL
+                            and departure_date > @Date
+                            and LEFT(flight,3) in ('{origins_string}')
+    """
+    options = pd.read_sql_query(
+        query_distinct_routes.format(origins_string="','".join(origins)),
+        con=engine_azure,
+    ).flight.to_list()
 
-    df_airports = pd.read_csv(r"data/data_airports.csv")
+    df_airports = pd.read_sql_query("SELECT * FROM FV_AIRPORTS_SS", con=engine_azure)
     dict_airports = (
         df_airports.loc[:, ["airport_code_IATA", "city_name", "country_name"]]
         .set_index("airport_code_IATA")
         .to_dict()
     )
 
-    df_all["from_pl"] = df_all.flight.apply(lambda x: x[:3])
-
-    # options = df_all.flight.apply(lambda x: x if x[:3] in origins else '').unique()
-    options = df_all.flight[df_all.from_pl.isin(origins)].unique()
     options_dict = [
         {
             "label": f"{dict_airports['city_name'][flight[:3]]}-{dict_airports['city_name'][flight[-3:]]}({dict_airports['country_name'][flight[-3:]]})-{dict_airports['city_name'][flight[:3]]}",
@@ -154,11 +166,15 @@ def data(dummy):
         for flight in options
     ]
 
-    return (
-        df_all.to_json(orient="split"),
-        df_airports.to_json(orient="split"),
-        options_dict,
-    )  # , 'ZAG-EIN'
+    df_all = (
+        pd.read_csv(
+            r"data/data_flights.csv",
+        )
+        .drop(["Unnamed: 0", "trace_id", "dest_city_code"], axis=1)
+        .dropna()
+    )
+
+    return (df_all.to_json(orient="split"), options_dict, None)  # , 'ZAG-EIN'
 
 
 @dash.callback(
@@ -169,31 +185,40 @@ def data(dummy):
     ],
     [
         Input("data_grid", "data"),
-        Input("data_airports", "data"),
         Input("days_grid_dropdown", "value"),
         Input("selection_flight_dropdown", "value"),
         Input("months_show_dropdown", "value"),
     ],
 )
-def grid_chart(data, data_airports, dropdown_value, dropdown_value2, num_months_show):
-    dff = pd.read_json(data, orient="split")
-    dff.departure_date = pd.to_datetime(dff.departure_date)
-    dff = dff[
-        (
-            dff.departure_date
-            <= pd.Timestamp("now") + pd.offsets.DateOffset(months=num_months_show)
-        )
-        & (dff.departure_date > pd.Timestamp("now"))  # removes past data
-    ]
+def grid_chart(data, days_vacay_selection, route_selection, num_months_show):
 
     print(pd.Timestamp("now"))
-    if dropdown_value2 == None:
-        dropdown_value2 = "ZAG_EIN"
+    if route_selection == None:
+        route_selection = "ZAG_EIN"
 
-    frm = dropdown_value2[:3]
-    to = dropdown_value2[-3:]
+    frm = route_selection[:3]
+    to = route_selection[-3:]
 
-    dff = dff[dff.flight.isin([f"{to}_{frm}", f"{frm}_{to}"])]
+    days_diff_min = days_vacay_selection[0]
+    days_diff_max = days_vacay_selection[1]
+
+    query_flights = """
+        DECLARE @Date DATE = GETDATE()
+        Select flight, departure_date, price, timestamp
+        FROM FV_FLIGHTS
+        where origin is NOT NULL
+        and departure_date > @Date
+        and departure_date BETWEEN @Date and DATEADD (MONTH, {months_offset}, @Date )
+        and (flight like '{frm}_{to}' OR flight like '{to}_{frm}')
+    """
+
+    df_flights = pd.read_sql_query(
+        query_flights.format(frm=frm, to=to, months_offset=num_months_show),
+        con=engine_azure,
+    )
+
+    dff = df_flights.copy()
+
     dff = dff[
         dff.timestamp
         == dff.groupby(["flight", "departure_date"]).timestamp.transform(max)
@@ -203,8 +228,7 @@ def grid_chart(data, data_airports, dropdown_value, dropdown_value2, num_months_
     arrs = dff[dff.flight.str.startswith(f"{to}")].drop(["timestamp"], axis=1)
 
     #%% Extract:
-    days_diff_min = dropdown_value[0]
-    days_diff_max = dropdown_value[1]
+
     days_delta_max = dt.timedelta(days=days_diff_max)
     days_delta_min = dt.timedelta(days=days_diff_min)
 
