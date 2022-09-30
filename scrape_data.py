@@ -27,10 +27,13 @@ import pandas as pd
 from typing import List
 from collections import defaultdict
 
-from config import HEADERS, SLEEP_TIME_SHORT, SLEEP_TIME_LONG, ORIGIN_AIRPORTS
+from sqlalchemy import create_engine
+from sqlalchemy import String, FLOAT, DATETIME
+
+from config import CONN_STR, HEADERS, SLEEP_TIME_SHORT, SLEEP_TIME_LONG, ORIGIN_AIRPORTS
 from scripts.utils import check_missing_airports, save_new_airports
 
-
+engine_azure = create_engine(CONN_STR, echo=True)
 #%% Orig-Dest_Country filter
 
 # this function and get_destination_cities should run only once per week
@@ -92,7 +95,7 @@ def get_destination_countries(
             json_data_cnt = response_cnt.json()["PlacePrices"]
         except Exception as e:
             raise ValueError(f'Code broke on origin cnt "{origin}" with error:\n{e}')
-            print(f'\n\n\n   response:\n{response_cnt}\n\n\n')
+            print(f"\n\n\n   response:\n{response_cnt}\n\n\n")
             print("Exiting main loop!")
             break
         if only_direct:
@@ -194,10 +197,10 @@ def get_destination_cities(
             raise ValueError(
                 f"Code broke on origin-cities: {origin}-{dest_cnt_ISO_2} with error:\n{e}"
             )
-            print(f'\n\n\n   response:\n{response_cnt}\n\n\n')
+            print(f"\n\n\n   response:\n{response_cnt}\n\n\n")
         if only_direct:
             df_orig_dest_cities = pd.DataFrame(json_data_cnt)
-            if 'DirectPrice' not in df_orig_dest_cities.columns:
+            if "DirectPrice" not in df_orig_dest_cities.columns:
                 continue
             df_orig_dest_cities = df_orig_dest_cities[
                 (df_orig_dest_cities.Direct == True)
@@ -328,7 +331,7 @@ def get_destination_cities_dates_prices(
                     break_loop_1 = True
                     # Save data up till break
                     df.to_csv(r"data/recovery_file_dest_price_dates.csv")
-                    print(f'\n\n\n   response:\n{response_cnt}\n\n\n')
+                    print(f"\n\n\n   response:\n{response_cnt}\n\n\n")
                     break
                 if only_direct:
                     # Extract only direct flights
@@ -400,7 +403,7 @@ def get_destination_cities_dates_prices(
 
 month1 = "2022-11"
 test_airports = [ORIGIN_AIRPORTS["Sofia"]]
-test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS if i != 'Sofia']
+test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS if i != "Sofia"]
 
 if False:
     dest_countries = get_destination_countries(test_airports, month1)
@@ -414,12 +417,23 @@ if False:
     )
 
     if False:
-        old_test = pd.read_csv(
-            r"data/data_flights.csv", parse_dates=["timestamp"]
-        ).drop("Unnamed: 0", axis=1)
-        df = pd.concat([old_test, dest_cities_dates_prices])
-        df.to_csv(r"data/data_flights.csv")
-        
+        dest_cities_dates_prices.drop("trace_id", axis=1, inplace=True)
+        dest_cities_dates_prices.to_sql(
+            con=engine_azure,
+            name="FV_FLIGHTS",
+            if_exists="append",  #'append'
+            dtype={
+                "flight": String(255),
+                "departure_date": DATETIME,
+                "price": FLOAT,
+                "origin": String(255),
+                "dest_city_code": String(255),
+                "timestamp": DATETIME,
+            },
+            index=False,
+            method="multi",
+            chunksize=100,
+        )
         
 df_missing_airports = check_missing_airports(
     df_cities=dest_cities, df_flights=dest_cities_dates_prices

@@ -51,14 +51,18 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 - ~~Add VCE to datavase~~
 - ~~[Route folder](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#customize-startup-command) so that you could be pushing the latest version to cloud~~
 - ~~Install SQLAlchemy~~
+- ~~Database => transfer files~~
 <br>
 
 
 #### TOBEDONE:
 - Add table for country-city data with month and timestamp (to be used for caching)
-  - DrawSQL [link](https://drawsql.app/teams/gmat/diagrams/flightvisualizer2)
-- Database => transfer files
-- Cache cnt-cities-month (in DB?) for at least once a month
+  - record destination_countries as a DB record:
+  - if, for a certain month, you already checked orig-dest_country with a price limit:
+     - there is very little chance that if you check further into the future, it will be cheaper
+  - therefore, record the pair orig-dest_cnt-month and do not run the dest_cities scrape:
+    - or at least run it once every 2-3 weeks if necessary
+  - this will enable you, for exisitng months and orig-dest_cnt-month, directly jump to flights
 - Days ago - last timestamp
 - Map -> limit to months
 - Flight stats page
@@ -67,6 +71,7 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
   - to scrape and monitor data
   - update latest timestamp for a given origin-dest-origin aka:
     - Sep, Oct, Nov and Dec for ZAG-SOF-ZAG
+- Keep app alive by running API calls every 2 hours or so
 - Make Map the home or [default page](https://community.plotly.com/t/introducing-dash-pages-a-dash-2-x-feature-preview/57775)
 - Draft the UX3 flow chart 
 - UX1 -> on hover show data, on click show second chart
