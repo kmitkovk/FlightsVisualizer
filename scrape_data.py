@@ -372,7 +372,7 @@ def get_destination_cities_dates_prices(
                     df_flights = df_flights[df_flights.price < max_price]
                     df_flights["origin"] = origin
                     df_flights["dest_city_code"] = dest_city_code
-                    df_flights["timestamp"] = pd.Timestamp("now").floor("Min")
+                    df_flights["timestamp"] = pd.Timestamp("now").floor("S")
 
                     df = pd.concat([df, df_flights])
                 else:
@@ -439,5 +439,6 @@ df_missing_airports = check_missing_airports(
     df_cities=dest_cities, df_flights=dest_cities_dates_prices
 )
 if not df_missing_airports.empty:
+    print('NEW AIRPORTS BEING INSERTED')
     save_new_airports(df_to_update=df_missing_airports)
 #%% -----END-----

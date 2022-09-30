@@ -234,7 +234,6 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
     dff = pd.read_json(
         data_flights, orient="split", convert_dates=["departure_date", "timestamp"]
     )
-    print(dff)
     days_diff_min = days_vacay_selection[0]
     days_diff_max = days_vacay_selection[1]
 
