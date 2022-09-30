@@ -23,14 +23,22 @@ layout = dbc.Container(
         dcc.Store(id="data_grid"),
         dcc.Store(id="data_grid_dummy"),
         dcc.Loading(
-            id="loading-grid",
             type="default",
-            children=html.Div(id="loading-output-grid"),
+            children=html.Div(
+                id="loading-output-grid-data",
+            ),
+            style={
+                "z-index": "1",
+                "position": "fixed",
+                "top": "50%",
+            },
         ),
         dcc.Loading(
-            id="loading-data",
-            type="default",
-            children=html.Div(id="loading-output-data"),
+            type="circle",
+            children=html.Div(
+                id="loading-output-grid-chart",
+            ),
+            style={"z-index": "1", "position": "fixed", "top": "50%"},
         ),
         dbc.Row(
             dbc.Col(
@@ -131,14 +139,10 @@ layout = dbc.Container(
 
 
 @dash.callback(
-    [
-        Output("data_grid", "data"),
-        Output("selection_flight_dropdown", "options"),
-        Output("loading-output-data", "children"),
-    ],
+    Output("selection_flight_dropdown", "options"),
     Input("data_grid_dummy", "data"),
 )
-def data(dummy):
+def data_options(dummy):
     query_distinct_routes = """
                             DECLARE @Date DATE = GETDATE()
                             Select DISTINCT flight FROM FV_FLIGHTS
@@ -166,41 +170,23 @@ def data(dummy):
         for flight in options
     ]
 
-    df_all = (
-        pd.read_csv(
-            r"data/data_flights.csv",
-        )
-        .drop(["Unnamed: 0", "trace_id", "dest_city_code"], axis=1)
-        .dropna()
-    )
-
-    return (df_all.to_json(orient="split"), options_dict, None)  # , 'ZAG-EIN'
+    return options_dict
 
 
 @dash.callback(
+    [Output("data_grid", "data"), Output("loading-output-grid-data", "children")],
     [
-        Output("grid_chart", "figure"),
-        Output("last_timestamp", "children"),
-        Output("loading-output-grid", "children"),
-    ],
-    [
-        Input("data_grid", "data"),
-        Input("days_grid_dropdown", "value"),
         Input("selection_flight_dropdown", "value"),
         Input("months_show_dropdown", "value"),
     ],
 )
-def grid_chart(data, days_vacay_selection, route_selection, num_months_show):
-
+def data_grid(route_selection, num_months_show):
     print(pd.Timestamp("now"))
     if route_selection == None:
         route_selection = "ZAG_EIN"
 
     frm = route_selection[:3]
     to = route_selection[-3:]
-
-    days_diff_min = days_vacay_selection[0]
-    days_diff_max = days_vacay_selection[1]
 
     query_flights = """
         DECLARE @Date DATE = GETDATE()
@@ -211,14 +197,56 @@ def grid_chart(data, days_vacay_selection, route_selection, num_months_show):
         and departure_date BETWEEN @Date and DATEADD (MONTH, {months_offset}, @Date )
         and (flight like '{frm}_{to}' OR flight like '{to}_{frm}')
     """
+    # query_flights2 = """
+    # WITH table_max_tick AS (
+    #         SELECT flight, departure_date, max([timestamp]) as maxtick
+    #         FROM FV_FLIGHTS
+    #         where origin is NOT NULL
+    #         and departure_date > GETDATE()
+    #         GROUP BY departure_date,flight
+    #         )
+    # SELECT flights.flight, flights.departure_date, flights.price, flights.origin, flights.[timestamp] from FV_FLIGHTS as flights
+    # join table_max_tick as tvmx on tvmx.flight = flights.flight
+    # and tvmx.departure_date = flights.departure_date
+    # and tvmx.maxtick = flights.[timestamp]
+    # """
 
     df_flights = pd.read_sql_query(
         query_flights.format(frm=frm, to=to, months_offset=num_months_show),
         con=engine_azure,
     )
+    return df_flights.to_json(orient="split"), None
 
-    dff = df_flights.copy()
 
+@dash.callback(
+    [
+        Output("grid_chart", "figure"),
+        Output("last_timestamp", "children"),
+        Output("loading-output-grid-chart", "children"),
+    ],
+    [
+        Input("data_grid", "data"),
+        Input("days_grid_dropdown", "value"),
+        Input("selection_flight_dropdown", "value"),
+    ],
+)
+def grid_chart(data_flights, days_vacay_selection, route_selection):
+    dff = pd.read_json(
+        data_flights, orient="split", convert_dates=["departure_date", "timestamp"]
+    )
+    print(dff)
+    days_diff_min = days_vacay_selection[0]
+    days_diff_max = days_vacay_selection[1]
+
+    if route_selection == None:
+        route_selection = "ZAG_EIN"
+
+    frm = route_selection[:3]
+    to = route_selection[-3:]
+
+    # below does not need to add origin for repeating routes such as ZAG-SOF
+    # where ZAG is the origin and SOF-ZAG where sofia is the origin
+    # this is because in either case max tick will be taken
     dff = dff[
         dff.timestamp
         == dff.groupby(["flight", "departure_date"]).timestamp.transform(max)

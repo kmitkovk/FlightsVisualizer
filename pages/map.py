@@ -29,9 +29,15 @@ layout = dbc.Container(
             id="dummy_input_map",
         ),
         dcc.Loading(
-            id="loading-map",
             type="default",
-            children=html.Div(id="loading-output-map"),
+            children=html.Div(
+                id="loading-output-map",
+            ),
+            style={
+                "z-index": "1",
+                "position": "fixed",
+                "top": "50%",
+            },
         ),
         dbc.Row(
             dbc.Col(

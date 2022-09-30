@@ -63,6 +63,7 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
   - therefore, record the pair orig-dest_cnt-month and do not run the dest_cities scrape:
     - or at least run it once every 2-3 weeks if necessary
   - this will enable you, for exisitng months and orig-dest_cnt-month, directly jump to flights
+- move to Gunicorn from flask server
 - Days ago - last timestamp
 - Map -> limit to months
 - Flight stats page
@@ -107,7 +108,7 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 - In this [stackoverflow post](https://stackoverflow.com/questions/68867980/connection-to-microsoft-azure-sql-database-works-in-local-enviornment-but-not-in) there is a very nice description on (1) how to handle the database auth and (2) how to debug remotely
 - Another [link](https://docs.microsoft.com/en-us/visualstudio/debugger/remote-debugging?view=vs-2019) on how to deal with the auth from DB in a webapp
 - The remote debug [link could be accessed here](https://hedihargam.medium.com/python-sql-database-access-with-managed-identity-from-azure-web-app-functions-14566e5a0f1a)
-
+- [Remote log stream](https://outtahere.scm.azurewebsites.net/)
 <br>
 
 ### General Instrucitons:
