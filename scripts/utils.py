@@ -50,7 +50,9 @@ def check_missing_airports(df_cities, df_flights):
             "image_url_city",
         ],
     ]
-
+    
+    if df_to_update.empty:
+        print('Nothing to update')
     return df_to_update
 
 

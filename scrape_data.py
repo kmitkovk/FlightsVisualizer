@@ -284,6 +284,7 @@ def get_destination_cities_dates_prices(
 
     """
     df = pd.DataFrame()
+    scrape_timestamp = pd.Timestamp("now").floor("S")
     # if 2nd loop with dates breaks then break the main loop of cities
     break_loop_1 = False
     for c, row in enumerate(df_destination_cities.iterrows()):
@@ -372,7 +373,7 @@ def get_destination_cities_dates_prices(
                     df_flights = df_flights[df_flights.price < max_price]
                     df_flights["origin"] = origin
                     df_flights["dest_city_code"] = dest_city_code
-                    df_flights["timestamp"] = pd.Timestamp("now").floor("S")
+                    df_flights["timestamp"] = scrape_timestamp
 
                     df = pd.concat([df, df_flights])
                 else:
@@ -401,7 +402,7 @@ def get_destination_cities_dates_prices(
 
 #%% Selection (temp)
 
-month1 = "2022-11"
+month1 = "2022-10"
 test_airports = [ORIGIN_AIRPORTS["Sofia"]]
 test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS if i != "Sofia"]
 

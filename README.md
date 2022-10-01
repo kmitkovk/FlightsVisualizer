@@ -64,6 +64,12 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
     - or at least run it once every 2-3 weeks if necessary
   - this will enable you, for exisitng months and orig-dest_cnt-month, directly jump to flights
 - move to Gunicorn from flask server
+- !!! Logic of Timestamp changed:
+  - when showing flights of particular month and route say VCE-ATH:
+    - because we used to take old maxtick, some old flights which
+    - are could have later become more expensive and therefore
+    - dropped out of the scrape, could still show even though they 
+    - should not be included in the grid because they are say > 100
 - Days ago - last timestamp
 - Map -> limit to months
 - Flight stats page
