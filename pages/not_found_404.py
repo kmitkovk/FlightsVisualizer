@@ -13,9 +13,7 @@ layout = html.Div(
                         html.H1("Error 404: Page not found!"),
                         dbc.Nav(
                             dbc.NavItem(
-                                dbc.NavLink(
-                                    "Back to main page", href="/map", active=True
-                                )
+                                dbc.NavLink("Back to main page", href="/", active=True)
                             ),
                             pills=True,
                         ),

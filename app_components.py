@@ -27,7 +27,7 @@ def header_element():
                         align="center",
                         className="g-0",
                     ),
-                    href="/map",
+                    href="/",
                     style={"textDecoration": "none"},
                 ),
                 dbc.NavbarToggler(id="navbar-toggler", n_clicks=0),
@@ -41,7 +41,7 @@ def header_element():
                                     dbc.NavItem(
                                         dbc.NavLink(
                                             "Map",
-                                            href="/map",
+                                            href="/",
                                             id="map-nav",
                                             active=False,
                                         )

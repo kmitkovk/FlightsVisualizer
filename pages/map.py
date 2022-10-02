@@ -10,7 +10,7 @@ from dash import Input, Output, dcc, html
 # from config import CONN_STR
 # from sqlalchemy import create_engine
 
-dash.register_page(__name__)
+dash.register_page(__name__, path="/")
 
 # engine_azure = create_engine(CONN_STR, echo=True)
 origins = ["TSF", "TRS", "ZAG", "LJU"]  # "SOF", "VCE"
@@ -234,9 +234,9 @@ def map_render(flights, airports):
     )
     fig.update_layout(  # https://plotly.com/python/mapbox-layers/
         # title_text="Number of destinations at price €capp",
-        legend_title_text="<br><b>From airport:</b><br>"
+        legend_title_text="<b>From airport:</b><br>"
         + "<sub>[double-click to filter]</sub><br>",
-        title_x=0.5,
+        # title_x=0.5,
         # autosize=True,
         # hovermode='closest',
         geo=dict(
@@ -252,6 +252,7 @@ def map_render(flights, airports):
         ),
         margin=dict(l=5, r=5, t=5, b=5),
         height=map_height,
+        legend=dict(orientation="h"),
     )
 
     return fig, None
