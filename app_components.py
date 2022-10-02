@@ -74,7 +74,13 @@ def header_element():
             # align="center",
             # className="title-row",
         ),
-        style={"paddingTop": "0.5rem", "paddingBottom": "0.5rem"},
+        style={
+            "paddingTop": "0.5rem",
+            "paddingBottom": "0.5rem",
+            "z-index": "1",
+            "position": "fixed",
+            "width": "-webkit-fill-available",
+        },
         color="dark",
         dark=True,
     )
@@ -95,6 +101,8 @@ def toggle_navbar_collapse(n, is_open):
 def header_break():
     return html.Div(
         children=[
+            html.Br(),
+            html.Br(),
             html.Br(),
             html.Br(),
         ]
