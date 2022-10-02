@@ -56,7 +56,7 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 
 
 #### TOBEDONE:
-- Add table for country-city data with month and timestamp (to be used for caching)
+- Add table for country-city data with month and timestamp (to be used for caching) - !!! Flights do get cheaper!! so do scrape on regular basis
   - record destination_countries as a DB record:
   - if, for a certain month, you already checked orig-dest_country with a price limit:
      - there is very little chance that if you check further into the future, it will be cheaper

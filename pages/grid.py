@@ -60,7 +60,6 @@ layout = dbc.Container(
                                                     dbc.CardHeader(
                                                         "Days of vacation:",
                                                     ),
-                                                    html.Br(),
                                                     dcc.RangeSlider(
                                                         id="days_grid_dropdown",
                                                         min=1,
@@ -77,7 +76,7 @@ layout = dbc.Container(
                                                         },
                                                     ),
                                                 ],
-                                                width=5,
+                                                md=5,
                                             ),
                                             dbc.Col(
                                                 [
@@ -93,14 +92,13 @@ layout = dbc.Container(
                                                         },
                                                     ),
                                                 ],
-                                                width=5,
+                                                md=5,
                                             ),
                                             dbc.Col(
                                                 [
                                                     dbc.CardHeader(
                                                         "Show # of months:",
                                                     ),
-                                                    html.Br(),
                                                     dcc.Slider(
                                                         id="months_show_dropdown",
                                                         min=1,
@@ -117,9 +115,10 @@ layout = dbc.Container(
                                                         },
                                                     ),
                                                 ],
-                                                width=2,
+                                                md=2,
                                             ),
-                                        ]
+                                        ],
+                                        className="g-3",  # horizontal spacing (also vertical if smalls creen)
                                     ),
                                     dcc.Graph(id="grid_chart"),
                                     html.P(id="test_progress"),
@@ -134,7 +133,8 @@ layout = dbc.Container(
         dbc.Row([dbc.Col(id="last_timestamp", width=3)]),
         html.Br(),
         html.Br(),
-    ]
+    ],
+    # fluid=True, #if you want your Container to fill available horizontal space and resize fluidly.
 )
 
 
@@ -284,7 +284,7 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
         matching_return_flights.loc[:, "d_delta"] = (
             matching_return_flights.departure_date - origin_dep_date
         )
-        matching_return_flights.loc[:, "total_fare"] = (
+        matching_return_flights.loc[:, "€ Total"] = (
             matching_return_flights.price + origin_dep_price
         )
 
@@ -313,7 +313,7 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
         )
         return fig, table_timestamps, None
 
-    df["custom_name"] = df.apply(lambda row: "€" + str(row.total_fare), axis=1)
+    df["custom_name"] = df.apply(lambda row: "€" + str(row["€ Total"]), axis=1)
     dates = pd.date_range(df.outbound_date.min(), df.departure_date.max())
 
     # Source: https://plotly.com/python/gantt/
@@ -326,7 +326,7 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
         x_end="departure_date",
         y="flight_num",
         text="custom_name",
-        color="total_fare",
+        color="€ Total",
         color_continuous_scale=px.colors.diverging.Temps,
         # width=1600, height=800)
     )
@@ -339,7 +339,9 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
             x=date, line_width=1, line_color="gray", line_dash="dash", opacity=0.2
         )
     fig.update_layout(
-        yaxis_title="Flight options", plot_bgcolor="rgba(0,0,0,0)", margin=dict(b=3)
+        yaxis_title="Flight options",
+        plot_bgcolor="rgba(0,0,0,0)",
+        margin=dict(b=3, l=2, r=2),
     )
 
     df_timestamps = (
