@@ -38,6 +38,7 @@ dash_app.layout = html.Div(
     ]
 )
 
+
 # logHandler = logging.StreamHandler()
 # formatter = jsonlogger.JsonFormatter(
 #     fmt=(f"%(asctime)s" "%(levelname)s %(module)s %(funcName)s %(message)s %(name)s")
@@ -49,6 +50,7 @@ dash_app.layout = html.Div(
 # app.logger.info("This is a info message.")
 
 app = dash_app.server
+
 
 if __name__ == "__main__":
     # app.logger.setLevel(logging.DEBUG)

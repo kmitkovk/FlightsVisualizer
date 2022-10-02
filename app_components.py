@@ -2,83 +2,94 @@
 
 import dash
 import dash_bootstrap_components as dbc
-from dash import html
+from dash import html, Input, Output, State
 
 
 #%% Layout components
 def header_element():
     """Returns the header for the whole page."""
-    return dbc.Row(
-        [
-            dbc.Col(
-                html.Img(src=dash.get_asset_url("logo.png"), className="page-logo"),
-                className="logo-col",
-                width="auto",
-            ),
-            dbc.Col(
-                html.H4("Outtahere", className="page-title"),
-                className="title-col",
-                width="auto",
-            ),
-            # PAGE SELECTION TABS
-            dbc.Col(
-                dbc.Nav(
-                    [
-                        dbc.NavItem(
-                            dbc.NavLink("Map", href="/map", id="map-nav", active=False)
-                        ),
-                        dbc.NavItem(
-                            dbc.NavLink(
-                                "Grid", href="/grid", id="grid-nav", active=False
-                            )
-                        ),
-                    ],
-                    id="header-links",
-                    horizontal="start",
-                    className="header-links",
+    return dbc.Navbar(
+        dbc.Container(
+            [
+                html.A(
+                    # Use row and col to control vertical alignment of logo / brand
+                    dbc.Row(
+                        [
+                            dbc.Col(
+                                html.Img(
+                                    src=dash.get_asset_url("logo.png"), height="35px"
+                                ),
+                            ),
+                            dbc.Col(
+                                dbc.Col(dbc.NavbarBrand("Outtahere", className="ms-2")),
+                            ),
+                        ],
+                        align="center",
+                        className="g-0",
+                    ),
+                    href="/map",
+                    style={"textDecoration": "none"},
                 ),
-                width=True,
-                className="navbar-col",
-            ),
-            dbc.Col(
-                dbc.Row(
+                dbc.NavbarToggler(id="navbar-toggler", n_clicks=0),
+                # PAGE SELECTION TABS
+                # dbc.Col(width=1),
+                dbc.Collapse(
                     [
                         dbc.Col(
-                            html.P(id="username-display", className="username-display"),
-                            className="tight",
-                            width=True,
+                            dbc.Nav(
+                                [
+                                    dbc.NavItem(
+                                        dbc.NavLink(
+                                            "Map",
+                                            href="/map",
+                                            id="map-nav",
+                                            active=False,
+                                        )
+                                    ),
+                                    dbc.NavItem(
+                                        dbc.NavLink(
+                                            "Grid",
+                                            href="/grid",
+                                            id="grid-nav",
+                                            active=False,
+                                        )
+                                    ),
+                                ],
+                                id="header-links",
+                                horizontal="start",
+                                # className="header-links",
+                            ),
                         ),
-                        dbc.Col(
-                            html.I(id="login-button2", className="fas fa-user-circle"),
-                            className="heavy-padded-left",
-                            width="auto",
-                        ),
+                        # login_modal(), # This is commented out because of dbc incompatibility
+                        user_buttons(),
+                        help_button(),
+                        help_modal(),
+                        # creator_info(),
                     ],
-                    align="center",
-                    className="tight",
+                    id="navbar-collapse",
+                    is_open=False,
+                    navbar=True,
                 ),
-                width="auto",
-                className="login-col",
-            ),
-            # This is commented out because of dbc incompatibility
-            # login_modal(),
-            dbc.Col(
-                html.I(id="help-button", className="fas fa-info-circle"),
-                width="auto",
-                align="center",
-                className="info-col",
-            ),
-            help_modal(),
-            dbc.Col(
-                html.H5("KMK", className="team-name"),
-                className="team-info",
-                width="auto",
-                align="right",
-            ),
-        ],
-        align="center",
-        className="title-row",
+            ],
+            # align="center",
+            # className="title-row",
+        ),
+        style={"paddingTop": "0.5rem", "paddingBottom": "0.5rem"},
+        color="dark",
+        dark=True,
     )
+
+
+# add callback for toggling the collapse on small screens
+@dash.callback(
+    Output("navbar-collapse", "is_open"),
+    [Input("navbar-toggler", "n_clicks")],
+    [State("navbar-collapse", "is_open")],
+)
+def toggle_navbar_collapse(n, is_open):
+    if n:
+        return not is_open
+    return is_open
 
 
 def header_break():
@@ -86,9 +97,48 @@ def header_break():
         children=[
             html.Br(),
             html.Br(),
-            html.Br(),
-            html.Br(),
         ]
+    )
+
+
+def user_buttons():
+    return dbc.Col(
+        dbc.Row(
+            [
+                dbc.Col(
+                    html.P(id="username-display", className="username-display"),
+                    className="tight",
+                    width=True,
+                ),
+                dbc.Col(
+                    html.I(id="login-button2", className="fas fa-user-circle"),
+                    className="heavy-padded-left",
+                    width="auto",
+                ),
+            ],
+            align="center",
+            className="tight",
+        ),
+        width="auto",
+        className="login-col",
+    )
+
+
+def creator_info():
+    return dbc.Col(
+        html.H5("KMK", className="team-name"),
+        className="team-info",
+        width="auto",
+        align="right",
+    )
+
+
+def help_button():
+    return dbc.Col(
+        html.I(id="help-button", className="fas fa-info-circle"),
+        width="auto",
+        align="center",
+        className="info-col",
     )
 
 
