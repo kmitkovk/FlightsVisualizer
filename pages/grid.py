@@ -188,11 +188,13 @@ def data_grid(route_selection, num_months_show):
     frm = route_selection[:3]
     to = route_selection[-3:]
 
+    # belor origin needed for repeating scrapes ZAG-SOF-ZAG vs SOF-ZAG-SOF
     query_flights = """
         DECLARE @Date DATE = GETDATE()
         Select flight, departure_date, price, timestamp
         FROM FV_FLIGHTS
         where origin is NOT NULL
+        and origin like '{frm}'
         and departure_date > @Date
         and departure_date BETWEEN @Date and DATEADD (MONTH, {months_offset}, @Date )
         and (flight like '{frm}_{to}' OR flight like '{to}_{frm}')
