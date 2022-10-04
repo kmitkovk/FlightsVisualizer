@@ -105,6 +105,19 @@ def toggle_navbar_collapse(n, n1, n2, is_open):
     return is_open
 
 
+@dash.callback(
+    Output("help-modal", "is_open"),
+    [
+        Input("help-button", "n_clicks"),
+    ],
+    [State("help-modal", "is_open")],
+)
+def toggle_info_modal(n, is_open):
+    if n:
+        return not is_open
+    return is_open
+
+
 def header_break():
     return html.Div(
         children=[
@@ -145,15 +158,6 @@ def creator_info():
         className="team-info",
         width="auto",
         align="right",
-    )
-
-
-def help_button():
-    return dbc.Col(
-        html.I(id="help-button", className="fas fa-info-circle"),
-        width="auto",
-        align="center",
-        className="info-col",
     )
 
 
@@ -265,6 +269,21 @@ def login_modal():
     )
 
 
+def help_button():
+    return dbc.Col(
+        html.I(id="help-button", className="fas fa-info-circle", n_clicks=0),
+        width="auto",
+        align="center",
+        className="info-col",
+    )
+
+
+def help_modal_md():
+    with open(r"assets/info.md") as file:
+        content_md = file.read()
+    return content_md
+
+
 def help_modal():
     return dbc.Modal(
         [
@@ -274,7 +293,7 @@ def help_modal():
                 className="modal-body",
             ),
             dbc.ModalFooter(
-                f"Please report any bugs or suggestions to the dashboard owner.",
+                help_modal_md(),
                 className="modal-footer",
             ),
         ],
