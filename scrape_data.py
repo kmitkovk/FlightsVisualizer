@@ -402,7 +402,7 @@ def get_destination_cities_dates_prices(
 
 #%% Selection (temp)
 
-month1 = "2022-12"
+month1 = "2023-01"
 test_airports = [ORIGIN_AIRPORTS["Sofia"]]
 test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS if i != "Sofia"]
 test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS]
@@ -417,6 +417,7 @@ if False:
         [month1],
         [month1],
     )
+    print('\n\n\nSAVE RESULTS TO DB!!!\n\n\n')
 
     if False:
         dest_cities_dates_prices.drop("trace_id", axis=1, inplace=True)

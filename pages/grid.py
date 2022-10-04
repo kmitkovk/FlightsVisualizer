@@ -188,30 +188,32 @@ def data_grid(route_selection, num_months_show):
     frm = route_selection[:3]
     to = route_selection[-3:]
 
-    # belor origin needed for repeating scrapes ZAG-SOF-ZAG vs SOF-ZAG-SOF
+    # below origin needed for repeating scrapes ZAG-SOF-ZAG vs SOF-ZAG-SOF
+    # grouping on and using the latest timestamp tick below on the data as
+    # scrape is always done on the origin towards all destinations meaning
+    # if in scrape one VCE-ATH showed up for a particular departure date
+    # but it did not show up on scrape 2 this means that one of the flights
+    # became more expensive than the eur100 limit
     query_flights = """
+        SET NOCOUNT ON
+        DECLARE @NumMonths int = {months_offset}
         DECLARE @Date DATE = GETDATE()
-        Select flight, departure_date, price, timestamp
+        DECLARE @DateEnd DATE = DATEADD(DAY,-1,DATEFROMPARTS(YEAR (DATEADD (MONTH, @NumMonths, @Date )),MONTH (DATEADD (MONTH, @NumMonths, @Date)),1))
+        SELECT origin, year(departure_date) as year_gr , MONTH (departure_date) month_gr, max([timestamp]) as maxtick
+        into #TEMPTABLE
         FROM FV_FLIGHTS
-        where origin is NOT NULL
-        and origin like '{frm}'
-        and departure_date > @Date
-        and departure_date BETWEEN @Date and DATEADD (MONTH, {months_offset}, @Date )
+        GROUP by origin, YEAR(departure_date), MONTH (departure_date)
+        SELECT flights.flight, flights.departure_date, flights.price, flights.origin, flights.[timestamp] from FV_FLIGHTS as flights
+        join #TEMPTABLE as tvmx on tvmx.origin = flights.origin
+            and tvmx.year_gr = year(flights.departure_date)
+            and tvmx.month_gr = month(flights.departure_date)
+            and tvmx.maxtick = flights.[timestamp]
+        where flights.origin like '{frm}'
         and (flight like '{frm}_{to}' OR flight like '{to}_{frm}')
+        and departure_date BETWEEN @Date and @DateEnd
+        order by departure_date
+        DROP table #TEMPTABLE
     """
-    # query_flights2 = """
-    # WITH table_max_tick AS (
-    #         SELECT flight, departure_date, max([timestamp]) as maxtick
-    #         FROM FV_FLIGHTS
-    #         where origin is NOT NULL
-    #         and departure_date > GETDATE()
-    #         GROUP BY departure_date,flight
-    #         )
-    # SELECT flights.flight, flights.departure_date, flights.price, flights.origin, flights.[timestamp] from FV_FLIGHTS as flights
-    # join table_max_tick as tvmx on tvmx.flight = flights.flight
-    # and tvmx.departure_date = flights.departure_date
-    # and tvmx.maxtick = flights.[timestamp]
-    # """
 
     df_flights = pd.read_sql_query(
         query_flights.format(frm=frm, to=to, months_offset=num_months_show),

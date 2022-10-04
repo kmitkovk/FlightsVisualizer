@@ -63,7 +63,7 @@ def header_element():
                             ),
                         ),
                         # login_modal(), # This is commented out because of dbc incompatibility
-                        user_buttons(),
+                        # user_buttons(),
                         help_button(),
                         help_modal(),
                         # creator_info(),
