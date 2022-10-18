@@ -51,11 +51,15 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 - ~~Add VCE to datavase~~
 - ~~[Route folder](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#customize-startup-command) so that you could be pushing the latest version to cloud~~
 - ~~Install SQLAlchemy~~
-- ~~Database => transfer files~~
+- ~~Database => transfer files~~ 
 <br>
 
 
 #### TOBEDONE:
+- try clientside callback on the collapse (nclicks store) THEN HIGHCHARTS test
+- fix x ticks to always show 1 or 2 or x number of months (FIXed ticks same lenght)
+- fix the period so that it simply shows periods os 1 month (buttons next period and previous period)
+- Move the timestamps info table to the left/right
 - Add table for country-city data with month and timestamp (to be used for caching) - !!! Flights do get cheaper!! so do scrape on regular basis
   - record destination_countries as a DB record:
   - if, for a certain month, you already checked orig-dest_country with a price limit:

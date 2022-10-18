@@ -402,7 +402,7 @@ def get_destination_cities_dates_prices(
 
 #%% Selection (temp)
 
-month1 = "2023-01"
+month1 = "2022-11"
 test_airports = [ORIGIN_AIRPORTS["Sofia"]]
 test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS if i != "Sofia"]
 test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS]
@@ -419,29 +419,30 @@ if False:
     )
     print('\n\n\nSAVE RESULTS TO DB!!!\n\n\n')
 
-    if False:
-        dest_cities_dates_prices.drop("trace_id", axis=1, inplace=True)
-        dest_cities_dates_prices.to_sql(
-            con=engine_azure,
-            name="FV_FLIGHTS",
-            if_exists="append",  #'append'
-            dtype={
-                "flight": String(255),
-                "departure_date": DATETIME,
-                "price": FLOAT,
-                "origin": String(255),
-                "dest_city_code": String(255),
-                "timestamp": DATETIME,
-            },
-            index=False,
-            method="multi",
-            chunksize=100,
-        )
-        
 df_missing_airports = check_missing_airports(
     df_cities=dest_cities, df_flights=dest_cities_dates_prices
 )
 if not df_missing_airports.empty:
     print('NEW AIRPORTS BEING INSERTED')
     save_new_airports(df_to_update=df_missing_airports)
+
+if False:
+    dest_cities_dates_prices.drop("trace_id", axis=1, inplace=True)
+    dest_cities_dates_prices.to_sql(
+        con=engine_azure,
+        name="FV_FLIGHTS",
+        if_exists="append",  #'append'
+        dtype={
+            "flight": String(255),
+            "departure_date": DATETIME,
+            "price": FLOAT,
+            "origin": String(255),
+            "dest_city_code": String(255),
+            "timestamp": DATETIME,
+        },
+        index=False,
+        method="multi",
+        chunksize=100,
+    )
+        
 #%% -----END-----

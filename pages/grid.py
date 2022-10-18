@@ -255,9 +255,6 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
         == dff.groupby(["flight", "departure_date"]).timestamp.transform(max)
     ]
 
-    deps = dff[dff.flight.str.startswith(f"{frm}")].drop(["timestamp"], axis=1)
-    arrs = dff[dff.flight.str.startswith(f"{to}")].drop(["timestamp"], axis=1)
-
     #%% Extract:
 
     days_delta_max = dt.timedelta(days=days_diff_max)
@@ -275,6 +272,9 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
             title="*NO TRIPS AVAILABLE FOR THIS COMBINATION OF TRIP, PRICE, DAYS OF VACATION OR # MONTHS SHOWN!",
         )
         return fig, table_timestamps, None
+
+    deps = dff[dff.flight.str.startswith(f"{frm}")].drop(["timestamp"], axis=1)
+    arrs = dff[dff.flight.str.startswith(f"{to}")].drop(["timestamp"], axis=1)
 
     df_matching = pd.DataFrame()
     for c, dep in enumerate(deps.iterrows()):
