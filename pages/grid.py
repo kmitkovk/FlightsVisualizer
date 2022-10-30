@@ -332,6 +332,7 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
         text="custom_name",
         color="€ Total",
         color_continuous_scale=px.colors.diverging.Temps,
+        # range_x=("2022-10-01", "2022-11-30"),
         # width=1600, height=800)
     )
 
@@ -347,6 +348,7 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
         plot_bgcolor="rgba(0,0,0,0)",
         margin=dict(b=3, l=2, r=2),
     )
+    # fig.update_coloraxes(colorbar_orientation="h", colorbar_title_side="top")
 
     df_timestamps = (
         dff.groupby(dff.departure_date.dt.strftime("%Y-%m-01"))  #%b'%y
