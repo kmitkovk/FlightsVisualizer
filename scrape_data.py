@@ -402,7 +402,7 @@ def get_destination_cities_dates_prices(
 
 #%% Selection (temp)
 
-month1 = "2022-11"
+month1 = "2023-03"
 test_airports = [ORIGIN_AIRPORTS["Sofia"]]
 test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS if i != "Sofia"]
 test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS]
@@ -424,7 +424,7 @@ df_missing_airports = check_missing_airports(
 )
 if not df_missing_airports.empty:
     print('NEW AIRPORTS BEING INSERTED')
-    save_new_airports(df_to_update=df_missing_airports)
+    save_new_airports(df_to_update=df_missing_airports.drop_duplicates())
 
 if False:
     dest_cities_dates_prices.drop("trace_id", axis=1, inplace=True)

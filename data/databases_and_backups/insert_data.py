@@ -94,4 +94,8 @@ if False:
 
     #%% test delete DATA
     with engine_azure.connect() as con:
-        con.execute("Delete FROM FV_FLIGHTS")
+        # con.execute("Deletee FROM FV_AIRPORTS_SS")
+        con.execute("""
+        select * from FV_AIRPORTS_SS
+        where city_code like 'RUHA'
+        """)
