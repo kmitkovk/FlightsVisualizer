@@ -56,6 +56,12 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 
 
 #### TOBEDONE:
+- on hover add week day and remove year
+- put origins list in an environment variable
+- take user to flight on click in grid - custom data in graph object
+- schedule github actions to update flights
+- checkbox for should overlap with a weekend dat
+- all options in destination (all weekend retreats in a month WKRT tab)
 - try clientside callback on the collapse (nclicks store) THEN HIGHCHARTS test
 - fix x ticks to always show 1 or 2 or x number of months (FIXed ticks same lenght)
 - fix the period so that it simply shows periods os 1 month (buttons next period and previous period)
@@ -82,7 +88,7 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
   - to scrape and monitor data
   - update latest timestamp for a given origin-dest-origin aka:
     - Sep, Oct, Nov and Dec for ZAG-SOF-ZAG
-- Keep app alive by running API calls every 2 hours or so
+- Keep app alive by running uptimerobot
 - Make Map the home or [default page](https://community.plotly.com/t/introducing-dash-pages-a-dash-2-x-feature-preview/57775)
 - Draft the UX3 flow chart 
 - UX1 -> on hover show data, on click show second chart
@@ -93,6 +99,8 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 - Add logging
 - Optimize main scripts:
   - grid selection
+  - use polars
+  - vectorize the bottleneck
   - timeline [upgrades](https://plotly.com/python-api-reference/generated/plotly.express.timeline.html)
   - Python | Pandas Split strings into two List/Columns using str.split()
   - map
