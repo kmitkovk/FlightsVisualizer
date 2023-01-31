@@ -52,13 +52,13 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 - ~~[Route folder](https://docs.microsoft.com/en-us/azure/app-service/configure-language-python#customize-startup-command) so that you could be pushing the latest version to cloud~~
 - ~~Install SQLAlchemy~~
 - ~~Database => transfer files~~ 
+- ~~take user to flight on click in grid - custom data in graph object~~
 <br>
 
 
 #### TOBEDONE:
 - on hover add week day and remove year
 - put origins list in an environment variable
-- take user to flight on click in grid - custom data in graph object
 - schedule github actions to update flights
 - checkbox for should overlap with a weekend dat
 - all options in destination (all weekend retreats in a month WKRT tab)

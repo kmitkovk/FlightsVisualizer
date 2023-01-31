@@ -1,12 +1,13 @@
 import pandas as pd
 import datetime as dt
+import webbrowser
 
 import dash
 import dash_bootstrap_components as dbc
 
 import plotly.express as px
 import plotly.graph_objects as go
-from dash import Input, Output, dcc, html, dash_table
+from dash import Input, Output, dcc, html, dash_table, ctx
 
 from sqlalchemy import create_engine
 from config import CONN_STR
@@ -21,7 +22,9 @@ origins = ["ZAG", "TSF", "LJU", "TRS", "SOF", "VCE"]
 layout = dbc.Container(
     [
         dcc.Store(id="data_grid"),
+        dcc.Store(id="data_airports"),
         dcc.Store(id="data_grid_dummy"),
+        dcc.Store(id="data_grid_dummy2"),
         dcc.Loading(
             type="default",
             children=html.Div(
@@ -139,7 +142,10 @@ layout = dbc.Container(
 
 
 @dash.callback(
-    Output("selection_flight_dropdown", "options"),
+    [
+        Output("selection_flight_dropdown", "options"),
+        Output("data_airports", "data"),
+    ],
     Input("data_grid_dummy", "data"),
 )
 def data_options(dummy):
@@ -162,6 +168,12 @@ def data_options(dummy):
         .to_dict()
     )
 
+    dict_airports_cities = (
+        df_airports.loc[:, ["airport_code_IATA", "city_code"]]
+        .set_index("airport_code_IATA")
+        .to_dict()
+    )
+
     options_dict = [
         {
             "label": f"{dict_airports['city_name'][flight[:3]]}-{dict_airports['city_name'][flight[-3:]]}({dict_airports['country_name'][flight[-3:]]})-{dict_airports['city_name'][flight[:3]]}",
@@ -170,7 +182,7 @@ def data_options(dummy):
         for flight in options
     ]
 
-    return options_dict
+    return options_dict, dict_airports_cities
 
 
 @dash.callback(
@@ -184,7 +196,6 @@ def data_grid(route_selection, num_months_show):
     print(pd.Timestamp("now"))
     if route_selection == None:
         route_selection = "ZAG_EIN"
-
     frm = route_selection[:3]
     to = route_selection[-3:]
 
@@ -223,6 +234,28 @@ def data_grid(route_selection, num_months_show):
 
 
 @dash.callback(
+    Output("data_grid_dummy2", "data"),
+    [
+        Input("grid_chart", "clickData"),
+        Input("grid_chart", "n_clicks"),
+        Input("data_airports", "data"),
+    ],
+    prevent_initial_call=True,
+)
+def flight_click(click_data, n_clicks, dict_airports_cities):
+    if not ctx.triggered_id == "data_airports":  # prevent callback trigger on initial
+        dep = pd.Timestamp(click_data["points"][0]["base"]).strftime("%y%m%d")
+        arr = pd.Timestamp(click_data["points"][0]["value"]).strftime("%y%m%d")
+        orig_code, dest_code = click_data["points"][0]["customdata"][0].split("_")
+        orig = dict_airports_cities["city_code"][orig_code].lower()
+        dest = dict_airports_cities["city_code"][dest_code].lower()
+        url_string = f"https://www.skyscanner.net/transport/flights/{orig}/{dest}/{dep}/{arr}/?stops=!oneStop,!twoPlusStops"
+        webbrowser.open(url_string)
+        return {}
+    return {}
+
+
+@dash.callback(
     [
         Output("grid_chart", "figure"),
         Output("last_timestamp", "children"),
@@ -243,7 +276,6 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
 
     if route_selection == None:
         route_selection = "ZAG_EIN"
-
     frm = route_selection[:3]
     to = route_selection[-3:]
 
@@ -255,7 +287,7 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
         == dff.groupby(["flight", "departure_date"]).timestamp.transform(max)
     ]
 
-    #%% Extract:
+    # %% Extract:
 
     days_delta_max = dt.timedelta(days=days_diff_max)
     days_delta_min = dt.timedelta(days=days_diff_min)
@@ -272,7 +304,6 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
             title="*NO TRIPS AVAILABLE FOR THIS COMBINATION OF TRIP, PRICE, DAYS OF VACATION OR # MONTHS SHOWN!",
         )
         return fig, table_timestamps, None
-
     deps = dff[dff.flight.str.startswith(f"{frm}")].drop(["timestamp"], axis=1)
     arrs = dff[dff.flight.str.startswith(f"{to}")].drop(["timestamp"], axis=1)
 
@@ -316,7 +347,6 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
             title="*NO TRIPS AVAILABLE FOR THIS COMBINATION OF TRIP, PRICE, DAYS OF VACATION OR # MONTHS SHOWN!",
         )
         return fig, table_timestamps, None
-
     df["custom_name"] = df.apply(lambda row: "€" + str(row["€ Total"]), axis=1)
     dates = pd.date_range(df.outbound_date.min(), df.departure_date.max())
 
@@ -332,6 +362,7 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
         text="custom_name",
         color="€ Total",
         color_continuous_scale=px.colors.diverging.Temps,
+        custom_data=["flight"]
         # range_x=("2022-10-01", "2022-11-30"),
         # width=1600, height=800)
     )
@@ -351,7 +382,7 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
     # fig.update_coloraxes(colorbar_orientation="h", colorbar_title_side="top")
 
     df_timestamps = (
-        dff.groupby(dff.departure_date.dt.strftime("%Y-%m-01"))  #%b'%y
+        dff.groupby(dff.departure_date.dt.strftime("%Y-%m-01"))  # %b'%y
         .timestamp.max()
         .sort_index()
     )
