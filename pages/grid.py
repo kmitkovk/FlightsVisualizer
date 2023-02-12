@@ -1,6 +1,8 @@
 import pandas as pd
 import datetime as dt
-import webbrowser
+import subprocess
+import sys
+import os
 
 import dash
 import dash_bootstrap_components as dbc
@@ -249,8 +251,18 @@ def flight_click(click_data, n_clicks, dict_airports_cities):
         orig_code, dest_code = click_data["points"][0]["customdata"][0].split("_")
         orig = dict_airports_cities["city_code"][orig_code].lower()
         dest = dict_airports_cities["city_code"][dest_code].lower()
-        url_string = f"https://www.skyscanner.net/transport/flights/{orig}/{dest}/{dep}/{arr}/?stops=!oneStop,!twoPlusStops"
-        webbrowser.open(url_string)
+        url_string = f"https://www.skyscanner.net/transport/flights/{dest}/{orig}/{dep}/{arr}/?stops=!oneStop,!twoPlusStops"
+        
+        if sys.platform=='win32':
+            os.startfile(url_string)
+        elif sys.platform=='darwin':
+            subprocess.Popen(['open', url_string])
+        else:
+            try:
+                subprocess.Popen(['xdg-open', url_string])
+            except OSError:
+                print('Please open a browser on: '+url_string)
+       
         return {}
     return {}
 

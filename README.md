@@ -58,6 +58,7 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 
 #### TOBEDONE:
 - on hover add week day and remove year
+- gunicorn and check num of workers
 - put origins list in an environment variable
 - schedule github actions to update flights
 - checkbox for should overlap with a weekend dat
