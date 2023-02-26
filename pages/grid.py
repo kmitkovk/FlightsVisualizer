@@ -26,7 +26,8 @@ layout = dbc.Container(
         dcc.Store(id="data_grid"),
         dcc.Store(id="data_airports"),
         dcc.Store(id="data_grid_dummy"),
-        dcc.Store(id="data_grid_dummy2"),
+        # dcc.Store(id="data_grid_dummy2"),
+        html.Div(id="hidden-content"),
         dcc.Loading(
             type="default",
             children=html.Div(
@@ -234,37 +235,64 @@ def data_grid(route_selection, num_months_show):
     )
     return df_flights.to_json(orient="split"), None
 
+dash.clientside_callback(
+    """
+    function(click_data, airports_data) {
+        if (typeof(click_data) !== 'undefined') { // we need this because airports_data triggers first and at this point click_data is undefined
+            let dep = JSON.stringify(click_data.points[0].base);
+            let dep_str = dep.substring(3,5)+dep.substring(6,8)+dep.substring(9,11);
+            let arr = JSON.stringify(click_data.points[0].value);
+            let arr_str = arr.substring(3,5)+arr.substring(6,8)+arr.substring(9,11);
 
-@dash.callback(
-    Output("data_grid_dummy2", "data"),
-    [
-        Input("grid_chart", "clickData"),
-        Input("grid_chart", "n_clicks"),
-        Input("data_airports", "data"),
-    ],
+            let route = JSON.stringify(click_data.points[0].customdata[0]).split("_")
+            let orig = route[1].substring(0,3)
+            let dest = route[0].substring(1,4)
+
+            orig_str = airports_data.city_code[orig].toLowerCase()
+            dest_str = airports_data.city_code[dest].toLowerCase()
+            //window.alert(orig_str);
+            window.open("https://www.skyscanner.net/transport/flights/" + orig_str + "/" + dest_str + "/" + dep_str + "/" + arr_str + "/?stops=!oneStop,!twoPlusStops");
+        }
+
+        return ""
+    }
+    """,
+    Output('hidden-content', 'children'),
+    Input("grid_chart", "clickData"),
+    Input("data_airports", "data"),
     prevent_initial_call=True,
 )
-def flight_click(click_data, n_clicks, dict_airports_cities):
-    if not ctx.triggered_id == "data_airports":  # prevent callback trigger on initial
-        dep = pd.Timestamp(click_data["points"][0]["base"]).strftime("%y%m%d")
-        arr = pd.Timestamp(click_data["points"][0]["value"]).strftime("%y%m%d")
-        orig_code, dest_code = click_data["points"][0]["customdata"][0].split("_")
-        orig = dict_airports_cities["city_code"][orig_code].lower()
-        dest = dict_airports_cities["city_code"][dest_code].lower()
-        url_string = f"https://www.skyscanner.net/transport/flights/{dest}/{orig}/{dep}/{arr}/?stops=!oneStop,!twoPlusStops"
+
+# @dash.callback(
+#     Output("data_grid_dummy2", "data"),
+#     [
+#         Input("grid_chart", "clickData"),
+#         Input("grid_chart", "n_clicks"),
+#         Input("data_airports", "data"),
+#     ],
+#     prevent_initial_call=True,
+# )
+# def flight_click(click_data, n_clicks, dict_airports_cities):
+#     if not ctx.triggered_id == "data_airports":  # prevent callback trigger on initial
+#         dep = pd.Timestamp(click_data["points"][0]["base"]).strftime("%y%m%d")
+#         arr = pd.Timestamp(click_data["points"][0]["value"]).strftime("%y%m%d")
+#         orig_code, dest_code = click_data["points"][0]["customdata"][0].split("_")
+#         orig = dict_airports_cities["city_code"][orig_code].lower()
+#         dest = dict_airports_cities["city_code"][dest_code].lower()
+#         url_string = f"https://www.skyscanner.net/transport/flights/{dest}/{orig}/{dep}/{arr}/?stops=!oneStop,!twoPlusStops"
         
-        if sys.platform=='win32':
-            os.startfile(url_string)
-        elif sys.platform=='darwin':
-            subprocess.Popen(['open', url_string])
-        else:
-            try:
-                subprocess.Popen(['xdg-open', url_string])
-            except OSError:
-                print('Please open a browser on: '+url_string)
+#         if sys.platform=='win32':
+#             os.startfile(url_string)
+#         elif sys.platform=='darwin':
+#             subprocess.Popen(['open', url_string])
+#         else:
+#             try:
+#                 subprocess.Popen(['xdg-open', url_string])
+#             except OSError:
+#                 print('Please open a browser on: '+url_string)
        
-        return {}
-    return {}
+#         return {}
+#     return {}
 
 
 @dash.callback(
