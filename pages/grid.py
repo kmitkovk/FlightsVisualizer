@@ -211,7 +211,8 @@ def data_grid(route_selection, num_months_show):
         SET NOCOUNT ON
         DECLARE @NumMonths int = {months_offset}
         DECLARE @Date DATE = GETDATE()
-        DECLARE @DateEnd DATE = DATEADD(DAY,-1,DATEFROMPARTS(YEAR (DATEADD (MONTH, @NumMonths, @Date )),MONTH (DATEADD (MONTH, @NumMonths, @Date)),1))
+        DECLARE @DateEnd DATE = DATEADD(MONTH,@NumMonths,@Date)
+        --DECLARE @DateEnd DATE = DATEADD(DAY,-1,DATEFROMPARTS(YEAR (DATEADD (MONTH, @NumMonths, @Date )),MONTH (DATEADD (MONTH, @NumMonths, @Date)),1))
         SELECT origin, year(departure_date) as year_gr , MONTH (departure_date) month_gr, max([timestamp]) as maxtick
         into #TEMPTABLE
         FROM FV_FLIGHTS
@@ -386,6 +387,11 @@ def grid_chart(data_flights, days_vacay_selection, route_selection):
         yaxis_title="Flight options",
         plot_bgcolor="rgba(0,0,0,0)",
         margin=dict(b=3, l=2, r=2),
+        hoverlabel=dict(
+            bgcolor="white",
+            font_size=16,
+            font_family="Rockwell"
+        )
     )
     # fig.update_coloraxes(colorbar_orientation="h", colorbar_title_side="top")
 

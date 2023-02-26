@@ -53,10 +53,12 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 - ~~Install SQLAlchemy~~
 - ~~Database => transfer files~~ 
 - ~~take user to flight on click in grid - custom data in graph object~~
+- ~~months should take next x months instead start month~~
 <br>
 
 
 #### TOBEDONE:
+- LJ london appearing twice - CHECK
 - on hover add week day and remove year
 - gunicorn and check num of workers
 - put origins list in an environment variable
