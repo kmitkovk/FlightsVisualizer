@@ -88,21 +88,23 @@ def header_element():
         dark=True,
     )
 
-
 # add callback for toggling the collapse on small screens
-@dash.callback(
-    Output("navbar-collapse", "is_open"),
-    [
-        Input("navbar-toggler", "n_clicks"),
-        Input("map-nav", "n_clicks"),
-        Input("grid-nav", "n_clicks"),
-    ],
-    [State("navbar-collapse", "is_open")],
+dash.clientside_callback(
+    """
+    function(n1, n2, n3, is_open) {
+        if (n1 || n2 || n3) { 
+            return ! is_open
+        }
+        return is_open
+    }
+    """,
+    Output('navbar-collapse', 'is_open'),
+    Input("navbar-toggler", "n_clicks"),
+    Input("map-nav", "n_clicks"),
+    Input("grid-nav", "n_clicks"),
+    State("navbar-collapse", "is_open"),
+    prevent_initial_call=True,
 )
-def toggle_navbar_collapse(n, n1, n2, is_open):
-    if n or n1 or n2:
-        return not is_open
-    return is_open
 
 
 @dash.callback(

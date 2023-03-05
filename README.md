@@ -58,14 +58,15 @@ Link to the app can be found here [https://outtahere.azurewebsites.net/](https:/
 
 
 #### TOBEDONE:
-- LJ london appearing twice - CHECK
+- NEXT UP, REFACTOR /speed up the calcualtion of routes/ TRY POLARS vectorization of WR2
+- Textbox (fading timer) -> "Tap on flight box to book"
+- * ask in forum is_open property
 - on hover add week day and remove year
 - gunicorn and check num of workers
 - put origins list in an environment variable
 - schedule github actions to update flights
 - checkbox for should overlap with a weekend dat
 - all options in destination (all weekend retreats in a month WKRT tab)
-- try clientside callback on the collapse (nclicks store) THEN HIGHCHARTS test
 - fix x ticks to always show 1 or 2 or x number of months (FIXed ticks same lenght)
 - fix the period so that it simply shows periods os 1 month (buttons next period and previous period)
 - Move the timestamps info table to the left/right
