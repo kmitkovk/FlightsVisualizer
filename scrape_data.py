@@ -402,7 +402,7 @@ def get_destination_cities_dates_prices(
 
 #%% Selection (temp)
 
-month1 = "2023-03"
+month1 = "2024-05"
 test_airports = [ORIGIN_AIRPORTS["Sofia"]]
 test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS if i != "Sofia"]
 test_airports = [ORIGIN_AIRPORTS[i] for i in ORIGIN_AIRPORTS]
@@ -444,5 +444,6 @@ if False:
         method="multi",
         chunksize=100,
     )
-        
+    
+    print('check API call if possible to process out and inbound at the same time')
 #%% -----END-----

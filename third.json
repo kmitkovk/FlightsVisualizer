@@ -1,0 +1,6192 @@
+{
+  "Outbound" : "2024-06",
+  "Inbound" : "2024-06",
+  "Traces" : {
+    "230" : "202404111245*D*SOF*CTA*20240623*ryan*FR",
+    "110" : "202404111327*D*SOF*CTA*20240616*wizz*W6",
+    "231" : "202404111820*D*CTA*SOF*20240627*ryan*FR",
+    "111" : "202404111247*D*CTA*SOF*20240628*wizz*W6",
+    "232" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "112" : "202404111018*D*SOF*CTA*20240608*ryan*FR",
+    "233" : "202404111832*D*CTA*SOF*20240623*wizz*W6",
+    "113" : "202404111640*D*CTA*SOF*20240620*ryan*FR",
+    "234" : "202404111804*D*SOF*CTA*20240611*ryan*FR",
+    "114" : "202404111859*D*SOF*CTA*20240626*wizz*W6",
+    "235" : "202404111640*D*CTA*SOF*20240620*ryan*FR",
+    "115" : "202404111820*D*CTA*SOF*20240627*wizz*FR",
+    "236" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "116" : "202404111508*D*SOF*CTA*20240616*wizz*W6",
+    "237" : "202404111156*D*CTA*SOF*20240611*wizz*FR",
+    "117" : "202404111640*D*CTA*SOF*20240620*wizz*FR",
+    "238" : "202404111247*D*SOF*CTA*20240602*ryan*FR",
+    "118" : "202404111306*D*SOF*CTA*20240621*wizz*W6",
+    "239" : "202404111304*D*CTA*SOF*20240618*ryan*FR",
+    "119" : "202404111832*D*CTA*SOF*20240623*wizz*W6",
+    "10" : "202404111018*D*SOF*CTA*20240608*ryan*FR",
+    "11" : "202404111249*D*CTA*SOF*20240613*ryan*FR",
+    "12" : "202404111018*D*SOF*CTA*20240608*ryan*FR",
+    "13" : "202404111901*D*CTA*SOF*20240625*ryan*FR",
+    "14" : "202404111840*D*SOF*CTA*20240604*ryan*FR",
+    "15" : "202404111844*D*CTA*SOF*20240606*ryan*FR",
+    "16" : "202404111920*D*SOF*CTA*20240615*ryan*FR",
+    "17" : "202404111920*D*CTA*SOF*20240622*ryan*FR",
+    "18" : "202404111840*D*SOF*CTA*20240604*ryan*FR",
+    "19" : "202404111857*D*CTA*SOF*20240622*ryan*FR",
+    "240" : "202404111017*D*SOF*CTA*20240616*skyp*W6",
+    "120" : "202404111840*D*SOF*CTA*20240604*ryan*FR",
+    "241" : "202404111017*D*CTA*SOF*20240624*skyp*W6",
+    "0" : "202404111245*D*SOF*CTA*20240623*ryan*FR",
+    "121" : "202404111156*D*CTA*SOF*20240611*ryan*FR",
+    "242" : "202404111749*D*SOF*CTA*20240602*ryan*FR",
+    "1" : "202404111247*D*CTA*SOF*20240628*ryan*W6",
+    "122" : "202404111922*I*SOF*CTA*20240615*skyp*AZ",
+    "243" : "202404111844*D*CTA*SOF*20240606*ryan*FR",
+    "2" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "123" : "202404111922*I*CTA*SOF*20240621*skyp*EZY",
+    "244" : "202404111840*D*SOF*CTA*20240604*ryan*FR",
+    "3" : "202404111640*D*CTA*SOF*20240620*ryan*FR",
+    "124" : "202404111840*D*SOF*CTA*20240604*ryan*FR",
+    "245" : "202404111703*D*CTA*SOF*20240615*ryan*FR",
+    "4" : "202404111508*D*SOF*CTA*20240616*wizz*W6",
+    "125" : "202404111832*D*CTA*SOF*20240623*ryan*W6",
+    "246" : "202404101856*D*SOF*CTA*20240615*ryan*FR",
+    "5" : "202404111832*D*CTA*SOF*20240623*wizz*W6",
+    "126" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "247" : "202404111901*D*CTA*SOF*20240625*ryan*FR",
+    "6" : "202404110859*I*SOF*CTA*20240602*skyp*W6",
+    "127" : "202404111820*D*CTA*SOF*20240627*wizz*FR",
+    "248" : "202404111128*D*SOF*CTA*20240620*ryan*FR",
+    "7" : "202404110859*I*CTA*SOF*20240605*skyp*W4",
+    "128" : "202404111128*D*SOF*CTA*20240620*ryan*FR",
+    "249" : "202404111810*D*CTA*SOF*20240629*ryan*FR",
+    "8" : "202404111749*D*SOF*CTA*20240602*ryan*FR",
+    "129" : "202404111901*D*CTA*SOF*20240625*ryan*FR",
+    "9" : "202404110826*D*CTA*SOF*20240605*ryan*W6",
+    "20" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "21" : "202404111503*D*CTA*SOF*20240626*wizz*W6",
+    "22" : "202404111703*I*SOF*CTA*20240610*skyp*AZ",
+    "23" : "202404111703*I*CTA*SOF*20240615*skyp*AZ",
+    "24" : "202404111306*D*SOF*CTA*20240621*wizz*W6",
+    "25" : "202404111820*D*CTA*SOF*20240627*wizz*FR",
+    "26" : "202404111749*D*SOF*CTA*20240602*ryan*FR",
+    "27" : "202404111338*D*CTA*SOF*20240604*ryan*FR",
+    "28" : "202404111832*I*SOF*CTA*20240617*skyp*W6",
+    "29" : "202404111832*I*CTA*SOF*20240623*skyp*W6",
+    "250" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "130" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "251" : "202404111056*D*CTA*SOF*20240619*wizz*W6",
+    "131" : "202404111703*D*CTA*SOF*20240615*wizz*FR",
+    "252" : "202404111503*D*SOF*CTA*20240622*ryan*FR",
+    "132" : "202404111805*D*SOF*CTA*20240618*ryan*FR",
+    "253" : "202404111820*D*CTA*SOF*20240627*ryan*FR",
+    "133" : "202404111820*D*CTA*SOF*20240627*ryan*FR",
+    "254" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "134" : "202404111858*D*SOF*CTA*20240625*ryan*FR",
+    "255" : "202404111844*D*CTA*SOF*20240606*ryan*FR",
+    "135" : "202404111810*D*CTA*SOF*20240629*ryan*FR",
+    "256" : "202404111804*D*SOF*CTA*20240611*ryan*FR",
+    "136" : "202404111703*I*SOF*CTA*20240610*skyp*AZ",
+    "257" : "202404111810*D*CTA*SOF*20240629*ryan*FR",
+    "137" : "202404111703*I*CTA*SOF*20240614*skyp*EZY",
+    "258" : "202404111805*D*SOF*CTA*20240618*ryan*FR",
+    "138" : "202404111306*D*SOF*CTA*20240621*wizz*W6",
+    "259" : "202404111832*D*CTA*SOF*20240623*ryan*W6",
+    "139" : "202404111306*D*CTA*SOF*20240624*wizz*W6",
+    "30" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "31" : "202404110826*D*CTA*SOF*20240605*ryan*W6",
+    "32" : "202404111749*D*SOF*CTA*20240602*ryan*FR",
+    "33" : "202404111640*D*CTA*SOF*20240620*ryan*FR",
+    "34" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "35" : "202404110702*D*CTA*SOF*20240603*ryan*W6",
+    "36" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "37" : "202404111901*D*CTA*SOF*20240625*wizz*FR",
+    "38" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "39" : "202404111249*D*CTA*SOF*20240613*wizz*FR",
+    "140" : "202404111840*D*SOF*CTA*20240604*ryan*FR",
+    "141" : "202404111843*D*CTA*SOF*20240608*ryan*FR",
+    "142" : "202404111804*D*SOF*CTA*20240611*ryan*FR",
+    "143" : "202404111901*D*CTA*SOF*20240625*ryan*FR",
+    "144" : "202404111749*D*SOF*CTA*20240602*ryan*FR",
+    "145" : "202404111249*D*CTA*SOF*20240613*ryan*FR",
+    "146" : "202404111508*D*SOF*CTA*20240616*wizz*W6",
+    "147" : "202404111820*D*CTA*SOF*20240627*wizz*FR",
+    "148" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "149" : "202404110543*D*CTA*SOF*20240612*ryan*W6",
+    "40" : "202404111245*D*SOF*CTA*20240623*ryan*FR",
+    "41" : "202404111810*D*CTA*SOF*20240629*ryan*FR",
+    "42" : "202404111327*D*SOF*CTA*20240616*wizz*W6",
+    "43" : "202404111304*D*CTA*SOF*20240618*wizz*FR",
+    "44" : "202404111508*D*SOF*CTA*20240616*wizz*W6",
+    "45" : "202404111857*D*CTA*SOF*20240622*wizz*FR",
+    "46" : "202404111247*D*SOF*CTA*20240602*ryan*FR",
+    "47" : "202404110830*D*CTA*SOF*20240616*ryan*W6",
+    "48" : "202404111128*D*SOF*CTA*20240620*ryan*FR",
+    "49" : "202404111820*D*CTA*SOF*20240627*ryan*FR",
+    "150" : "202404111247*D*SOF*CTA*20240602*ryan*FR",
+    "151" : "202404110123*D*CTA*SOF*20240609*ryan*W6",
+    "152" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "153" : "202404111857*D*CTA*SOF*20240622*wizz*FR",
+    "154" : "202404110941*D*SOF*CTA*20240609*skyp*W6",
+    "155" : "202404110941*D*CTA*SOF*20240610*skyp*W6",
+    "156" : "202404111503*D*SOF*CTA*20240622*ryan*FR",
+    "157" : "202404111832*D*CTA*SOF*20240623*ryan*W6",
+    "158" : "202404111804*D*SOF*CTA*20240611*ryan*FR",
+    "159" : "202404111832*D*CTA*SOF*20240623*ryan*W6",
+    "50" : "202404111840*D*SOF*CTA*20240604*ryan*FR",
+    "51" : "202404110826*D*CTA*SOF*20240605*ryan*W6",
+    "52" : "202404101856*D*SOF*CTA*20240615*ryan*FR",
+    "53" : "202404111832*D*CTA*SOF*20240623*ryan*W6",
+    "54" : "202404111805*D*SOF*CTA*20240618*ryan*FR",
+    "55" : "202404111901*D*CTA*SOF*20240625*ryan*FR",
+    "56" : "202404111749*D*SOF*CTA*20240602*ryan*FR",
+    "57" : "202404110702*D*CTA*SOF*20240603*ryan*W6",
+    "58" : "202404111804*D*SOF*CTA*20240611*ryan*FR",
+    "59" : "202404111703*D*CTA*SOF*20240615*ryan*FR",
+    "160" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "161" : "202404111304*D*CTA*SOF*20240618*wizz*FR",
+    "162" : "202404111306*D*SOF*CTA*20240621*wizz*W6",
+    "163" : "202404111857*D*CTA*SOF*20240622*wizz*FR",
+    "164" : "202404111247*D*SOF*CTA*20240602*ryan*FR",
+    "165" : "202404110543*D*CTA*SOF*20240612*ryan*W6",
+    "166" : "202404111805*D*SOF*CTA*20240618*ryan*FR",
+    "167" : "202404111640*D*CTA*SOF*20240620*ryan*FR",
+    "168" : "202404111508*D*SOF*CTA*20240616*wizz*W6",
+    "169" : "202404111503*D*CTA*SOF*20240626*wizz*W6",
+    "60" : "202404111749*D*SOF*CTA*20240602*ryan*FR",
+    "61" : "202404111703*D*CTA*SOF*20240615*ryan*FR",
+    "62" : "202404111804*D*SOF*CTA*20240611*ryan*FR",
+    "63" : "202404111820*D*CTA*SOF*20240627*ryan*FR",
+    "64" : "202404111327*D*SOF*CTA*20240616*wizz*W6",
+    "65" : "202404111056*D*CTA*SOF*20240619*wizz*W6",
+    "66" : "202404111503*D*SOF*CTA*20240622*ryan*FR",
+    "67" : "202404111810*D*CTA*SOF*20240629*ryan*FR",
+    "68" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "69" : "202404111338*D*CTA*SOF*20240604*ryan*FR",
+    "170" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "171" : "202404111156*D*CTA*SOF*20240611*ryan*FR",
+    "172" : "202404111804*D*SOF*CTA*20240611*ryan*FR",
+    "173" : "202404111857*D*CTA*SOF*20240622*ryan*FR",
+    "174" : "202404111749*D*SOF*CTA*20240602*ryan*FR",
+    "175" : "202404111843*D*CTA*SOF*20240608*ryan*FR",
+    "176" : "202404111018*D*SOF*CTA*20240608*ryan*FR",
+    "177" : "202404111857*D*CTA*SOF*20240622*ryan*FR",
+    "178" : "202404101856*D*SOF*CTA*20240615*ryan*FR",
+    "179" : "202404111820*D*CTA*SOF*20240627*ryan*FR",
+    "70" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "71" : "202404110904*D*CTA*SOF*20240602*ryan*W6",
+    "72" : "202404110942*D*SOF*CTA*20240616*skyp*W6",
+    "73" : "202404110942*D*CTA*SOF*20240617*skyp*W6",
+    "74" : "202404111508*D*SOF*CTA*20240616*wizz*W6",
+    "75" : "202404111810*D*CTA*SOF*20240629*wizz*FR",
+    "76" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "77" : "202404111640*D*CTA*SOF*20240620*wizz*FR",
+    "78" : "202404111804*D*SOF*CTA*20240611*ryan*FR",
+    "79" : "202404111249*D*CTA*SOF*20240613*ryan*FR",
+    "180" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "181" : "202404111810*D*CTA*SOF*20240629*wizz*FR",
+    "182" : "202404111128*D*SOF*CTA*20240620*ryan*FR",
+    "183" : "202404111832*D*CTA*SOF*20240623*ryan*W6",
+    "184" : "202404111858*D*SOF*CTA*20240625*ryan*FR",
+    "185" : "202404111503*D*CTA*SOF*20240626*ryan*W6",
+    "186" : "202404111840*D*SOF*CTA*20240604*ryan*FR",
+    "187" : "202404111249*D*CTA*SOF*20240613*ryan*FR",
+    "188" : "202404111128*D*SOF*CTA*20240620*ryan*FR",
+    "189" : "202404111857*D*CTA*SOF*20240622*ryan*FR",
+    "80" : "202404111018*D*SOF*CTA*20240608*ryan*FR",
+    "81" : "202404111820*D*CTA*SOF*20240627*ryan*FR",
+    "82" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "83" : "202404111247*D*CTA*SOF*20240628*wizz*W6",
+    "84" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "85" : "202404110830*D*CTA*SOF*20240616*wizz*W6",
+    "86" : "202404111858*D*SOF*CTA*20240625*ryan*FR",
+    "87" : "202404111820*D*CTA*SOF*20240627*ryan*FR",
+    "88" : "202404111805*D*SOF*CTA*20240618*ryan*FR",
+    "89" : "202404111503*D*CTA*SOF*20240626*ryan*W6",
+    "190" : "202404111805*D*SOF*CTA*20240618*ryan*FR",
+    "191" : "202404111810*D*CTA*SOF*20240629*ryan*FR",
+    "192" : "202404111503*D*SOF*CTA*20240622*ryan*FR",
+    "193" : "202404111901*D*CTA*SOF*20240625*ryan*FR",
+    "194" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "195" : "202404111843*D*CTA*SOF*20240608*ryan*FR",
+    "196" : "202404111749*D*SOF*CTA*20240602*ryan*FR",
+    "197" : "202404111156*D*CTA*SOF*20240611*ryan*FR",
+    "198" : "202404111900*D*SOF*CTA*20240627*ryan*FR",
+    "199" : "202404111810*D*CTA*SOF*20240629*ryan*FR",
+    "90" : "202404111050*D*SOF*CTA*20240625*ryan*FR",
+    "91" : "202404111247*D*CTA*SOF*20240628*ryan*W6",
+    "92" : "202404111249*I*SOF*CTA*20240610*skyp*W6",
+    "93" : "202404111249*I*CTA*SOF*20240613*skyp*EZY",
+    "94" : "202404111306*D*SOF*CTA*20240621*wizz*W6",
+    "95" : "202404111901*D*CTA*SOF*20240625*wizz*FR",
+    "96" : "202404111922*I*SOF*CTA*20240614*skyp*W6",
+    "97" : "202404111922*I*CTA*SOF*20240623*skyp*W6",
+    "98" : "202404101856*D*SOF*CTA*20240615*ryan*FR",
+    "99" : "202404111810*D*CTA*SOF*20240629*ryan*FR",
+    "200" : "202404111334*D*SOF*CTA*20240609*wizz*W6",
+    "201" : "202404110543*D*CTA*SOF*20240612*wizz*W6",
+    "202" : "202404111840*D*SOF*CTA*20240604*ryan*FR",
+    "203" : "202404111640*D*CTA*SOF*20240620*ryan*FR",
+    "204" : "202404111749*D*SOF*CTA*20240602*tkbk*W6",
+    "205" : "202404111749*D*CTA*SOF*20240607*tkbk*W6",
+    "206" : "202404111247*D*SOF*CTA*20240602*ryan*FR",
+    "207" : "202404111056*D*CTA*SOF*20240619*ryan*W6",
+    "208" : "202404111018*D*SOF*CTA*20240608*ryan*FR",
+    "209" : "202404111156*D*CTA*SOF*20240611*ryan*FR",
+    "210" : "202404111018*D*SOF*CTA*20240608*ryan*FR",
+    "211" : "202404111832*D*CTA*SOF*20240623*ryan*W6",
+    "212" : "202404111508*D*SOF*CTA*20240616*wizz*W6",
+    "213" : "202404111901*D*CTA*SOF*20240625*wizz*FR",
+    "214" : "202404111928*I*SOF*CTA*20240607*luft*LH",
+    "215" : "202404111928*I*CTA*SOF*20240614*luft*LX",
+    "216" : "202404100510*D*SOF*CTA*20240610*skyp*W6",
+    "217" : "202404100510*D*CTA*SOF*20240617*skyp*W6",
+    "218" : "202404111306*D*SOF*CTA*20240621*wizz*W6",
+    "219" : "202404111810*D*CTA*SOF*20240629*wizz*FR",
+    "220" : "202404111503*D*SOF*CTA*20240622*ryan*FR",
+    "100" : "202404111859*D*SOF*CTA*20240626*wizz*W6",
+    "221" : "202404111503*D*CTA*SOF*20240626*ryan*W6",
+    "101" : "202404111810*D*CTA*SOF*20240629*wizz*FR",
+    "222" : "202404111110*D*SOF*CTA*20240628*wizz*W6",
+    "102" : "202404111804*D*SOF*CTA*20240611*ryan*FR",
+    "223" : "202404111810*D*CTA*SOF*20240629*wizz*FR",
+    "103" : "202404111503*D*CTA*SOF*20240626*ryan*W6",
+    "224" : "202404111805*D*SOF*CTA*20240618*ryan*FR",
+    "104" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "225" : "202404111857*D*CTA*SOF*20240622*ryan*FR",
+    "105" : "202404111703*D*CTA*SOF*20240615*ryan*FR",
+    "226" : "202404111749*D*SOF*CTA*20240602*ryan*FR",
+    "106" : "202404111001*D*SOF*CTA*20240629*ryan*FR",
+    "227" : "202404111857*D*CTA*SOF*20240622*ryan*FR",
+    "107" : "202404102357*D*CTA*SOF*20240630*ryan*W6",
+    "228" : "202404111245*D*SOF*CTA*20240623*ryan*FR",
+    "108" : "202404111527*D*SOF*CTA*20240601*ryan*FR",
+    "229" : "202404111901*D*CTA*SOF*20240625*ryan*FR",
+    "109" : "202404111249*D*CTA*SOF*20240613*ryan*FR"
+  },
+  "PriceGrids" : {
+    "Grid" : [ [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 50.0
+      },
+      "Direct" : {
+        "Price" : 83.0,
+        "TraceRefs" : [ "70", "71" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 33.0
+      },
+      "Direct" : {
+        "Price" : 66.0,
+        "TraceRefs" : [ "34", "35" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 20.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 20.0
+      },
+      "Direct" : {
+        "Price" : 41.0,
+        "TraceRefs" : [ "56", "57" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 46.0
+      },
+      "Direct" : {
+        "Price" : 79.0,
+        "TraceRefs" : [ "68", "69" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 34.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 34.0
+      },
+      "Direct" : {
+        "Price" : 55.0,
+        "TraceRefs" : [ "26", "27" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 84.0
+      },
+      "Direct" : {
+        "Price" : 117.0,
+        "TraceRefs" : [ "30", "31" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 48.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 71.0
+      },
+      "Direct" : {
+        "Price" : 92.0,
+        "TraceRefs" : [ "8", "9" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      },
+      "Indirect" : {
+        "Price" : 69.0,
+        "TraceRefs" : [ "6", "7" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      },
+      "DirectInbound" : {
+        "Price" : 70.0
+      },
+      "Direct" : {
+        "Price" : 89.0,
+        "TraceRefs" : [ "50", "51" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 43.0
+      },
+      "Direct" : {
+        "Price" : 76.0,
+        "TraceRefs" : [ "254", "255" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 30.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 30.0
+      },
+      "Direct" : {
+        "Price" : 51.0,
+        "TraceRefs" : [ "242", "243" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      },
+      "DirectInbound" : {
+        "Price" : 29.0
+      },
+      "Direct" : {
+        "Price" : 48.0,
+        "TraceRefs" : [ "14", "15" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 79.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 79.0
+      },
+      "Direct" : {
+        "Price" : 100.0,
+        "TraceRefs" : [ "204", "205" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 53.0
+      },
+      "Direct" : {
+        "Price" : 86.0,
+        "TraceRefs" : [ "194", "195" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 40.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 40.0
+      },
+      "Direct" : {
+        "Price" : 61.0,
+        "TraceRefs" : [ "174", "175" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      },
+      "DirectInbound" : {
+        "Price" : 39.0
+      },
+      "Direct" : {
+        "Price" : 58.0,
+        "TraceRefs" : [ "140", "141" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 50.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 50.0
+      },
+      "Direct" : {
+        "Price" : 71.0,
+        "TraceRefs" : [ "150", "151" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 26.0
+      },
+      "Direct" : {
+        "Price" : 44.0,
+        "TraceRefs" : [ "154", "155" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 49.0
+      },
+      "Direct" : {
+        "Price" : 82.0,
+        "TraceRefs" : [ "170", "171" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 36.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 36.0
+      },
+      "Direct" : {
+        "Price" : 57.0,
+        "TraceRefs" : [ "196", "197" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      },
+      "DirectInbound" : {
+        "Price" : 35.0
+      },
+      "Direct" : {
+        "Price" : 54.0,
+        "TraceRefs" : [ "120", "121" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 48.0
+      },
+      "Direct" : {
+        "Price" : 82.0,
+        "TraceRefs" : [ "208", "209" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 33.0
+      },
+      "Direct" : {
+        "Price" : 51.0,
+        "TraceRefs" : [ "236", "237" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 64.0
+      },
+      "Direct" : {
+        "Price" : 97.0,
+        "TraceRefs" : [ "148", "149" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 40.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 40.0
+      },
+      "Direct" : {
+        "Price" : 61.0,
+        "TraceRefs" : [ "164", "165" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 48.0
+      },
+      "Direct" : {
+        "Price" : 66.0,
+        "TraceRefs" : [ "200", "201" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 41.0
+      },
+      "Direct" : {
+        "Price" : 74.0,
+        "TraceRefs" : [ "108", "109" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 28.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 28.0
+      },
+      "Direct" : {
+        "Price" : 49.0,
+        "TraceRefs" : [ "144", "145" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      },
+      "DirectInbound" : {
+        "Price" : 27.0
+      },
+      "Direct" : {
+        "Price" : 46.0,
+        "TraceRefs" : [ "186", "187" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 40.0
+      },
+      "Direct" : {
+        "Price" : 74.0,
+        "TraceRefs" : [ "10", "11" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 25.0
+      },
+      "Direct" : {
+        "Price" : 43.0,
+        "TraceRefs" : [ "38", "39" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 45.0
+      },
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      },
+      "Indirect" : {
+        "Price" : 67.0,
+        "TraceRefs" : [ "92", "93" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 40.0
+      },
+      "Direct" : {
+        "Price" : 74.0,
+        "TraceRefs" : [ "78", "79" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 74.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      },
+      "Indirect" : {
+        "Price" : 149.0,
+        "TraceRefs" : [ "214", "215" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 128.0
+      },
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      },
+      "Indirect" : {
+        "Price" : 150.0,
+        "TraceRefs" : [ "136", "137" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 65.0
+      },
+      "Direct" : {
+        "Price" : 98.0,
+        "TraceRefs" : [ "104", "105" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 53.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 53.0
+      },
+      "Direct" : {
+        "Price" : 74.0,
+        "TraceRefs" : [ "60", "61" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      },
+      "DirectInbound" : {
+        "Price" : 52.0
+      },
+      "Direct" : {
+        "Price" : 71.0,
+        "TraceRefs" : [ "244", "245" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 50.0
+      },
+      "Direct" : {
+        "Price" : 68.0,
+        "TraceRefs" : [ "130", "131" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 133.0
+      },
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      },
+      "Indirect" : {
+        "Price" : 155.0,
+        "TraceRefs" : [ "22", "23" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 65.0
+      },
+      "Direct" : {
+        "Price" : 99.0,
+        "TraceRefs" : [ "58", "59" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 56.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 56.0
+      },
+      "Direct" : {
+        "Price" : 77.0,
+        "TraceRefs" : [ "46", "47" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 64.0
+      },
+      "Direct" : {
+        "Price" : 82.0,
+        "TraceRefs" : [ "84", "85" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 22.0
+      },
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "DirectInbound" : {
+        "Price" : 22.0
+      },
+      "Direct" : {
+        "Price" : 44.0,
+        "TraceRefs" : [ "216", "217" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 24.0
+      },
+      "Direct" : {
+        "Price" : 39.0,
+        "TraceRefs" : [ "72", "73" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 40.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 40.0
+      },
+      "Direct" : {
+        "Price" : 61.0,
+        "TraceRefs" : [ "238", "239" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 48.0
+      },
+      "Direct" : {
+        "Price" : 66.0,
+        "TraceRefs" : [ "160", "161" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 46.0
+      },
+      "Direct" : {
+        "Price" : 61.0,
+        "TraceRefs" : [ "42", "43" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 50.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 50.0
+      },
+      "Direct" : {
+        "Price" : 71.0,
+        "TraceRefs" : [ "206", "207" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 58.0
+      },
+      "Direct" : {
+        "Price" : 76.0,
+        "TraceRefs" : [ "250", "251" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 56.0
+      },
+      "Direct" : {
+        "Price" : 71.0,
+        "TraceRefs" : [ "64", "65" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      },
+      "DirectInbound" : {
+        "Price" : 33.0
+      },
+      "Direct" : {
+        "Price" : 66.0,
+        "TraceRefs" : [ "2", "3" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 20.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 20.0
+      },
+      "Direct" : {
+        "Price" : 41.0,
+        "TraceRefs" : [ "32", "33" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      },
+      "DirectInbound" : {
+        "Price" : 19.0
+      },
+      "Direct" : {
+        "Price" : 38.0,
+        "TraceRefs" : [ "202", "203" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 33.0
+      },
+      "Direct" : {
+        "Price" : 67.0,
+        "TraceRefs" : [ "112", "113" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 17.0
+      },
+      "Direct" : {
+        "Price" : 35.0,
+        "TraceRefs" : [ "76", "77" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 33.0
+      },
+      "Direct" : {
+        "Price" : 67.0,
+        "TraceRefs" : [ "234", "235" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 15.0
+      },
+      "Direct" : {
+        "Price" : 30.0,
+        "TraceRefs" : [ "116", "117" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      },
+      "DirectInbound" : {
+        "Price" : 25.0
+      },
+      "Direct" : {
+        "Price" : 50.0,
+        "TraceRefs" : [ "166", "167" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 101.0
+      },
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      },
+      "Indirect" : {
+        "Price" : 154.0,
+        "TraceRefs" : [ "122", "123" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 40.0
+      },
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "DirectInbound" : {
+        "Price" : 40.0
+      },
+      "Direct" : {
+        "Price" : 61.0,
+        "TraceRefs" : [ "226", "227" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      },
+      "DirectInbound" : {
+        "Price" : 39.0
+      },
+      "Direct" : {
+        "Price" : 58.0,
+        "TraceRefs" : [ "18", "19" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 53.0
+      },
+      "Direct" : {
+        "Price" : 87.0,
+        "TraceRefs" : [ "176", "177" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 38.0
+      },
+      "Direct" : {
+        "Price" : 56.0,
+        "TraceRefs" : [ "152", "153" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 53.0
+      },
+      "Direct" : {
+        "Price" : 87.0,
+        "TraceRefs" : [ "172", "173" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 53.0
+      },
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "DirectInbound" : {
+        "Price" : 53.0
+      },
+      "Direct" : {
+        "Price" : 106.0,
+        "TraceRefs" : [ "16", "17" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 36.0
+      },
+      "Direct" : {
+        "Price" : 51.0,
+        "TraceRefs" : [ "44", "45" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      },
+      "DirectInbound" : {
+        "Price" : 46.0
+      },
+      "Direct" : {
+        "Price" : 71.0,
+        "TraceRefs" : [ "224", "225" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      },
+      "DirectInbound" : {
+        "Price" : 43.0
+      },
+      "Direct" : {
+        "Price" : 87.0,
+        "TraceRefs" : [ "188", "189" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      },
+      "DirectInbound" : {
+        "Price" : 51.0
+      },
+      "Direct" : {
+        "Price" : 90.0,
+        "TraceRefs" : [ "162", "163" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      },
+      "DirectInbound" : {
+        "Price" : 81.0
+      },
+      "Direct" : {
+        "Price" : 100.0,
+        "TraceRefs" : [ "124", "125" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 94.0
+      },
+      "Direct" : {
+        "Price" : 128.0,
+        "TraceRefs" : [ "210", "211" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 79.0
+      },
+      "Direct" : {
+        "Price" : 97.0,
+        "TraceRefs" : [ "232", "233" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 94.0
+      },
+      "Direct" : {
+        "Price" : 128.0,
+        "TraceRefs" : [ "158", "159" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 73.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      },
+      "Indirect" : {
+        "Price" : 147.0,
+        "TraceRefs" : [ "96", "97" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 95.0
+      },
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "DirectInbound" : {
+        "Price" : 95.0
+      },
+      "Direct" : {
+        "Price" : 148.0,
+        "TraceRefs" : [ "52", "53" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 77.0
+      },
+      "Direct" : {
+        "Price" : 92.0,
+        "TraceRefs" : [ "4", "5" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 61.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      },
+      "Indirect" : {
+        "Price" : 122.0,
+        "TraceRefs" : [ "28", "29" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      },
+      "DirectInbound" : {
+        "Price" : 87.0
+      },
+      "Direct" : {
+        "Price" : 112.0,
+        "TraceRefs" : [ "258", "259" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      },
+      "DirectInbound" : {
+        "Price" : 85.0
+      },
+      "Direct" : {
+        "Price" : 129.0,
+        "TraceRefs" : [ "182", "183" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      },
+      "DirectInbound" : {
+        "Price" : 93.0
+      },
+      "Direct" : {
+        "Price" : 132.0,
+        "TraceRefs" : [ "118", "119" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      },
+      "DirectInbound" : {
+        "Price" : 79.0
+      },
+      "Direct" : {
+        "Price" : 124.0,
+        "TraceRefs" : [ "156", "157" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 25.0
+      },
+      "Direct" : {
+        "Price" : 40.0,
+        "TraceRefs" : [ "240", "241" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      },
+      "DirectInbound" : {
+        "Price" : 38.0
+      },
+      "Direct" : {
+        "Price" : 77.0,
+        "TraceRefs" : [ "138", "139" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 59.0
+      },
+      "Direct" : {
+        "Price" : 93.0,
+        "TraceRefs" : [ "12", "13" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 44.0
+      },
+      "Direct" : {
+        "Price" : 62.0,
+        "TraceRefs" : [ "36", "37" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 59.0
+      },
+      "Direct" : {
+        "Price" : 93.0,
+        "TraceRefs" : [ "142", "143" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 60.0
+      },
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "DirectInbound" : {
+        "Price" : 60.0
+      },
+      "Direct" : {
+        "Price" : 113.0,
+        "TraceRefs" : [ "246", "247" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 42.0
+      },
+      "Direct" : {
+        "Price" : 57.0,
+        "TraceRefs" : [ "212", "213" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      },
+      "DirectInbound" : {
+        "Price" : 52.0
+      },
+      "Direct" : {
+        "Price" : 77.0,
+        "TraceRefs" : [ "54", "55" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      },
+      "DirectInbound" : {
+        "Price" : 50.0
+      },
+      "Direct" : {
+        "Price" : 94.0,
+        "TraceRefs" : [ "128", "129" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      },
+      "DirectInbound" : {
+        "Price" : 58.0
+      },
+      "Direct" : {
+        "Price" : 97.0,
+        "TraceRefs" : [ "94", "95" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      },
+      "DirectInbound" : {
+        "Price" : 44.0
+      },
+      "Direct" : {
+        "Price" : 89.0,
+        "TraceRefs" : [ "192", "193" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      },
+      "DirectInbound" : {
+        "Price" : 40.0
+      },
+      "Direct" : {
+        "Price" : 75.0,
+        "TraceRefs" : [ "228", "229" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 68.0
+      },
+      "Direct" : {
+        "Price" : 86.0,
+        "TraceRefs" : [ "20", "21" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 84.0
+      },
+      "Direct" : {
+        "Price" : 118.0,
+        "TraceRefs" : [ "102", "103" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 66.0
+      },
+      "Direct" : {
+        "Price" : 81.0,
+        "TraceRefs" : [ "168", "169" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      },
+      "DirectInbound" : {
+        "Price" : 76.0
+      },
+      "Direct" : {
+        "Price" : 101.0,
+        "TraceRefs" : [ "88", "89" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      },
+      "DirectInbound" : {
+        "Price" : 68.0
+      },
+      "Direct" : {
+        "Price" : 113.0,
+        "TraceRefs" : [ "220", "221" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      },
+      "DirectInbound" : {
+        "Price" : 69.0
+      },
+      "Direct" : {
+        "Price" : 108.0,
+        "TraceRefs" : [ "184", "185" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 59.0
+      },
+      "Direct" : {
+        "Price" : 93.0,
+        "TraceRefs" : [ "80", "81" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 44.0
+      },
+      "Direct" : {
+        "Price" : 62.0,
+        "TraceRefs" : [ "126", "127" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 59.0
+      },
+      "Direct" : {
+        "Price" : 93.0,
+        "TraceRefs" : [ "62", "63" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 59.0
+      },
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "DirectInbound" : {
+        "Price" : 59.0
+      },
+      "Direct" : {
+        "Price" : 112.0,
+        "TraceRefs" : [ "178", "179" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 42.0
+      },
+      "Direct" : {
+        "Price" : 57.0,
+        "TraceRefs" : [ "146", "147" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      },
+      "DirectInbound" : {
+        "Price" : 52.0
+      },
+      "Direct" : {
+        "Price" : 77.0,
+        "TraceRefs" : [ "132", "133" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      },
+      "DirectInbound" : {
+        "Price" : 49.0
+      },
+      "Direct" : {
+        "Price" : 93.0,
+        "TraceRefs" : [ "48", "49" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      },
+      "DirectInbound" : {
+        "Price" : 57.0
+      },
+      "Direct" : {
+        "Price" : 96.0,
+        "TraceRefs" : [ "24", "25" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      },
+      "DirectInbound" : {
+        "Price" : 44.0
+      },
+      "Direct" : {
+        "Price" : 89.0,
+        "TraceRefs" : [ "252", "253" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      },
+      "DirectInbound" : {
+        "Price" : 39.0
+      },
+      "Direct" : {
+        "Price" : 74.0,
+        "TraceRefs" : [ "230", "231" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      },
+      "DirectInbound" : {
+        "Price" : 44.0
+      },
+      "Direct" : {
+        "Price" : 83.0,
+        "TraceRefs" : [ "86", "87" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      },
+      "DirectInbound" : {
+        "Price" : 54.0
+      },
+      "Direct" : {
+        "Price" : 108.0,
+        "TraceRefs" : [ "114", "115" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 38.0
+      },
+      "Direct" : {
+        "Price" : 56.0,
+        "TraceRefs" : [ "82", "83" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 36.0
+      },
+      "Direct" : {
+        "Price" : 51.0,
+        "TraceRefs" : [ "110", "111" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      },
+      "DirectInbound" : {
+        "Price" : 34.0
+      },
+      "Direct" : {
+        "Price" : 69.0,
+        "TraceRefs" : [ "0", "1" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      },
+      "DirectInbound" : {
+        "Price" : 39.0
+      },
+      "Direct" : {
+        "Price" : 78.0,
+        "TraceRefs" : [ "90", "91" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      },
+      "DirectInbound" : {
+        "Price" : 44.0
+      },
+      "Direct" : {
+        "Price" : 62.0,
+        "TraceRefs" : [ "180", "181" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      },
+      "DirectInbound" : {
+        "Price" : 59.0
+      },
+      "Direct" : {
+        "Price" : 93.0,
+        "TraceRefs" : [ "256", "257" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectInbound" : {
+        "Price" : 59.0
+      },
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "DirectInbound" : {
+        "Price" : 59.0
+      },
+      "Direct" : {
+        "Price" : 112.0,
+        "TraceRefs" : [ "98", "99" ]
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      },
+      "DirectInbound" : {
+        "Price" : 42.0
+      },
+      "Direct" : {
+        "Price" : 57.0,
+        "TraceRefs" : [ "74", "75" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      },
+      "DirectInbound" : {
+        "Price" : 52.0
+      },
+      "Direct" : {
+        "Price" : 77.0,
+        "TraceRefs" : [ "190", "191" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      },
+      "DirectInbound" : {
+        "Price" : 49.0
+      },
+      "Direct" : {
+        "Price" : 93.0,
+        "TraceRefs" : [ "248", "249" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      },
+      "DirectInbound" : {
+        "Price" : 57.0
+      },
+      "Direct" : {
+        "Price" : 96.0,
+        "TraceRefs" : [ "218", "219" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      },
+      "DirectInbound" : {
+        "Price" : 44.0
+      },
+      "Direct" : {
+        "Price" : 89.0,
+        "TraceRefs" : [ "66", "67" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      },
+      "DirectInbound" : {
+        "Price" : 39.0
+      },
+      "Direct" : {
+        "Price" : 74.0,
+        "TraceRefs" : [ "40", "41" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      },
+      "DirectInbound" : {
+        "Price" : 44.0
+      },
+      "Direct" : {
+        "Price" : 83.0,
+        "TraceRefs" : [ "134", "135" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      },
+      "DirectInbound" : {
+        "Price" : 54.0
+      },
+      "Direct" : {
+        "Price" : 108.0,
+        "TraceRefs" : [ "100", "101" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      },
+      "DirectInbound" : {
+        "Price" : 47.0
+      },
+      "Direct" : {
+        "Price" : 94.0,
+        "TraceRefs" : [ "198", "199" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      },
+      "DirectInbound" : {
+        "Price" : 34.0
+      },
+      "Direct" : {
+        "Price" : 69.0,
+        "TraceRefs" : [ "222", "223" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ], [ {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 33.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 21.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 21.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 19.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 75.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 18.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 22.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 22.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 34.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 74.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 53.0
+      },
+      "IndirectOutbound" : {
+        "Price" : 53.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 15.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "IndirectOutbound" : {
+        "Price" : 61.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 25.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 44.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 45.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 39.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 54.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 47.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 35.0
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true,
+      "DirectOutbound" : {
+        "Price" : 49.0
+      },
+      "DirectInbound" : {
+        "Price" : 49.0
+      },
+      "Direct" : {
+        "Price" : 98.0,
+        "TraceRefs" : [ "106", "107" ]
+      }
+    }, {
+      "DirectOutboundAvailable" : true,
+      "DirectInboundAvailable" : true
+    } ] ]
+  }
+}

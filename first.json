@@ -1,0 +1,1629 @@
+{
+  "everywhereDestination" : {
+    "context" : {
+      "status" : "complete",
+      "sessionId" : "UNFOCUSED_SESSION_ID",
+      "totalResults" : 69
+    },
+    "features" : {
+      "flightsIndicative" : "AVAILABLE",
+      "images" : "AVAILABLE",
+      "ads" : "AVAILABLE"
+    },
+    "buckets" : [ {
+      "id" : "POPULAR",
+      "label" : "Suggested for you",
+      "category" : "NON_CATEGORIZED",
+      "resultIds" : [ "location-29475375", "location-29475102", "location-29475394", "location-29475383", "location-29475258", "location-29475393", "location-29475379", "location-29475438", "advert-creative-b70fdc9b-4a0c-4590-9598-5a20dd4af8c3", "location-29475257", "location-29475437", "location-29475369", "location-29475216", "location-29475385", "location-29475229", "location-29475381", "location-29475197", "location-29475320", "advert-creative-e88fd17a-3178-41a8-8f77-8801dbf98407", "location-29475436", "location-29475325", "location-29475378", "location-29475373", "location-29475396", "location-29475330", "location-29475374", "location-29475277", "location-29475324", "location-29475221", "location-29475395", "location-29475376", "location-29475260", "location-29475261", "location-29475380", "location-29475349", "location-29475326", "location-29475259", "location-29475336", "location-29475214", "location-29475389", "location-29475377", "location-29475390", "location-29475319", "location-29475317", "location-29475284", "location-29475405", "location-29475321", "location-29475329", "location-29475388", "location-29475425", "location-29475253", "location-29475226", "location-29475256", "location-29475202", "location-29475210", "location-29475323", "location-29475240", "location-29475192", "location-29475432", "location-29475272", "location-29475212", "location-29475233", "location-29475370", "location-29475371", "location-29475332", "location-29475236", "location-29475382", "location-29475211", "location-29475247" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "CHEAPEST_FLIGHTS",
+      "label" : "Cheapest flights",
+      "category" : "NON_CATEGORIZED",
+      "resultIds" : [ "location-29475393", "location-29475373", "location-29475197", "location-29475380", "location-29475102", "location-29475257", "location-29475379", "location-29475375", "advert-creative-b70fdc9b-4a0c-4590-9598-5a20dd4af8c3", "location-29475381", "location-29475388", "location-29475229", "location-29475376", "location-29475369", "location-29475260", "location-29475385", "location-29475371", "location-29475202", "advert-creative-e88fd17a-3178-41a8-8f77-8801dbf98407", "location-29475378", "location-29475221", "location-29475259", "location-29475258", "location-29475389", "location-29475438", "location-29475240", "location-29475349", "location-29475383", "location-29475394", "location-29475253", "location-29475370", "location-29475390", "location-29475236", "location-29475377", "location-29475374", "location-29475382", "location-29475210", "location-29475247", "location-29475395", "location-29475261", "location-29475396", "location-29475216", "location-29475226", "location-29475437", "location-29475214", "location-29475329", "location-29475326", "location-29475320", "location-29475436", "location-29475330", "location-29475277", "location-29475284", "location-29475192", "location-29475321", "location-29475425", "location-29475325", "location-29475324", "location-29475336", "location-29475319", "location-29475317", "location-29475405", "location-29475256", "location-29475323", "location-29475432", "location-29475272", "location-29475212", "location-29475233", "location-29475332", "location-29475211" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "DIRECT",
+      "label" : "Direct flights",
+      "category" : "NON_CATEGORIZED",
+      "resultIds" : [ "location-29475393", "location-29475373", "location-29475197", "location-29475380", "location-29475102", "location-29475257", "location-29475379", "location-29475375", "advert-creative-b70fdc9b-4a0c-4590-9598-5a20dd4af8c3", "location-29475381", "location-29475388", "location-29475229", "location-29475376", "location-29475369", "location-29475260", "location-29475385", "location-29475371", "location-29475202", "advert-creative-e88fd17a-3178-41a8-8f77-8801dbf98407", "location-29475378", "location-29475221", "location-29475258", "location-29475438", "location-29475383", "location-29475253", "location-29475390", "location-29475349", "location-29475236", "location-29475389", "location-29475216", "location-29475214" ],
+      "flightQuotes" : "direct",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "BEACH",
+      "label" : "✨ Beach",
+      "category" : "VIBES",
+      "resultIds" : [ "location-29475437", "location-29475229", "location-29475325", "location-29475369", "location-29475321", "location-29475284", "location-29475330", "location-29475393", "advert-creative-b70fdc9b-4a0c-4590-9598-5a20dd4af8c3", "location-29475102", "location-29475272", "location-29475324", "location-29475385", "location-29475197", "location-29475216", "location-29475221", "location-29475258", "location-29475336", "advert-creative-e88fd17a-3178-41a8-8f77-8801dbf98407", "location-29475405", "location-29475425", "location-29475192", "location-29475259", "location-29475277", "location-29475320", "location-29475323", "location-29475349", "location-29475370", "location-29475371", "location-29475395", "location-29475432" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "ART_AND_CULTURE",
+      "label" : "✨ Art and culture",
+      "category" : "VIBES",
+      "resultIds" : [ "location-29475437", "location-29475432", "location-29475436", "location-29475284", "location-29475326", "location-29475369", "location-29475321", "location-29475336", "advert-creative-b70fdc9b-4a0c-4590-9598-5a20dd4af8c3", "location-29475319", "location-29475320", "location-29475323", "location-29475325", "location-29475393", "location-29475405", "location-29475221", "location-29475324", "location-29475330", "advert-creative-e88fd17a-3178-41a8-8f77-8801dbf98407", "location-29475425", "location-29475102", "location-29475192", "location-29475216", "location-29475226", "location-29475272", "location-29475370", "location-29475375", "location-29475385", "location-29475210", "location-29475229", "location-29475233", "location-29475277", "location-29475329", "location-29475349", "location-29475379", "location-29475380", "location-29475381", "location-29475389", "location-29475390", "location-29475197", "location-29475202", "location-29475211", "location-29475212", "location-29475214", "location-29475236", "location-29475240", "location-29475247", "location-29475253", "location-29475256", "location-29475257", "location-29475258", "location-29475260", "location-29475261", "location-29475317", "location-29475332", "location-29475371", "location-29475373", "location-29475374", "location-29475377", "location-29475378", "location-29475383", "location-29475388" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "GREAT_FOOD",
+      "label" : "✨ Great food",
+      "category" : "VIBES",
+      "resultIds" : [ "location-29475437", "location-29475336", "location-29475432", "location-29475436", "location-29475221", "location-29475325", "location-29475326", "location-29475370", "advert-creative-b70fdc9b-4a0c-4590-9598-5a20dd4af8c3", "location-29475405", "location-29475192", "location-29475319", "location-29475369", "location-29475393", "location-29475425", "location-29475324", "location-29475330", "location-29475385", "advert-creative-e88fd17a-3178-41a8-8f77-8801dbf98407", "location-29475216", "location-29475260", "location-29475277", "location-29475320", "location-29475321", "location-29475323", "location-29475375", "location-29475102", "location-29475210", "location-29475226", "location-29475229", "location-29475247", "location-29475272", "location-29475284", "location-29475329", "location-29475349", "location-29475377", "location-29475381", "location-29475390", "location-29475202", "location-29475211", "location-29475212", "location-29475214", "location-29475233", "location-29475236", "location-29475253", "location-29475257", "location-29475258", "location-29475261", "location-29475332", "location-29475373", "location-29475374", "location-29475376", "location-29475378", "location-29475379", "location-29475380", "location-29475382", "location-29475383", "location-29475389", "location-29475394", "location-29475438" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "OUTDOOR_ADVENTURES",
+      "label" : "✨ Outdoor adventures",
+      "category" : "VIBES",
+      "resultIds" : [ "location-29475325", "location-29475425", "location-29475432", "location-29475437", "location-29475192", "location-29475221", "location-29475272", "location-29475319", "advert-creative-b70fdc9b-4a0c-4590-9598-5a20dd4af8c3", "location-29475320", "location-29475370", "location-29475405", "location-29475436", "location-29475102", "location-29475216", "location-29475253", "location-29475256", "location-29475284", "advert-creative-e88fd17a-3178-41a8-8f77-8801dbf98407", "location-29475324", "location-29475326", "location-29475336", "location-29475210", "location-29475211", "location-29475212", "location-29475229", "location-29475260", "location-29475277", "location-29475323", "location-29475329", "location-29475369", "location-29475374", "location-29475375", "location-29475377", "location-29475378", "location-29475379", "location-29475385", "location-29475390", "location-29475394" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "NIGHTLIFE_AND_ENTERTAINMENT",
+      "label" : "✨ Nightlife and entertainment",
+      "category" : "VIBES",
+      "resultIds" : [ "location-29475437", "location-29475405", "location-29475336", "location-29475436", "location-29475432", "location-29475221", "location-29475319", "location-29475324", "advert-creative-b70fdc9b-4a0c-4590-9598-5a20dd4af8c3", "location-29475326", "location-29475369", "location-29475425", "location-29475284", "location-29475321", "location-29475325", "location-29475330", "location-29475320", "location-29475370", "advert-creative-e88fd17a-3178-41a8-8f77-8801dbf98407", "location-29475102", "location-29475216", "location-29475260", "location-29475323", "location-29475329", "location-29475229", "location-29475272", "location-29475317", "location-29475349", "location-29475377", "location-29475379", "location-29475380", "location-29475385", "location-29475393", "location-29475192", "location-29475197", "location-29475202", "location-29475210", "location-29475211", "location-29475214", "location-29475226", "location-29475233", "location-29475236", "location-29475240", "location-29475247", "location-29475253", "location-29475257", "location-29475258", "location-29475261", "location-29475332", "location-29475371", "location-29475373", "location-29475374", "location-29475375", "location-29475376", "location-29475378", "location-29475381", "location-29475383", "location-29475389", "location-29475390", "location-29475438" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    } ],
+    "results" : [ {
+      "id" : "location-29475375",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475375",
+          "skyCode" : "UK",
+          "name" : "United Kingdom",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "42 €",
+            "rawPrice" : 42.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "42 €",
+            "rawPrice" : 42.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/1017dd4cef7a773021e1b335b3410d30/GettyImages-487828389.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475102",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475102",
+          "skyCode" : "HR",
+          "name" : "Croatia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "36 €",
+            "rawPrice" : 36.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "36 €",
+            "rawPrice" : 36.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/bdea895ca2746a767312cb9ff9ab9186/GettyImages-502736148.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475394",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475394",
+          "skyCode" : "SI",
+          "name" : "Slovenia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "154 €",
+            "rawPrice" : 154.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/119b73c5f7597401e98579c81634e8e5/GettyImages-495685019.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475383",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475383",
+          "skyCode" : "IE",
+          "name" : "Ireland",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "148 €",
+            "rawPrice" : 148.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "148 €",
+            "rawPrice" : 148.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/34f61dd7f8deb4059c12b0b8de9ee002/GettyImages-472229890.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475258",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475258",
+          "skyCode" : "BG",
+          "name" : "Bulgaria",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "99 €",
+            "rawPrice" : 99.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "99 €",
+            "rawPrice" : 99.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/96111faa66424ee93ae8cd1e9e416496/GettyImages-500119385.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475393",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475393",
+          "skyCode" : "IT",
+          "name" : "Italy",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "30 €",
+            "rawPrice" : 30.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "30 €",
+            "rawPrice" : 30.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/f348d79cfdf70286dc759d24618a23c3/GettyImages-182281845.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475379",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475379",
+          "skyCode" : "AT",
+          "name" : "Austria",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "41 €",
+            "rawPrice" : 41.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "41 €",
+            "rawPrice" : 41.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/9c1264f41dfac6d9ab3cbc23156feaf5/GettyImages-467854441.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475438",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475438",
+          "skyCode" : "RS",
+          "name" : "Serbia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "120 €",
+            "rawPrice" : 120.0,
+            "direct" : false
+          },
+          "direct" : {
+            "price" : "134 €",
+            "rawPrice" : 134.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/d1831c1a59e1ea608773be52b099f7b4/GettyImages-177007038.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475257",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475257",
+          "skyCode" : "HU",
+          "name" : "Hungary",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "37 €",
+            "rawPrice" : 37.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "37 €",
+            "rawPrice" : 37.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/1326f876f67413db59cc34a466945260/GettyImages-493113190.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475437",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475437",
+          "skyCode" : "US",
+          "name" : "United States",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "492 €",
+            "rawPrice" : 492.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/12b715db2fe88a58ee57ae99b985b32a/GettyImages-153734070.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475369",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475369",
+          "skyCode" : "ES",
+          "name" : "Spain",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "67 €",
+            "rawPrice" : 67.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "67 €",
+            "rawPrice" : 67.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/e0241c97c2b33b71e9c278bc89bb17ed/GettyImages-178640523.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475216",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475216",
+          "skyCode" : "AE",
+          "name" : "United Arab Emirates",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "308 €",
+            "rawPrice" : 308.0,
+            "direct" : false
+          },
+          "direct" : {
+            "price" : "401 €",
+            "rawPrice" : 401.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/e87b304f10a700cae0d08ea920c8be32/GettyImages-470434611.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475385",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475385",
+          "skyCode" : "FR",
+          "name" : "France",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "69 €",
+            "rawPrice" : 69.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "69 €",
+            "rawPrice" : 69.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/c88da2b091534f7baf8536b3959ce83a/GettyImages-495057957.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475229",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475229",
+          "skyCode" : "GR",
+          "name" : "Greece",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "56 €",
+            "rawPrice" : 56.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "56 €",
+            "rawPrice" : 56.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/26babb582bc1d7572fed1877d7f81fa6/GettyImages-181391203.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475381",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475381",
+          "skyCode" : "DE",
+          "name" : "Germany",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "44 €",
+            "rawPrice" : 44.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "44 €",
+            "rawPrice" : 44.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/917a21468839141dd406892864a9f52e/GettyImages-490614171.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475197",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475197",
+          "skyCode" : "CY",
+          "name" : "Cyprus",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "35 €",
+            "rawPrice" : 35.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "35 €",
+            "rawPrice" : 35.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/1e1ee1429a2277feae3d34a0cdf57886/GettyImages-135083549.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475320",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475320",
+          "skyCode" : "TH",
+          "name" : "Thailand",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "662 €",
+            "rawPrice" : 662.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/e0a42512a8f7baba699430c43d90e339/GettyImages-465582049.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475436",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475436",
+          "skyCode" : "CA",
+          "name" : "Canada",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "669 €",
+            "rawPrice" : 669.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/2ae02fb73aaad6e6bd4d3d3bb7d8278a/GettyImages-162384798.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475325",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475325",
+          "skyCode" : "MY",
+          "name" : "Malaysia",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/1774d53524a0a485c5c990678a472cf6/GettyImages-503612842.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475378",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475378",
+          "skyCode" : "NL",
+          "name" : "Netherlands",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "84 €",
+            "rawPrice" : 84.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "84 €",
+            "rawPrice" : 84.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/ad69d6422f78bb52563685faad33e0c1/GettyImages-516036155.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475373",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475373",
+          "skyCode" : "DK",
+          "name" : "Denmark",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "30 €",
+            "rawPrice" : 30.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "30 €",
+            "rawPrice" : 30.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/d22c8f93938b699739ba5e9d682019af/GettyImages-474603829.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475396",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475396",
+          "skyCode" : "BA",
+          "name" : "Bosnia and Herzegovina",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "252 €",
+            "rawPrice" : 252.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/49e574742f759ce4dd8d0d6d48e57d40/GettyImages-480404012.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475330",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475330",
+          "skyCode" : "JP",
+          "name" : "Japan",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "764 €",
+            "rawPrice" : 764.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/dd114ccd4424789005cbd0f6cd8881e1/GettyImages-131906563.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475374",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475374",
+          "skyCode" : "IS",
+          "name" : "Iceland",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "194 €",
+            "rawPrice" : 194.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/b6c9eab07efe88e1533e7cbbbb13fa89/GettyImages-529240739.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475277",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475277",
+          "skyCode" : "PK",
+          "name" : "Pakistan",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "820 €",
+            "rawPrice" : 820.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/6ee766b3cf0f075d4f8bc2cab3471747/GettyImages-475444191.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475324",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475324",
+          "skyCode" : "PH",
+          "name" : "Philippines",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/4256a18a3673a5f3926fc37bb2b80beb/GettyImages-517678055.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475221",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475221",
+          "skyCode" : "TR",
+          "name" : "Türkiye (Turkey)",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "85 €",
+            "rawPrice" : 85.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "85 €",
+            "rawPrice" : 85.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/d23308b5729b733820564edb659313d2/GettyImages-474693922.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475395",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475395",
+          "skyCode" : "ME",
+          "name" : "Montenegro",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "243 €",
+            "rawPrice" : 243.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/f71a8075838fbaae6be68304d1eaab4a/GettyImages-479863398.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475376",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475376",
+          "skyCode" : "CH",
+          "name" : "Switzerland",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "61 €",
+            "rawPrice" : 61.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "61 €",
+            "rawPrice" : 61.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/92ec24310bc1e0c2c5022132dd1d4d55/GettyImages-178766147.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475260",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475260",
+          "skyCode" : "PL",
+          "name" : "Poland",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "68 €",
+            "rawPrice" : 68.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "68 €",
+            "rawPrice" : 68.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/16636d692d5905702ad23e3d35c65e48/GettyImages-178367416.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475261",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475261",
+          "skyCode" : "RO",
+          "name" : "Romania",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "247 €",
+            "rawPrice" : 247.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/m/663f88960abe9441/original/GettyImages-177499138.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475380",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475380",
+          "skyCode" : "BE",
+          "name" : "Belgium",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "35 €",
+            "rawPrice" : 35.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "35 €",
+            "rawPrice" : 35.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/7f99e0b77af76bf7e89a614cba3a1d9d/GettyImages-517851449.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475349",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475349",
+          "skyCode" : "PT",
+          "name" : "Portugal",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "143 €",
+            "rawPrice" : 143.0,
+            "direct" : false
+          },
+          "direct" : {
+            "price" : "219 €",
+            "rawPrice" : 219.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/e48dd065c801bef1b761c506a5a2fde9/GettyImages-467824014.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475326",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475326",
+          "skyCode" : "CN",
+          "name" : "China",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "660 €",
+            "rawPrice" : 660.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/ec6e1a573dde92117986911e9c097f0b/GettyImages-462416635.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475259",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475259",
+          "skyCode" : "AL",
+          "name" : "Albania",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "87 €",
+            "rawPrice" : 87.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/d4acb8b30e8cfcb36db339ce50fd23ae/GettyImages-485428808.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475336",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475336",
+          "skyCode" : "AU",
+          "name" : "Australia",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/aa63694be729955d3709259f1cd989ea/GettyImages-484018307.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475214",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475214",
+          "skyCode" : "QA",
+          "name" : "Qatar",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "509 €",
+            "rawPrice" : 509.0,
+            "direct" : false
+          },
+          "direct" : {
+            "price" : "619 €",
+            "rawPrice" : 619.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/ac761797b8f4c38a07748eced9421207/GettyImages-473796126.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475389",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475389",
+          "skyCode" : "CZ",
+          "name" : "Czechia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "102 €",
+            "rawPrice" : 102.0,
+            "direct" : false
+          },
+          "direct" : {
+            "price" : "238 €",
+            "rawPrice" : 238.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/6f3779016c23190fadcdc6f500f5dc11/GettyImages-464420602.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475377",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475377",
+          "skyCode" : "SE",
+          "name" : "Sweden",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "184 €",
+            "rawPrice" : 184.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/ff74ff6df34c2b06f6f895e14fe32512/GettyImages-100891056.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475390",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475390",
+          "skyCode" : "NO",
+          "name" : "Norway",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "169 €",
+            "rawPrice" : 169.0,
+            "direct" : false
+          },
+          "direct" : {
+            "price" : "177 €",
+            "rawPrice" : 177.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/8ab21fe9e704f373e61689e635e63c60/GettyImages-498373538.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475319",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475319",
+          "skyCode" : "VN",
+          "name" : "Vietnam",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/0012f421f0682d22815185912d6e105c/GettyImages-481711830.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475317",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475317",
+          "skyCode" : "KZ",
+          "name" : "Kazakhstan",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/bfb43286b5011fbe5266eb0f9766d0d7/GettyImages-486101600.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475284",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475284",
+          "skyCode" : "IN",
+          "name" : "India",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "861 €",
+            "rawPrice" : 861.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/ec26cc7ac3371abc1b8ea45df0b88791/GettyImages-480882769.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475405",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475405",
+          "skyCode" : "BR",
+          "name" : "Brazil",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/69907554dc47aab9e74edf172e01fb44/GettyImages-516984709.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475321",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475321",
+          "skyCode" : "ID",
+          "name" : "Indonesia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "1,006 €",
+            "rawPrice" : 1006.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/500895cfc34ed09c588403e89b0d40af/GettyImages-177723673.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475329",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475329",
+          "skyCode" : "KR",
+          "name" : "South Korea",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "625 €",
+            "rawPrice" : 625.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/db465e93dcaad614e9bfcaddb5865e36/GettyImages-505777764.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475388",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475388",
+          "skyCode" : "SK",
+          "name" : "Slovakia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "45 €",
+            "rawPrice" : 45.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "45 €",
+            "rawPrice" : 45.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/306b82b70a621c16a4ff68497efca061/GettyImages-530970203.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475425",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475425",
+          "skyCode" : "CO",
+          "name" : "Colombia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "1,077 €",
+            "rawPrice" : 1077.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/91a3af3b70ff1445ab546f2fc37c68e2/gettyimages-530753093.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475253",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475253",
+          "skyCode" : "FI",
+          "name" : "Finland",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "165 €",
+            "rawPrice" : 165.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "165 €",
+            "rawPrice" : 165.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/2c2524173e84f10b29e9853e9f427b7f/GettyImages-516314097.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475226",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475226",
+          "skyCode" : "EG",
+          "name" : "Egypt",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "348 €",
+            "rawPrice" : 348.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/acc18b20b3d6fc6edee095dc709c2e8a/GettyImages-516505363.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475256",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475256",
+          "skyCode" : "MK",
+          "name" : "North Macedonia",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/af5081211572a25b7ceef576add12ee1/GettyImages-495469625.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475202",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475202",
+          "skyCode" : "AM",
+          "name" : "Armenia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "77 €",
+            "rawPrice" : 77.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "77 €",
+            "rawPrice" : 77.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/87b1cf8064902ae4d9176a1e023ec6cb/GettyImages-463123517.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475210",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475210",
+          "skyCode" : "JO",
+          "name" : "Jordan",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "209 €",
+            "rawPrice" : 209.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/a88907f9ccd8314ee90cdf24de3ef073/GettyImages-490578292.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475323",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475323",
+          "skyCode" : "TW",
+          "name" : "Taiwan",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/05accaec28ad48ea37b4c5e13bbbfa7b/GettyImages-166140632.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475240",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475240",
+          "skyCode" : "LT",
+          "name" : "Lithuania",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "140 €",
+            "rawPrice" : 140.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/3d9991cce5c6c4933f8ec0969785cc4c/GettyImages-100590065.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475192",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475192",
+          "skyCode" : "SA",
+          "name" : "Saudi Arabia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "954 €",
+            "rawPrice" : 954.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/m/4bead20c4361686/original/GettyImages-148613833-Saudi-Arabia.jpeg"
+        }
+      }
+    }, {
+      "id" : "location-29475432",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475432",
+          "skyCode" : "MX",
+          "name" : "Mexico",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/1ad5fff55243bd5f76c33e3577c2540d/GettyImages-483527336.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475272",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475272",
+          "skyCode" : "ZA",
+          "name" : "South Africa",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/4d394cbaa3bd9e013799160cef9041dd/GettyImages-504279936.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475212",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475212",
+          "skyCode" : "KW",
+          "name" : "Kuwait",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/afaacdea074d53702da4daccbdfdd28a/GettyImages-115889746.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475233",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475233",
+          "skyCode" : "EE",
+          "name" : "Estonia",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/818c488cf024b62189e95ba4ee27367b/GettyImages-481610872.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475370",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475370",
+          "skyCode" : "MA",
+          "name" : "Morocco",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "167 €",
+            "rawPrice" : 167.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/0c1b0ffcf42566b18ce3934ccf32c415/GettyImages-136909106.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475371",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475371",
+          "skyCode" : "MT",
+          "name" : "Malta",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "69 €",
+            "rawPrice" : 69.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "69 €",
+            "rawPrice" : 69.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/m/5b7ffff36f8104f/Large-eyeem-26694340-112027854.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475332",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475332",
+          "skyCode" : "SG",
+          "name" : "Singapore",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/5359c305bbed8c4e18b252b159a67cfa/GettyImages-187011688.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475236",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475236",
+          "skyCode" : "LV",
+          "name" : "Latvia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "179 €",
+            "rawPrice" : 179.0,
+            "direct" : false
+          },
+          "direct" : {
+            "price" : "229 €",
+            "rawPrice" : 229.0,
+            "direct" : true
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/de54d44c70db4a743503a0914ad532b8/GettyImages-492496777.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475382",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475382",
+          "skyCode" : "LU",
+          "name" : "Luxembourg",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "196 €",
+            "rawPrice" : 196.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/a9c8f71cc409e74513aaf64dc4e75c66/GettyImages-510613019.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475211",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475211",
+          "skyCode" : "LB",
+          "name" : "Lebanon",
+          "type" : "Nation"
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/90c21f71d99f59fad0f04b3dd75b48ef/GettyImages-153368947.jpg"
+        }
+      }
+    }, {
+      "id" : "location-29475247",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "29475247",
+          "skyCode" : "GE",
+          "name" : "Georgia",
+          "type" : "Nation"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "221 €",
+            "rawPrice" : 221.0,
+            "direct" : false
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/9ce4f334206ecb75decf8dcadac81839/GettyImages-484678884.jpg"
+        }
+      }
+    }, {
+      "id" : "advert-creative-e88fd17a-3178-41a8-8f77-8801dbf98407",
+      "type" : "ADVERT",
+      "content" : {
+        "creative" : {
+          "type" : "FALLBACK_ADVERT"
+        },
+        "trackingPixels" : { },
+        "trackingContext" : {
+          "idCreative" : "GAM-e88fd17a-3178-41a8-8f77-8801dbf98407",
+          "idPlacement" : "desktop.flights.combinedexplore/everywhere_bottom",
+          "idTracking" : "e88fd17a-3178-41a8-8f77-8801dbf98407"
+        },
+        "gamRequestData" : {
+          "adUnit" : "/24268069/skyscanner.net/flights_funnel/combined_explore/everywhere_bottom",
+          "dimensions" : [ [ 300, 250 ] ],
+          "targeting" : {
+            "triptype" : "return",
+            "shortenddate" : "01JUN",
+            "adults" : "1",
+            "shortstartdate" : "01JUN",
+            "oid" : "SOF",
+            "locale" : "en-GB",
+            "startdate" : "2024-06",
+            "duration" : "0",
+            "ocity" : "sofi",
+            "pageType" : "flights.combinedexplore",
+            "children" : "0",
+            "oairpUppercase" : "SOF",
+            "ocityname" : "Sofia",
+            "currency" : "EUR",
+            "lang" : "EN",
+            "oairp" : "sof",
+            "cc" : "economy",
+            "passengers" : "1",
+            "infants" : "0",
+            "ocityiata" : "SOF",
+            "unhyphenatedstartdate" : "202406",
+            "octry" : "bg",
+            "market" : "SI",
+            "pageFunnel" : "flights",
+            "enddate" : "2024-06",
+            "unhyphenatedenddate" : "202406",
+            "oname" : "Sofia",
+            "daysTillTravel" : "51",
+            "oairport" : "Sofia"
+          }
+        }
+      }
+    }, {
+      "id" : "advert-creative-b70fdc9b-4a0c-4590-9598-5a20dd4af8c3",
+      "type" : "ADVERT",
+      "content" : {
+        "creative" : {
+          "type" : "FALLBACK_ADVERT"
+        },
+        "trackingPixels" : { },
+        "trackingContext" : {
+          "idCreative" : "GAM-b70fdc9b-4a0c-4590-9598-5a20dd4af8c3",
+          "idPlacement" : "desktop.flights.combinedexplore/everywhere_top",
+          "idTracking" : "b70fdc9b-4a0c-4590-9598-5a20dd4af8c3"
+        },
+        "gamRequestData" : {
+          "adUnit" : "/24268069/skyscanner.net/flights_funnel/combined_explore/everywhere_top",
+          "dimensions" : [ [ 300, 250 ] ],
+          "targeting" : {
+            "triptype" : "return",
+            "shortenddate" : "01JUN",
+            "adults" : "1",
+            "shortstartdate" : "01JUN",
+            "oid" : "SOF",
+            "locale" : "en-GB",
+            "startdate" : "2024-06",
+            "duration" : "0",
+            "ocity" : "sofi",
+            "pageType" : "flights.combinedexplore",
+            "children" : "0",
+            "oairpUppercase" : "SOF",
+            "ocityname" : "Sofia",
+            "currency" : "EUR",
+            "lang" : "EN",
+            "oairp" : "sof",
+            "cc" : "economy",
+            "passengers" : "1",
+            "infants" : "0",
+            "ocityiata" : "SOF",
+            "unhyphenatedstartdate" : "202406",
+            "octry" : "bg",
+            "market" : "SI",
+            "pageFunnel" : "flights",
+            "enddate" : "2024-06",
+            "unhyphenatedenddate" : "202406",
+            "oname" : "Sofia",
+            "daysTillTravel" : "51",
+            "oairport" : "Sofia"
+          }
+        }
+      }
+    } ]
+  },
+  "context" : {
+    "status" : "complete",
+    "sessionId" : "UNFOCUSED_SESSION_ID",
+    "totalResults" : 0
+  }
+}

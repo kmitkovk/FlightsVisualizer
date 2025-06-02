@@ -1,0 +1,879 @@
+{
+  "countryDestination" : {
+    "context" : {
+      "status" : "complete",
+      "sessionId" : "UNFOCUSED_SESSION_ID",
+      "totalResults" : 32
+    },
+    "features" : {
+      "flightsIndicative" : "AVAILABLE",
+      "hotelsIndicative" : "AVAILABLE",
+      "images" : "AVAILABLE",
+      "ads" : "AVAILABLE"
+    },
+    "buckets" : [ {
+      "id" : "POPULAR",
+      "label" : "Suggested for you",
+      "category" : "NON_CATEGORIZED",
+      "resultIds" : [ "location-27544068", "location-27539793", "location-27545086", "location-27539556", "location-27540562", "location-27539470", "location-27547373", "location-27547248", "advert-creative-65a8eeaf-9501-423c-823b-f20be7301cf9", "location-27545989", "location-27546040", "location-27541640", "location-27539679", "location-27547432", "location-27538714", "location-27546311", "location-27547250", "advert-creative-dda8f207-b7d6-4e17-a36e-bbd855a7add6", "location-27541884", "location-27536583", "location-27545213", "location-27546187", "location-27546050", "location-27536503", "location-27545929", "location-27547239", "location-27546148", "location-27540580", "location-27541710", "location-27539806", "location-27539924", "location-27539671" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "CHEAPEST_FLIGHTS",
+      "label" : "Cheapest flights",
+      "category" : "NON_CATEGORIZED",
+      "resultIds" : [ "location-27540562", "location-27539556", "location-27545086", "location-27544068", "location-27539793", "location-27539470", "location-27547373", "location-27538714", "advert-creative-65a8eeaf-9501-423c-823b-f20be7301cf9", "location-27545989", "location-27541640", "location-27539679", "location-27547432", "location-27547248", "location-27546040", "location-27546311", "location-27547250", "advert-creative-dda8f207-b7d6-4e17-a36e-bbd855a7add6", "location-27541884", "location-27536583", "location-27545213", "location-27546187", "location-27546050", "location-27536503", "location-27545929", "location-27547239", "location-27546148", "location-27540580", "location-27541710", "location-27539806", "location-27539924", "location-27539671" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "DIRECT",
+      "label" : "Direct flights",
+      "category" : "NON_CATEGORIZED",
+      "resultIds" : [ "location-27540562", "location-27539556", "location-27545086", "location-27544068", "location-27539793", "location-27539470", "location-27547373" ],
+      "flightQuotes" : "direct",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "BEACH",
+      "label" : "✨ Beach",
+      "category" : "VIBES",
+      "resultIds" : [ "location-27540562", "location-27539679", "location-27545213", "location-27547239" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "ART_AND_CULTURE",
+      "label" : "✨ Art and culture",
+      "category" : "VIBES",
+      "resultIds" : [ "location-27539793", "location-27545086", "location-27547373", "location-27546040", "location-27541640" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "GREAT_FOOD",
+      "label" : "✨ Great food",
+      "category" : "VIBES",
+      "resultIds" : [ "location-27539793", "location-27545086", "location-27539470", "location-27545989", "location-27538714" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    }, {
+      "id" : "NIGHTLIFE_AND_ENTERTAINMENT",
+      "label" : "✨ Nightlife and entertainment",
+      "category" : "VIBES",
+      "resultIds" : [ "location-27539793", "location-27547373" ],
+      "flightQuotes" : "cheapest",
+      "hotelQuotes" : "standard"
+    } ],
+    "results" : [ {
+      "id" : "location-27544068",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27544068",
+          "skyCode" : "MILA",
+          "name" : "Milan",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "40 €",
+            "rawPrice" : 40.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "40 €",
+            "rawPrice" : 40.0,
+            "direct" : true
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "224 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/0f320987e189f43d5256fd38df04a977/GettyImages-461823317.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27539793",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27539793",
+          "skyCode" : "ROME",
+          "name" : "Rome",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "42 €",
+            "rawPrice" : 42.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "42 €",
+            "rawPrice" : 42.0,
+            "direct" : true
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "202 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/562fb1d3b394e92393671562fe241138/stock-photo-st-peter-s-basilica-83184691.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27545086",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27545086",
+          "skyCode" : "NAPL",
+          "name" : "Naples",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "38 €",
+            "rawPrice" : 38.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "38 €",
+            "rawPrice" : 38.0,
+            "direct" : true
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "122 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/m/0f141bf76cf06068/Large-napl_139999980_doc.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27539556",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27539556",
+          "skyCode" : "BARI",
+          "name" : "Bari",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "31 €",
+            "rawPrice" : 31.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "31 €",
+            "rawPrice" : 31.0,
+            "direct" : true
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "134 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/m/10fdeb381aa78394/Large-eyeem-26694340-76163496.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27540562",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27540562",
+          "skyCode" : "CATA",
+          "name" : "Catania",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "30 €",
+            "rawPrice" : 30.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "30 €",
+            "rawPrice" : 30.0,
+            "direct" : true
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "94 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/551ee1c8b7ed734978a498dc05f85d83/GettyImages-467692542.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27539470",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27539470",
+          "skyCode" : "BOLO",
+          "name" : "Bologna",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "45 €",
+            "rawPrice" : 45.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "45 €",
+            "rawPrice" : 45.0,
+            "direct" : true
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "154 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/e0ed7f0c0c4807256fbfb586c7553b41/bologna.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27547373",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27547373",
+          "skyCode" : "VENI",
+          "name" : "Venice",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "54 €",
+            "rawPrice" : 54.0,
+            "direct" : true
+          },
+          "direct" : {
+            "price" : "54 €",
+            "rawPrice" : 54.0,
+            "direct" : true
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "214 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/2a72a6087b8bee22ab2c798e61bee6fe/venice.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27547248",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27547248",
+          "skyCode" : "TURI",
+          "name" : "Turin",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "129 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/8b7a06603efcb6bdde92edd3751784ec/GettyImages-480512869.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27545989",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27545989",
+          "skyCode" : "PALE",
+          "name" : "Palermo",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "150 €",
+            "rawPrice" : 150.0,
+            "direct" : false
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "116 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/b5b377433a4dd4788bd9a767d90d1555/GettyImages-471536974.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27546040",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27546040",
+          "skyCode" : "PISA",
+          "name" : "Pisa",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "132 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/ede997b6161bd6a3b997cd780b4b1d95/GettyImages-124695217.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27541640",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27541640",
+          "skyCode" : "FLOR",
+          "name" : "Florence",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "158 €",
+            "rawPrice" : 158.0,
+            "direct" : false
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "278 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/398b1bf0c98990f64bdedfb03cb9c6ae/florence.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27539679",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27539679",
+          "skyCode" : "CAGL",
+          "name" : "Cagliari",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "193 €",
+            "rawPrice" : 193.0,
+            "direct" : false
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "125 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/b945bec4b08d6b3426c39032c2f5df97/GettyImages-490262019.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27547432",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27547432",
+          "skyCode" : "VERO",
+          "name" : "Verona",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "198 €",
+            "rawPrice" : 198.0,
+            "direct" : false
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "159 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/m/14130de84a75459c/Large-eyeem-26694340-117185552.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27538714",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27538714",
+          "skyCode" : "BRIN",
+          "name" : "Brindisi",
+          "type" : "City"
+        },
+        "flightQuotes" : {
+          "cheapest" : {
+            "price" : "142 €",
+            "rawPrice" : 142.0,
+            "direct" : false
+          }
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "108 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/f7f059e28e04b44737f527b459f8d638/GettyImages-490477064.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27546311",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27546311",
+          "skyCode" : "MARA",
+          "name" : "Lamezia Terme",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "73 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/0cf3e715b67050ff92d590ed49703a97/eyeem-26694340-83626188.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27547250",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27547250",
+          "skyCode" : "TRIE",
+          "name" : "Trieste",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "157 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/153de701476d5bc8cd228c85955e4a8d/GettyImages-484950503.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27541884",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27541884",
+          "skyCode" : "GENO",
+          "name" : "Genoa",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "145 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/8d62591d406da8a128d274d05e042ed2/GettyImages-520961993.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27536583",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27536583",
+          "skyCode" : "ANCO",
+          "name" : "Ancona",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "100 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/b4be7d74908065e81a5c572c285b9aa1/GettyImages-481573120.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27545213",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27545213",
+          "skyCode" : "OLBI",
+          "name" : "Olbia",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "148 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/b945bec4b08d6b3426c39032c2f5df97/GettyImages-490262019.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27546187",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27546187",
+          "skyCode" : "RIMI",
+          "name" : "Rimini",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "83 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/26c6d38e99d401698bb9e5393b3dd778/GettyImages-475237869.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27546050",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27546050",
+          "skyCode" : "PESC",
+          "name" : "Pescara",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "116 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/569befea317cf3979e8b5916fbc7e5cd/GettyImages-529368487.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27536503",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27536503",
+          "skyCode" : "ALGS",
+          "name" : "Alghero Sardinia",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "132 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/0ebceb814d5354db3f9983515e72422e/Alghero%20Sardinia-GettyImages-638337502.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27545929",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27545929",
+          "skyCode" : "PERU",
+          "name" : "Perugia",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "105 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/4c4598de81cb9268d4d61b95dbb5a48f/GettyImages-466869094.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27547239",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27547239",
+          "skyCode" : "TRAP",
+          "name" : "Trapani",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "91 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/bc9d50a8707c2a3faf1c430c4973cfe0/eyeem-26693940-126565453.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27546148",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27546148",
+          "skyCode" : "REGG",
+          "name" : "Reggio Calabria",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "79 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/c842a0646150babd46c1371e012c2827/GettyImages-489955648.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27540580",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27540580",
+          "skyCode" : "CUNE",
+          "name" : "Cuneo",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "118 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/288b947c3afa90f28dda77ea3f9cc413/GettyImages-465959900.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27541710",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27541710",
+          "skyCode" : "FORL",
+          "name" : "Forlì",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "114 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/m/1be135540ec09710/original/GettyImages-1435875574-Forli.jpeg"
+        }
+      }
+    }, {
+      "id" : "location-27539806",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27539806",
+          "skyCode" : "COMI",
+          "name" : "Comiso",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "61 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/m/864a959d4fa4ce2/Large-eyeem-26694340-138282130.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27539924",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27539924",
+          "skyCode" : "CORT",
+          "name" : "Crotone",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "87 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/d3adfb5b0ca6b67668b1cf8857eff065/GettyImages-153908030.jpg"
+        }
+      }
+    }, {
+      "id" : "location-27539671",
+      "type" : "LOCATION",
+      "content" : {
+        "location" : {
+          "id" : "27539671",
+          "skyCode" : "BOLZ",
+          "name" : "Bolzano",
+          "type" : "City"
+        },
+        "hotelQuotes" : {
+          "standard" : {
+            "price" : "216 €"
+          }
+        },
+        "image" : {
+          "url" : "https://content.skyscnr.com/m/2a973194fac6a622/original/GettyImages-1159158038-Bolzano.jpeg"
+        }
+      }
+    }, {
+      "id" : "advert-creative-65a8eeaf-9501-423c-823b-f20be7301cf9",
+      "type" : "ADVERT",
+      "content" : {
+        "creative" : {
+          "type" : "FALLBACK_ADVERT"
+        },
+        "trackingPixels" : { },
+        "trackingContext" : {
+          "idCreative" : "GAM-65a8eeaf-9501-423c-823b-f20be7301cf9",
+          "idPlacement" : "desktop.flights.combinedexplore/country_top",
+          "idTracking" : "65a8eeaf-9501-423c-823b-f20be7301cf9"
+        },
+        "gamRequestData" : {
+          "adUnit" : "/24268069/skyscanner.net/flights_funnel/combined_explore/country_top",
+          "dimensions" : [ [ 300, 250 ] ],
+          "targeting" : {
+            "triptype" : "return",
+            "shortenddate" : "01JUN",
+            "adults" : "1",
+            "airportroute" : "sof-it",
+            "shortstartdate" : "01JUN",
+            "dairpUppercase" : "IT",
+            "oid" : "SOF",
+            "locale" : "en-GB",
+            "startdate" : "2024-06",
+            "duration" : "0",
+            "ocity" : "sofi",
+            "pageType" : "flights.combinedexplore",
+            "children" : "0",
+            "oairpUppercase" : "SOF",
+            "ocityname" : "Sofia",
+            "currency" : "EUR",
+            "dname" : "Italy",
+            "lang" : "EN",
+            "oairp" : "sof",
+            "dcityiata" : "IT",
+            "cc" : "economy",
+            "passengers" : "1",
+            "infants" : "0",
+            "ocityiata" : "SOF",
+            "dairp" : "it",
+            "unhyphenatedstartdate" : "202406",
+            "octry" : "bg",
+            "market" : "SI",
+            "pageFunnel" : "flights",
+            "enddate" : "2024-06",
+            "unhyphenatedenddate" : "202406",
+            "dctry" : "it",
+            "oname" : "Sofia",
+            "daysTillTravel" : "51",
+            "oairport" : "Sofia",
+            "did" : "IT",
+            "dairport" : "Italy"
+          }
+        }
+      }
+    }, {
+      "id" : "advert-creative-dda8f207-b7d6-4e17-a36e-bbd855a7add6",
+      "type" : "ADVERT",
+      "content" : {
+        "creative" : {
+          "type" : "FALLBACK_ADVERT"
+        },
+        "trackingPixels" : { },
+        "trackingContext" : {
+          "idCreative" : "GAM-dda8f207-b7d6-4e17-a36e-bbd855a7add6",
+          "idPlacement" : "desktop.flights.combinedexplore/country_bottom",
+          "idTracking" : "dda8f207-b7d6-4e17-a36e-bbd855a7add6"
+        },
+        "gamRequestData" : {
+          "adUnit" : "/24268069/skyscanner.net/flights_funnel/combined_explore/country_bottom",
+          "dimensions" : [ [ 300, 250 ] ],
+          "targeting" : {
+            "triptype" : "return",
+            "shortenddate" : "01JUN",
+            "adults" : "1",
+            "airportroute" : "sof-it",
+            "shortstartdate" : "01JUN",
+            "dairpUppercase" : "IT",
+            "oid" : "SOF",
+            "locale" : "en-GB",
+            "startdate" : "2024-06",
+            "duration" : "0",
+            "ocity" : "sofi",
+            "pageType" : "flights.combinedexplore",
+            "children" : "0",
+            "oairpUppercase" : "SOF",
+            "ocityname" : "Sofia",
+            "currency" : "EUR",
+            "dname" : "Italy",
+            "lang" : "EN",
+            "oairp" : "sof",
+            "dcityiata" : "IT",
+            "cc" : "economy",
+            "passengers" : "1",
+            "infants" : "0",
+            "ocityiata" : "SOF",
+            "dairp" : "it",
+            "unhyphenatedstartdate" : "202406",
+            "octry" : "bg",
+            "market" : "SI",
+            "pageFunnel" : "flights",
+            "enddate" : "2024-06",
+            "unhyphenatedenddate" : "202406",
+            "dctry" : "it",
+            "oname" : "Sofia",
+            "daysTillTravel" : "51",
+            "oairport" : "Sofia",
+            "did" : "IT",
+            "dairport" : "Italy"
+          }
+        }
+      }
+    } ],
+    "hotelMetadata" : {
+      "quotesLabel" : "Average 3-star hotel stay",
+      "quotesAccessibilityLabel" : "Average 3-star hotel stay from @@price@@ per person.",
+      "hotelStars" : 3
+    }
+  },
+  "context" : {
+    "status" : "complete",
+    "sessionId" : "UNFOCUSED_SESSION_ID",
+    "totalResults" : 0
+  }
+}
